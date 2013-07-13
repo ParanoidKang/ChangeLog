@@ -15,4 +15,6 @@ Libs:
 ------------------------------------
 0713
 ------------------------------------
-no changes yet
+Common:
+   add Lockscreen targets,instead of LockScreen shorcuts.
+   add "Hide initial pages hints feature" in LockScreen settings
