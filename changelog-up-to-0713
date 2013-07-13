@@ -1,0 +1,18 @@
+Previous
+-----------------------------------
+Common:
+   add phoneloc support for Chinese users
+Mms: 
+   move compose button to center
+   add multi recipients selector
+   remove emoji item from menu
+Camera:
+   use Camera package from Slim
+Frameworks/base:
+   allow installed apps can be disabled
+Libs:
+   use better libs from uXylon
+------------------------------------
+0713
+------------------------------------
+no changes yet
