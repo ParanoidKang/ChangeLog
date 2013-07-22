@@ -1,0 +1,29 @@
+Changelogs that shown to users
+
+
+Previous
+-----------------------------------
+Common:
+   add phoneloc support for Chinese users
+   add Lockscreen targets,instead of LockScreen shorcuts.
+   add "Hide initial pages hints feature" in LockScreen settings
+Mms: 
+   move compose button to center
+   add multi recipients selector
+   remove emoji item from menu
+Frameworks/base:
+   allow installed apps can be disabled
+Devices:
+   add e975 support
+
+-----------------------------------
+07-22
+-----------------------------------
+Common:
+   checkout branch to jellybean-legacy(all reworked, you know)
+   updated to latest source
+   Halo))) pre-installed
+   Chinese translations
+   add OptimusG Settings
+   Kite kernel inside.
+   maybe more,but I can't remember
