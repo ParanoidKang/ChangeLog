@@ -1,29 +1,28 @@
-Changelogs that shown to users
+RemixPA 更新日志
 
+这里只记录用户能看到的变化，更多细节变化请查看github
 
-Previous
+历史更新
 -----------------------------------
-Common:
-   add phoneloc support for Chinese users
-   add Lockscreen targets,instead of LockScreen shorcuts.
-   add "Hide initial pages hints feature" in LockScreen settings
-Mms: 
-   move compose button to center
-   add multi recipients selector
-   remove emoji item from menu
-Frameworks/base:
-   allow installed apps can be disabled
-Devices:
-   add e975 support
+系统:
+   添加来去电/短信归属地
+   允许停用第三方软件
+   切换到jellybean-legacy分支（全部重做）
+   内置halo)))
+   添加高级设置
+   内置Kite内核
+设置：
+   添加CM的解锁环，移除了PA的锁屏快捷方式
+   添加“隐藏锁屏界面插件提示”选项
+短信：
+   短信群发
+   移除了菜单中的“添加emoji”
+机型:
+   支持e975
 
 -----------------------------------
-07-22
+07-23
 -----------------------------------
-Common:
-   checkout branch to jellybean-legacy(all reworked, you know)
-   updated to latest source
-   Halo))) pre-installed
-   Chinese translations
-   add OptimusG Settings
-   Kite kernel inside.
-   maybe more,but I can't remember
+设置：
+   移除“隐藏锁屏界面插件提示”选项
+   添加锁屏插件页面开关
