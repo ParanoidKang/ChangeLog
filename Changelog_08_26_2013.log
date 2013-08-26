@@ -1,0 +1,134 @@
+RemixPA Changelog from 08/23/2013 - today
+---------------------------------------------------------------
+
+Project: pa/packages/apps/Settings
+ xilence2210 - SoundSettings: Remove dunplicate volume settings
+ xilence2210 - Blacklist: Fix visibility of Blacklist settings
+ xilence2210 - Blacklist: improve preference
+ xilence2210 - Settings: Improve translation
+ xilence2210 - BlackList: Fix Build
+ Carlo Savignano - Reorder Theme header
+ xilence2210 - Fix broken target icon.
+ xilence2210 - Settings: Generic Blacklist support
+ yun3195 - Settings: Simplified Chinese Translations
+ xilence2210 - Settings: Remove advanced settings for now
+ xilence2210 - Lockscreen: Widget toggle
+ xilence2210 - Settings: Add support to enable/disable Electron Beam (2/2)
+ xilence2210 - Lockscreen: Code cleanup
+ xilence2210 - fix missing symbol
+ Danny Baumann - Fix NPE.
+ Danny Baumann - Fix drawable being displayed empty when re-entering the target edit dialog.
+ Danny Baumann - Lockscreen targets: more unification
+ Danny Baumann - Fix adding lockscreen targets.
+ xilence2210 - Avoid NPE if icon assignment failed for whatever reason
+ Danny Baumann - Clean up lockscreen target configuration code (2/2)
+ Danny Baumann - Fix adding apps to lockscreen targets without explicit icon selection.
+ Danesh M - Lockscreen Targets : Fix empty magnetic behaviour
+ Stevespear426 - Settings: Lockscreen Targets Icon Revamp
+ xilence2210 - Lockscreen Shortcut : Delete entry if reset
+ xilence2210 - Fix build
+ xilence2210 - Settings: Fix text box margin to proper gap
+ xilence2210 - Settings: RTL layout fixes
+ DvTonder - Settings: Forward port Slider shortcuts
+
+Project: pa/packages/apps/Contacts
+ elelinux - Contacts: allow theming via theme chooser
+
+Project: pa/packages/apps/Trebuchet
+ Danesh Mondegarian - Trebuchet : Icon pack theme
+ arnau - Trebuchet: CA translations
+ DelphinPETER - Trebuchet: FR translation
+
+Project: pa/packages/apps/Dialer
+ xilence2210 - Enable contact photo preloading (missing java)
+ martincz - Dialer: display location support
+ xilence2210 - Enable contact photo preloading.
+
+Project: pa/packages/apps/Phone
+ xilence2210 - Phonelocation: Add missing import
+ xilence2210 - Phone: Add location support
+ xilence2210 - Phone: Generic Blacklist support
+
+Project: pa/packages/apps/Mms
+ xilence2210 - Mms: Improve translation
+ xilence2210 - Mms: Generic Blacklist support
+ xilence2210 - change selector drawable
+ martincz - Mms: MultiPick BtnOK Enable Check
+ martincz - add MultiPickContacts support
+ martincz - remove unused parameter
+ martincz - mokee phoneloc
+
+Project: pa/packages/providers/TelephonyProvider
+ Danny Baumann - Drop blacklist number uniqueness constraint.
+ Danny Baumann - Improve delete handling code.
+ Danny Baumann - Store phone blacklist in content provider (2/4)
+
+Project: pa/vendor/pa
+ xilence2210 - e975: Update Kite Kernel to v14
+ ayysir - 4.3: Add theme chooser support
+ xilence2210 - fix sync error
+ xilence2210 - Derp
+ xilence2210 - vendor: Build LivePicker from source
+ xilence2210 - Vendor: Add location support
+ xilence2210 - build cmfilemanager and dsp
+ xilence2210 - Lockscreen targets: update default preferences
+ xilence2210 - maguro: Include cm packages
+ xilence2210 - Prebuilt: move wallpaper packages into prebuilt
+ xilence2210 - Overlays: Add lockscreen shortcut preset
+ dbanto - Add hercules support
+ xilence2210 - maugro: update kernel to fancykernel r39
+ xilence2210 - build Trebuchet
+ xilence2210 - e975: update Kite kernel to 4.3
+ xilence2210 - build with pa prefs
+ yun3195 - dlx:change to pa_xxhdpi
+ drcmda - 3.99
+
+Project: pa/build
+ xilence2210 - fix NPE
+ xilence2210 - Dont build wallpapers
+
+Project: pa/frameworks/opt/telephony
+ xilence2210 - Telephony: Generic Blacklist support
+
+Project: pa/frameworks/base
+ xilence2210 - SystemUI: Update translation
+ xilence2210 - update translation
+ xilence2210 - Bluetooth: Fix merge error
+ Anu6is - fix derp in floating notification launch
+ Hemant Gupta - Bluetooth: HID: Add support for Set Idle and Get Idle Commands
+ xilence2210 - Bluetooth: HID: Add support for Set Idle and Get Idle Commands
+ xilence2210 - Framework: Generic Blacklist support
+ yun3195 - Fix Simplified Chinese translation errors
+ Travis - Get theme info for current user instead of user 0
+ xilence2210 - remove trash file
+ Ricardo Cerqueira - ThemeUtils: Retain the original package name in themed UI context
+ yun3195 - Updated Simplified Chinese Translations
+ xilence2210 - remove unexpected import
+ xilence2210 - Framework: Add location suppot
+ Ricardo Cerqueira - SettingsProvider: Add a default for the dialer's autocomplete
+ xilence2210 - Revert "Allow mounting of multiple volumes via mass storage (framework part)"
+ xilence2210 - Revert "MountService: Account for switchable vold pair"
+ xilence2210 - Revert "Allow multiple emulated storages at the same time."
+ Ian Roy - Dialer AutoComplete: Bootstrap the onUpgrade for the SettingsProvider to automagically create this setting and enable it by default.
+ xilence2210 - Framework: Add support to enable/disable Electron Beam (1/2)
+ Danesh M - BroadcastReceiver : Get sender of broadcasts
+ xilence2210 - Forward port Slider shortcuts (Lockscreen Targets)
+ Ricardo Cerqueira - Squashed commit of the theme engine support
+ Kroz - Improve AOSP Download/Upload animation
+ Anu6is - Launch floating notifications from notification panel (long click)  * Status bar - long click on notification select 'floating mode' option  * PIE - long click on notification, auto launches floating window
+ drcmda - volumepanel
+
+Project: pa/device/samsung/maguro
+ xilence2210 - remvoe dependency file to avoid error
+
+Project: pa/device/samsung/tuna
+ xilence2210 - HardwareKey: we should disable it on maguro
+ Carlo Savignano - Interactive Tweaks (4/x)
+ xilence2210 - Tuna: Fix tuna hardware key
+ Carlo Savignano - Update gps.conf
+ Carlo Savignano - init.tuna.rc: disable bug report
+ Carlo Savignano - Re-enable linaro string routines
+ Danesh M - Tuna : Add display gamma calibration
+ fuzz - overlay: Set config_deviceHardwareKeys properly
+ Danesh M - Tuna : Add hardware tunables support
+
