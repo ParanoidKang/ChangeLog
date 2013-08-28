@@ -1,0 +1,63 @@
+RemixPA Changelog from 08/26/2013 - today
+---------------------------------------------------------------
+ 
+Project: pa/packages/apps/Settings
+ xilence2210 - SwypeBackLayout: Derp
+ Danny Baumann - Backlight: Fix build
+ Danny Baumann - Improve button/keyboard backlight code.
+ Ricardo Cerqueira - Add configurable kb/button backlight timeout
+ Ricardo Cerqueira - Remake kb/button backlight controls as a PowerManager client
+ Lorenzo M - Settings: Gamma calibration tunables
+ Ricardo Cerqueira - Add basic-level gamma calibration to hardware tunables
+ Jorge Ruesga - Settings: AdaptiveBacklight support
+ Danny Baumann - Use a common base class for HW tuning sliders.
+ xilence2210 - DisplaySettings: Fix no orientation settings when tablet ui
+ xilence2210 - Activity: Init Swipe Back Gesture (2/2)
+ xilence2210 - SoundSetings: Fix NPE due to previous change
+ xilence2210 - SoundSettings: Remove dunplicate volume settings
+ xilence2210 - Blacklist: Fix visibility of Blacklist settings
+ xilence2210 - Blacklist: improve preference
+ xilence2210 - Settings: Improve translation
+
+Project: pa/packages/apps/Mms
+ xilence2210 - Mms: Improve translation
+
+Project: pa/packages/apps/Gallery2
+ elektroschmock - Gallery2: DE translations
+ Michael Bestas - Gallery2: EL translations
+ Danny Baumann - Fix up audio effects dialog
+ Lorenzo M - Gallery2: ES translations
+
+Project: pa/vendor/pa
+ xilence2210 - maguro: update fancy kernel to v40
+ ayysir - Support jfltevzw (Verizon GS4 Variant)
+ alteredlikeness - add edison & spyder/umts_spyder
+ xilence2210 - e975: Update Kite Kernel to v14
+
+Project: pa/frameworks/base
+ xilence2210 - PMService: fix build
+ xilence2210 - StastusBar: Better handling for expanded flip animation
+ tbalden - keyboard: adding functional alt/shift lights
+ Danny Baumann - Add PowerManager integration for button and keyboard backlight.
+ Mike Kasick - PowerManagerService: Implement setButtonBrightnessOverrideFromWindowManager method
+ Danny Baumann - Add method to PowerManager that allows querying the lowest possible brightness.
+ YuanQY - Keyboard light: Fix the physical keyboard not light when it's visiable.
+ xilence2210 - SwipeBackLayout: disable translucent on launcher activities
+ xilence2210 - Activity: Init Global Swipe Back Gesture(1/2)
+ xilence2210 - ScreenShot QuickTrash
+ xilence2210 - SystemUI: Update translation
+ xilence2210 - update translation
+
+Project: pa/device/lge/e975
+ xilence2210 - Add basic-level gamma calibration to hardware tunables (1/2)
+
+Project: pa/device/samsung/tuna
+ BigBrother1984 - GPS Servers: Global one and specific NTPs Description of changes in comments of gps.conf file.
+ xilence2210 - HardwareKey: we should disable it on maguro
+
+Project: pa/device/htc/dlx
+ yun3195 - DLX:add cmhw
+
+Project: pa/.repo/manifests
+ Bob Peng - update vold
+
