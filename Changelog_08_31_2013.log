@@ -1,0 +1,85 @@
+RemixPA Changelog from 08/28/2013 - today
+---------------------------------------------------------------
+ 
+Project: pa/packages/apps/Bluetooth
+ prescott66 - Bluetooth: SK translations
+ Gaurav Asati - Bluetooth: Connect only A2dp Sink devices.
+ Pradeep Panigrahi - Bluetooth: Add trust device feature.
+ arnau - Bluetooth: CA translations
+
+Project: pa/packages/apps/Settings
+ xilence2210 - Revert "Activity: Init Swipe Back Gesture (2/2)"
+ xilence2210 - Revert "SwypeBackLayout: Derp"
+ xilence2210 - HardwareKey: Add action - Go to sleep(1/2)
+ xilence2210 - zh-CN: Improve translation
+ xilence2210 - DisplaySettings: Hide color&gamma settings if it's not supported
+ yun3195 - Settings: Simplified Chinese Translations
+
+Project: pa/packages/apps/Trebuchet
+ Danesh M - Trebuchet : Live folder removeAll fix
+ Lorenzo M - Trebuchet: ES translations
+ prescott66 - Trebuchet: SK translations
+
+Project: pa/vendor/pa
+ alteredlikeness - edison/spyders: manifests & packages updates manifests: drop Settings fork & add Torch packages: add CMFileManager
+ xilence2210 - Packages: Fix DspManger missing lib build
+ xilence2210 - e975: update to Kite kernel v15
+
+Project: pa/build
+ slickrick - Revert "Revert to GCC 4.6"
+
+Project: pa/system/core
+ xilence2210 - fix gr_text()
+ xilence2210 - Revert "Revert "Revert "Fix gr_text() syntax until minui gets updated"""
+ Ethan Chen - init: define BOARD_CHARGING_CMDLINE parameters
+
+Project: pa/frameworks/support
+ Danesh M - CmSupport : Live folder empty content
+
+Project: pa/frameworks/base
+ xilence2210 - Revert "Activity: Init Global Swipe Back Gesture(1/2)"
+ xilence2210 - Revert "SwipeBackLayout: disable translucent on launcher activities"
+ xilence2210 - Revert "SwipeBackLayout: squash update from official"
+ Danny Baumann - Allow adjusting progress on touch events.
+ Danny Baumann - Treat default value that wasn't found as empty value.
+ Danny Baumann - Factor out preference-in-storage check to overridable method.
+ Skrilax_CZ - Keep keyboard lit until the screen is dimmed
+ tbalden - keyboard: adding functional alt/shift lights
+ YuanQY - Keyboard light: Fix the physical keyboard not light when it's visiable.
+ Mike Kasick - PowerManagerService: Implement setButtonBrightnessOverrideFromWindowManager method
+ Ricardo Cerqueira - TEMPORARY: Reintroduce button-backlight (and respective inactivity timeout)
+ ayysir - WMS fix: add back IDeviceHandler import fixes errors in builds referring to WindowManagerService.java
+ tonyp - clean up double imports
+ tonyp - SystemUI: Fix potential NPE
+ xilence2210 - SwipeBackLayout: squash update from official
+ xilence2210 - HardwareKey: Add action - Go to sleep
+ xilence2210 - fix build
+ xilence2210 - Fix ringer mode being unneededly changed by setting ringer mode volum
+ Danny Baumann - Add PowerManager integration for button and keyboard backlight.
+ Clyde Tan - Fix home key long press to work when assigned to recent app switcher.
+ Timo Wendt - Irda: Add Irda System Service
+ athurh - Fix hardware home key behavior on wake-up
+ DvTonder - QuickSettings: Add LTE Tile (1 of 2)
+ Danny Baumann - Fix ringer mode being unneededly changed by setting ringer mode volume to 0.
+ Ricardo Cerqueira - AudioService: Go back to virtual SCO calls on multi-function units
+ huiy - Add 2 APIs (suspend and resume) in MediaPlayer
+ Vicky Sehrawat - frameworks/base: Add changes for Incall Music Delivery
+ Danesh M - AudioService : Fix NPE
+ Ricardo Cerqueira - THEME ENGINE (1/2)
+ BigBrother1984 - Theme Engine is not yet ready Revert "Squashed commit of the theme engine support"
+ BigBrother1984 - Revert "ThemeUtils: Retain the original package name in themed UI context"
+ BigBrother1984 - Revert "Get theme info for current user instead of user 0"
+ BigBrother1984 - Revert "Remove IDeviceHandler reference"
+ wjb - Remove IDeviceHandler reference
+ Danny Baumann - Add PowerManager integration for button and keyboard backlight.
+ Clyde Tan - Fix home key long press to work when assigned to recent app switcher.
+ Timo Wendt - Irda: Add Irda System Service
+ athurh - Fix hardware home key behavior on wake-up
+ DvTonder - QuickSettings: Add LTE Tile (1 of 2)
+
+Project: pa/device/lge/e975
+ Ricardo Cerqueira - Unbreak barrier makefile
+
+Project: pa/.repo/manifests
+ Bob Peng - update
+
