@@ -1,0 +1,43 @@
+RemixPA Changelog from 08/31/2013 - today
+---------------------------------------------------------------
+ 
+Project: pa/packages/apps/Bluetooth
+ Steve Kondik - Revert "Added support for Filter parameter for PBAP function PullPhoneBook"
+
+Project: pa/packages/apps/Settings
+ xilence2210 - Revert "Settings: Enable up navigation for Status and legal info"
+ xilence2210 - DisplaySettings: Code cleanup
+ xilence2210 - Utils: move navigation bar check to global(1/2)
+ xilence2210 - Settings: Enable up navigation for Status and legal info
+ xilence2210 - Blacklist: Fix menu buttons
+ Bob Peng - ButtonSettings: Remove duplicate Backlight
+ xilence2210 - Resources: recovery some arrays that cannot be removed
+ xilence2210 - Toolbar: Hardwarekeys cleanup
+ xilence2210 - Resources: cleanup arrays
+ xilence2210 - Network usage in statusbar(Settings part)
+ xilence2210 - ButtonSettings: Improve translation & remove duplicate options in lockscreen
+
+Project: pa/packages/apps/Mms
+ xilence2210 - Mms: Hide Avatar
+
+Project: pa/packages/apps/Gallery2
+ Ricardo Cerqueira - Add another variation of 13Mpx
+
+Project: pa/vendor/pa
+ xilence2210 - e975: Use f93 kernel v0.9
+
+Project: pa/frameworks/base
+ xilence2210 - OverflowMenu: Fix check logic to make this work
+ xilence2210 - Utils: move navigation bar check to global(2/2)
+ xilence2210 - Network usage in statusbar(Framework part)
+
+Project: pa/hardware/qcom/audio-caf
+ Michael Bestas - msm7x30: disable logcat spam
+ dhacker29 - Fix Wformat warnings
+
+Project: pa/device/lge/e975
+ xilence2210 - Revert "Display: Currently abandon display function"
+
+Project: pa/device/samsung/tuna
+ xilence2210 - Revert "Turn off BLE, GATT, and SMP of Bluetooth stack"
+
