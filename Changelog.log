@@ -1,0 +1,57 @@
+RemixPA Changelog from 01/19/2014 - 01/21/2014
+---------------------------------------------------------------
+
+Project: packages/apps/Settings
+ xilence2210 - zh-rCN: update translation
+ beerbong - Update Halo
+ D4rKn3sSyS - Fix redundant string & add translation
+
+Project: packages/apps/Camera2
+ Steve Kondik - camera: Bring back ignorePreferredPreviewSizeForVideo
+
+Project: packages/apps/ParanoidOTA
+ BigBrother1984 - Update settings button icon with kitkat one.
+ xilence2210 - zh-rCN: init translation
+
+Project: external/koush/ion
+ Koushik Dutta - Tune MAX_IMAGEVIEW_LOAD to 5.
+
+Project: vendor/pa
+ xilence2210 - my extension of build.sh
+ xilence2210 - bootanimation: add e975 config
+ espen96 - New PA4+ Bootanimations
+ BigBrother1984 - Move bootanimation selection to its own makefile.
+ Andre Saddler - Update to BETA 3
+ Yamil Ghazi - Add ro.pa.device property
+
+Project: build
+ xilence2210 - Add back changelog tool
+
+Project: frameworks/base
+ xilence2210 - Init Chinese phone location support
+ Johan Viktorsson - Fixed incorrect calculation of dirty invalidation area
+ FPtje - Fixed stylus eraser being rejected by palm rejection
+ xilence2210 - zh-rCN: Update translation
+ Anu6is - Fix: Network tiles for CDMA devices
+ D4rKn3sSyS - A couple of improvements to edit mode
+ Dirk Rettschlag - [2/2] Framework/base: Lockscreen maximized widgets
+ BigBrother1984 - Quicksettings 3.0
+
+Project: hardware/qcom/audio
+ Steve Kondik - hal: Add DYNAMIC_VOLUME_MIXER ifdef for AOSP compatibility
+
+Project: device/lge/gproj-common
+ Ricardo Cerqueira - Enable USB audio adapters
+
+Project: device/lge/e975
+ xilence2210 - update pa.dependencies
+ xilence2210 - update pa.dependencies
+
+Project: manifest
+ houst0nn - track CM DownloadProvider
+ xilence2210 - track our ParanoidOTA
+ Andre Saddler - Useless repo: PinyinIME
+ slickrick - Track CM frameworks/rs
+
+---------------------------------------------------------------
+You can see more changelog from http://github.com/RemixPA
