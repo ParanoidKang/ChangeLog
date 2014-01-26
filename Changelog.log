@@ -1,57 +1,222 @@
-RemixPA Changelog from 01/19/2014 - 01/21/2014
+RemixPA Changelog from 01/21/2014 - 01/27/2014
 ---------------------------------------------------------------
 
+Project: packages/services/Telephony
+ codeworkx - Telephony: implement noise suppression for phone calls
+
+Project: packages/apps/Bluetooth
+ Dan Pasanen - BluetoothPbapVcardComposer: remove pause/wait translation
+
 Project: packages/apps/Settings
- xilence2210 - zh-rCN: update translation
- beerbong - Update Halo
- D4rKn3sSyS - Fix redundant string & add translation
+ Srinu Jella - Bluetooth:GAP: Handle exception while unregistering the Receiver
+ D4rKn3sSyS - New (?) easter egg
+ Gubbala Venugopal Rao - Bluetooth: Validate the device for A2dpSink
+ Ayan Ghosh - Bluetooth: A2dp: Add A2dp Source UUID
+ Srinu Jella - Bluetooth: disable scan icon when BT state is off
+
+Project: packages/apps/DSPManager
+ Frant1c - DSPManager: LT translations
 
 Project: packages/apps/Camera2
- Steve Kondik - camera: Bring back ignorePreferredPreviewSizeForVideo
+ elektroschmock - Camera2: Make some strings translatable again
+ Tamás Tóth - Camera: HU translation
+ Vladislav Koldobskiy - Camera2: RU translation
+ Tom Heisterkamp - Camera2: NL translations
+ isimobile - Camera2: AF Translations
+ Lorenzo M - Camera2: ES translations
+
+Project: packages/apps/Browser
+ xilence2210 - Tab: Add download confirm dialog
+ Marco Brohet - Browser: correct copyright notices
+ Frant1c - Browser: LT translations
+ Chirayu Desai - Show a startup page in incognito mode
+ Ricardo Cerqueira - Implement client-side incognito mode
+ Ricardo Cerqueira - Revert "Browser: disable incognito mode"
+
+Project: packages/apps/Lightbulb
+ BigBrother1984 - [2/2] Improve flash availability check. * On tablets without flash invoking a camera instance for checking flash availability is not needed,   it will delay the result (false) and then turn on the white screen without taking advantage of the invoked   camera to toggle the flash, differently from devices that have it. Add a boolean to override for devices with   flash in their device trees.   A similar change is done in frameworks as well, different but related to avoid delays.
+
+Project: packages/apps/Gallery2
+ Michael Bestas - Gallery2: EL translations
+ isimobile - Gallery2: AF Translations
+ Ondrej Zima - Gallery2: CS translation
+
+Project: packages/apps/Email
+ Michael Bestas - Email: EL translations
+ Ondrej Zima - Email: CS translation
+
+Project: packages/apps/Launcher3
+ Ondrej Zima - Launcher3: CS translation
 
 Project: packages/apps/ParanoidOTA
- BigBrother1984 - Update settings button icon with kitkat one.
- xilence2210 - zh-rCN: init translation
+ Andre Saddler - Update Device List
+ xilence2210 - zh-rCN: update translation
+ Andre Saddler - LegacyServer: Support Legacy Server on goo
+ Bob Peng - use my changelog
+ Yamil Ghazi - Add support for gapps stock package
+ Yamil Ghazi - Force checking for updates in SystemActivity
+ Yamil Ghazi - UpdateFragment: reworked layout
+ Yamil Ghazi - GappsUpdater: use maintenance version number
+ Yamil Ghazi - Treat date as a number
 
-Project: external/koush/ion
- Koushik Dutta - Tune MAX_IMAGEVIEW_LOAD to 5.
+Project: packages/apps/PackageInstaller
+ xilence2210 - Revert "Quick Mode: alpha changes"
+
+Project: packages/providers/DownloadProvider
+ Ondrej Zima - DownloadProvider: CS translation
+
+Project: external/bluetooth/bluedroid
+ Ricardo Cerqueira - Revert "Bluetooth: Handle sub system restart gracefully"
+ Ricardo Cerqueira - Revert "Bluetooth: Move to proper state."
+ Steven Luo - Fix compile without Bluetooth LE stack included
+
+Project: external/wpa_supplicant_8
+ Steve Kondik - Revert "p2p: Add p2p_no_group_iface flag to p2p conf file"
+
+Project: external/koush/Superuser
+ Marco Brohet - Superuser: add copyright notice
+ Frant1c - Superuser: LT translations
 
 Project: vendor/pa
+ xilence2210 - merge AOSPA-legacy
+ houst0nn - g2: add build fingerprint to all variants
+ houst0nn - Bootani: Refactor bootanimation makefile
+ Yamil Ghazi - Show version tag when building
+ Andre Saddler - products: jfltetmo: update build fingerprint
+ Andre Saddler - Update prebuilt su
+ Henning Nielsen Lund - Add Call me APNs (Denmark)
  xilence2210 - my extension of build.sh
- xilence2210 - bootanimation: add e975 config
- espen96 - New PA4+ Bootanimations
- BigBrother1984 - Move bootanimation selection to its own makefile.
- Andre Saddler - Update to BETA 3
- Yamil Ghazi - Add ro.pa.device property
 
 Project: build
+ houst0nn - Makefile: use correct md5 extension
+ Brint E. Kriebel - Store the value from TARGET_OTA_ASSERT_DEVICE to a file
+ Ricardo Cerqueira - Allow individual projects to enforce a property's value
+ Ricardo Cerqueira - For user builds, use a release build id in the description if one exists
+ Steve Kondik - build: Add support for vendor product and device name
+ Ricardo Cerqueira - Store the path to the ota file generator where it can be reused
+ Ricardo Cerqueira - build: Prevent some auto-generated variables from being overridden
+ xilence2210 - update clog
  xilence2210 - Add back changelog tool
 
+Project: system/core
+ houst0nn - cleanup some old forgotten details
+ Stephen Smalley - restorecon /data/misc/media.
+ Nick Kralevich - Fix "adb push /sdcard/filename"
+ Vladislav Koldobskiy - Revert "adb: do not chown/chmod files pushed to sdcard"
+
+Project: frameworks/opt/hardware
+ Ricardo Cerqueira - Add tap-to-wake class definition
+
+Project: frameworks/support
+ Koushik Dutta - Add Android studio files for support libraries.
+
 Project: frameworks/base
+ Jesús David Gulfo Agudelo - Revert "Revert "Remove PA beans""
+ Jesús David Gulfo Agudelo - Revert "[1/2] Frameworks: PA Version Easter Egg"
+ Jesús David Gulfo Agudelo - Revert "Remove PA beans"
+ D4rKn3sSyS - Remove PA beans
+ Oskar Grönqvist - Set Settings.Global.WIFI_SCAN_ALWAYS_AVAILABLE default value
+ D4rKn3sSyS - Fix double finger to pulldown statusbar when QuickPulldown is disabled
+ BigBrother1984 - [1/2] Improve flash availability check.
+ xilence2210 - zh-rCN: update translation
+ lina.x.pi - Initialize pointer members to NULL to avoid illegal reference
+ Sam Mortimer - Keyguard: Set WIDGET_CATEGORY_KEYGUARD when AppWidgetHostView is created
+ arnau - core: Added national roaming info for Jazztel Movil in Spain
+ d95andek - core: added national roaming info for Spring Mobil in Sweden...
+ Subramanian Srinivasan - Bluetooth: Fix PXP LPP app link loss reconnection
+ Vadivel Thekkamalai - Bluetooth: Validate input parameters of gatt characteristics
+ Subramanian Srinivasan - Increases Gatt connection timeout value to be 30 secs
+ Hemant Gupta - Bluetooth: HID-C: Add support for error parameter for reportError
+ Vinay Krishna Eranna - wlan: Do not disable the network on Assoc Reject/Authentication Failure.
+ riddle_hsu - Fix visibility of multiple non-fullscreen activities.
+ Martin Wallgren - Keydispatching timeout while finish Activity
+ Peter Eliasson - Cursor leakage due to cancellation signal
+ Daniel 2 Olofsson - Re-initialize error after attach
+ Sangkyu Lee - Make SurfaceView layers captured by screenshotApplications()
+ Niklas Brunlid - MountService listeners can not be unregistered
+ Nitin Shivpure - Bluetooth: Fix to avoid framework reboot during monkey.
+ Nitin Shivpure - Bluetooth: Cleaning up sap service object to avoid serviceRecord leaks
+ Juffin Alex Varghese - OBEX: Reduce Obex MTU size for A2DP or SCO concurrency
+ Nitin Arora - Bluetooth: Changes for LPP and extended LE scan
+ Hemant Gupta - Bluetooth: HID: Add support for HID Device Role
+ Lars Greiss - Keyguard: let the user drag the challenge down if widgets are disabled
+ Lars Greiss - Keyguard: fix not shown overlay widgets from system
+ Lars Greiss - Keyguard: do not allow to delete the system widget if widgets are disabled
+ Narayan Kamath - Fix error checking in MemoryFile.
+ Daniel 2 Olofsson - Fix to NullPointerException on move back in ActivityStack.
  xilence2210 - Init Chinese phone location support
  Johan Viktorsson - Fixed incorrect calculation of dirty invalidation area
  FPtje - Fixed stylus eraser being rejected by palm rejection
- xilence2210 - zh-rCN: Update translation
- Anu6is - Fix: Network tiles for CDMA devices
- D4rKn3sSyS - A couple of improvements to edit mode
- Dirk Rettschlag - [2/2] Framework/base: Lockscreen maximized widgets
- BigBrother1984 - Quicksettings 3.0
+ Anu6is - Frameworks: Update Google dialer check for QS 3.0
 
-Project: hardware/qcom/audio
- Steve Kondik - hal: Add DYNAMIC_VOLUME_MIXER ifdef for AOSP compatibility
+Project: hardware/libhardware
+ Gubbala Venugopal Rao - Bluetooth: Added API to get Remote Supported feature
+ Hemant Gupta - Bluetooth: HID-C: Add error code parameter in report_error
+
+Project: hardware/qcom/audio-caf
+ Steve Kondik - audio: msm8660: Use msm_ion header
+
+Project: hardware/qcom/media-caf
+ Maheshwar Ajja - mm-core: initial video bring-up on 8x55 target
+ xilence2210 - fix strick aliasing
+ Cristoforo Cataldo - mm-video: vdec: Use GRALLOC_USAGE_PRIVATE_ADSP_HEAP
+ Cristoforo Cataldo - mm-video: venc: Don't align chroma on legacy msm7x30 devices
+
+Project: hardware/qcom/media
+ Deepak Verma - mm-video: venc: Distinguish between normal NV12 and aligned NV12
+ Ricardo Cerqueira - libc2dcolorconvert: Add compatibility with older libc2d
 
 Project: device/lge/gproj-common
- Ricardo Cerqueira - Enable USB audio adapters
+ Ricardo Cerqueira - Remove Trebuchet overlay
+ Ricardo Cerqueira - Revert "Temp: disable WiDi"
 
-Project: device/lge/e975
- xilence2210 - update pa.dependencies
- xilence2210 - update pa.dependencies
+Project: kernel/lge/gproj
+ Ricardo Cerqueira - gk: Adjust to the new bcmdhd driver
+ Ecco Park - net: wireless: bcmdhd: Change the parameter for TDLS
+ Ecco Park - net: wireless: bcmdhd: enable TDLS_auto_mode
+ Ecco Park - net: wireless: bcmdhd: Enable IPv6 RA filter feature
+ Pat Tjin - Revert "net: wireless: bcmdhd: add debug code to print packet statistics"
+ Ecco Park - net: wireless: bcmdhd: Change DTIM skip policy in suspend
+ Ecco Park - net: wireless: bcmdhd: cancel current PNO if connection will happen
+ Ecco Park - net: wireless: bcmdhd:  clear p2p scan state if PNO scan will start
+ Ecco Park - net: wireless: bcmdhd: add debug code to print packet statistics
+ Ecco Park - net: wireless: bcmdhd: reduced the wakelock time of RX packet
+ Dmitry Shmidt - net: wireless: bcmdhd: Fix country checking
+ Ecco Park - net: wireless: bcmdhd: fixed power consumption issue of P2P.
+ Dmitry Shmidt - net: wireless: bcmdhd: Reduce active scan time to 20/30
+ Ecco Park - net: wireless: bcmdhd: add code for WLS service.
+ Ecco Park - net: wireless: bcmdhd: Fixed Wi-Fi Location Service issues.
+ Ecco Park - net: wireless: bcmdhd: fix for negative padding
+ Ecco Park - net: wireless: bcmdhd: Fixed Coverity issue.
+ Ricardo Cerqueira - bcmdhd: Add LG's reserved memory options
+ Ecco Park - net: wireless: bcmdhd: new feature for Roaming.
+ Ecco Park - net: wireless: bcmdhd: Fix of Wireless Location Service
+ Ecco Park - net: wireless: bcmdhd: Fix of Wireless Location Service
+ Ecco Park - net: wireless: bcmdhd: Update Location Service code
+ Ecco Park - net: wireless: bcmdhd: enable WL_IFACE_COMB_NUM_CHANNELS
+ Ecco Park - net: wireless: bcmdhd: Update to version 1.88.45
+ Dmitry Shmidt - net: wireless: bcmdhd: Fix WL_SCHED_SCAN compilation
+ Ecco Park - net: wireless: bcmdhd: Update to version 1.88.42 	implementation of Wi-Fi Location Service 	-remove white space in file 	-add dhd_pno.o in Makefile 	-remove PASS_ARP_PACKET in Makefile Signed-off-by: Ecco Park <eccopark@broadcom.com>
+ Dmitry Shmidt - net: wireless: bcmdhd: Enable p2p support bits for p2p device
+ Ecco Park - net: wireless: bcmdhd: Update to version 1.88.41     1. Fixed SDIO bus wakeup code when idletime was zero case     2. Fixed OOB interrupt handler was not registered when WLAN on failed case     3. Cleaned up ARP Packet filter code.     4. Cleaned up P2P ESCAN source code.     5. Cleaned up TDLS code.     6. Fixed Neighbor Discovery offload bug     7. Supported Device tree feature for futher usage     8. Use binary semaphore for dhd thread  remove white space  accept Dmitry comment Signed-off-by: Ecco Park <eccopark@broadcom.com>
+ Dmitry Shmidt - net: wireless: bcmdhd: Enable p2p support bits for p2p device
+ kyunghoe.kim - net: wireless: bcmdhd: Update to version 1.88.27
+ kyunghoe.kim - net: wireless: bcmdhd: enable TDLS
+ Devin Kim - net: wireless: bcmdhd: Support for country code mapping table
+ kyunghoe.kim - net: wireless: bcmdhd: Update to version 1.88.21
+ kyunghoe.kim - net: wireless: bcmdhd: Update to Version 1.88.10
+ Devin Kim - net: wireless: bcmdhd: enable custom MAC
+ Devin Kim - net: wireless: bcmdhd: Fix the panic when using tethering with builtin
+ Devin Kim - net: wireless: bcmdhd: configurable for builtin driver
+ Devin Kim - net: wireless: bcmdhd: Update to version 1.61.46
+
+Project: changelog
+ xilence2210 - Changelog: 01/19/2014 to 01/21/2014
 
 Project: manifest
- houst0nn - track CM DownloadProvider
- xilence2210 - track our ParanoidOTA
- Andre Saddler - Useless repo: PinyinIME
- slickrick - Track CM frameworks/rs
+ ayysir - Track our own PA-OTA
+ Bob Peng - track browser
+ Bob Peng - track our incallui
 
 ---------------------------------------------------------------
 You can see more changelog from http://github.com/RemixPA
