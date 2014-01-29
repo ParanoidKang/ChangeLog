@@ -1,28 +1,59 @@
-RemixPA Changelog from 01/27/2014 - 01/28/2014
+RemixPA Changelog from 01/28/2014 - 01/30/2014
 ---------------------------------------------------------------
 
+Project: packages/apps/Settings
+ Per Allard - 'When to daydream' dialog does not follow the JB dialog design guide
+ Veeti Paananen - Bleed keyguard widget picker list into translucent bars
+ Samuel Asteberg - Show memory full text only for internal storage
+ Jake Whatley - Settings: fix typo
+ Behrooz Aliabadi - Fix null pointer exceptions in NetworkPolicyEditor
+ Jianzheng Zhou - Fix one NPE in tethering setting
+
+Project: packages/apps/DSPManager
+ Steve Kondik - dspmanager: Catch ALL the exceptions!
+
 Project: packages/apps/Camera2
+ dhacker29 - Camera2: Enable 10MP and nHD pictures modes
  Doris Liu - Set default video quality to the highest
 
 Project: packages/apps/Browser
  Veeti Paananen - Always show the action bar overflow
 
 Project: packages/apps/ParanoidOTA
+ xilence2210 - Version: Fix phase number shown
+ xilence2210 - Server: Improve error code display
  xilence2210 - Version: Fix both rom and gapps version format
  xilence2210 - Version: Fix phase display
- xilence2210 - Update: Add RemixPA server
+
+Project: external/zlib
+ kavitha devara - zlib: buffer over-run fix  in inflate_fast_copy
+
+Project: external/bluetooth/bluedroid
+ Ricardo Cerqueira - btm: Fix BLE guard
 
 Project: vendor/pa
+ xilence2210 - verifier: Fix issue version mismatch
  xilence2210 - update verifier
+ houst0nn - APNS: squash updates from CM
  xilence2210 - OTA: RemixPA OTA system (2/2)
  xilence2210 - OTA system: vendor part
 
 Project: build
+ xilence2210 - clog: show log after work
+ xilence2210 - OTA: update cp logic
+ xilence2210 - clog: fix logic
+ xilence2210 - clog: exclude project changelog
  xilence2210 - OTA: add more exclude apps and fix
  xilence2210 - OTA: introduce exclude and add prefix
  xilence2210 - OTA: fix packages name
  xilence2210 - OTA: RemixPA OTA 1.0 (1/2)
  xilence2210 - OTA: back to life
+
+Project: system/core
+ Nick Kralevich - Fix overflow in adb_client
+ Daniele Di Conza - fs_mgr.c: fix i++ error and optimize code
+ Giulio Cervera - Add DC-HSPA+ TCP buffer sizes
+ rbox - adb: Allow configuring the adb shell with a persistent property.
 
 Project: frameworks/opt/telephony
  Daniele Di Conza - SamsungQualcommRil: fix typo
@@ -34,8 +65,32 @@ Project: frameworks/av
  synergy dev - libeffects: do not use GNU old-style field designators
 
 Project: frameworks/base
+ Uma Maheshwari Bhiram - ProcessCpuTracker: Fix ArrayIndexOutofBoundsException in tempSpeeds
+ Hemant Gupta - Bluetooth: Fix to avoid framework reboot during monkey.
+ Sanket Khidkikar - server: Treat non-default route as host route
+ Daniel 2 Olofsson - Fixed race condition in Spinner.DialogPopup on null reference.
+ xilence2210 - Revert "Init Chinese phone location support" to fix ART
+ D4rKn3sSyS - QS: Use AnimatorListenerAdapter
+ BigBrother1984 - Quicksettings: Rework behavior on edit mode for temporary tiles.
  qqzhou - Webkit: add to support file uploading
+ jungheang.lee - Appears black screen fix for a while
+ Kent Persson - UI not updated correctly in expanded statusbar
+ Clyde Tan - Fix the screen-off animation ignoring value set in ro.sf.hwrotation
+ Martin Olsson 4 - Perform NTP lookup at Mobile data connections
+ Michael Bestas - Set Settings.Global.WIFI_SUSPEND_OPTIMIZATIONS_ENABLED default value
+ qqzhou - Webkit: add to support file uploading
+ Naofumi Harada - FLAG_PRIVILEGED disappears if privileged app is updated and rebooted
+ Elliott Hughes - Remove dead code.
+ Brian Harris - Fix incorrect name in eglSwapBuffers log wrapper
+ Elliott Hughes - Don't confuse stat and stat64.
+ Michael Bestas - Keyguard: Fix PIN layout on sw320dp-mdpi devices
+ Daniel 2 Olofsson - Fix to NullPointerException when activity is relaunched
+ Hiroaki Kuriyama - onAccountsUpdated shouldn't be called back after listener unregistered
+ أحمد المحمودي (Ahmed El-Mahmoudy) - Added sahlnaskh arabic font and give it higher precedence than DroidNaskh
+ Dave Daynard - Allow override of DUN settings
+ houst0nn - Revert "Turn off carrier provisioning by default"
  xilence2210 - zh-rCN: upUdate Immersive mode translation
+ Evan Anderson - QS: RSSITile: Finally fix the data indicator
 
 Project: hardware/qcom/audio
  synergydev - voice_processing: do not use GNU old-style field designators
@@ -44,10 +99,22 @@ Project: hardware/qcom/audio
 Project: device/lge/e975
  xilence2210 - Add lightbulb overlay for app and core.
 
-Project: .repo/manifests
- xilence2210 - track cm webview
+Project: device/samsung/maguro
+ xilence2210 - udpate dependecy
+ xilence2210 - update dependencies
+ Carlo Savignano - Add lightbulb overlay for app and core.
+ xilence2210 - udpate dependencies
+
+Project: device/samsung/tuna
+ xilence2210 - Overlays: Fix build
+ xilence2210 - init repository
+
+Project: dalvik
+ Ivan Evlogiev - dalvik: Fix leak in error condition in FindClass
+ Uday Kumar Sundar - setting RLIMIT to INFINITY.
 
 Project: manifest
+ houst0nn - Track CM frameworks_webview
  xilence2210 - track cm webview
 
 ---------------------------------------------------------------
