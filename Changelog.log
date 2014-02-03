@@ -1,121 +1,150 @@
-RemixPA Changelog from 01/28/2014 - 01/30/2014
+RemixPA Changelog from 01/29/2014 - 02/03/2014
 ---------------------------------------------------------------
 
-Project: packages/apps/Settings
- Per Allard - 'When to daydream' dialog does not follow the JB dialog design guide
- Veeti Paananen - Bleed keyguard widget picker list into translucent bars
- Samuel Asteberg - Show memory full text only for internal storage
- Jake Whatley - Settings: fix typo
- Behrooz Aliabadi - Fix null pointer exceptions in NetworkPolicyEditor
- Jianzheng Zhou - Fix one NPE in tethering setting
-
 Project: packages/apps/DSPManager
- Steve Kondik - dspmanager: Catch ALL the exceptions!
+ xilence2210 - zh-rCN: Add missing translation
 
 Project: packages/apps/Camera2
- dhacker29 - Camera2: Enable 10MP and nHD pictures modes
- Doris Liu - Set default video quality to the highest
-
-Project: packages/apps/Browser
- Veeti Paananen - Always show the action bar overflow
+ Pawit Pornkitprasan - Camera: fix crash on screen off-on on preview screen
+ Rajaram Gudivada - Camera: Disable Camera Launcher when both Front and Back sensors are not detected
+ Ethan Chen - Camera: Add indicator icon for burst mode
+ Michael Bestas - Camera: Add Burst mode
 
 Project: packages/apps/ParanoidOTA
- xilence2210 - Version: Fix phase number shown
- xilence2210 - Server: Improve error code display
- xilence2210 - Version: Fix both rom and gapps version format
- xilence2210 - Version: Fix phase display
+ xilence2210 - Changelog: Directly show raw log
 
-Project: external/zlib
- kavitha devara - zlib: buffer over-run fix  in inflate_fast_copy
+Project: packages/apps/PackageInstaller
+ xilence2210 - Quick Install: Better handle install notification when multi-task
+ xilence2210 - Quick Install: Improve UE
+ xilence2210 - Quick Install: Tweak window background alpha
 
-Project: external/bluetooth/bluedroid
- Ricardo Cerqueira - btm: Fix BLE guard
+Project: external/koush/AndroidAsync
+ Koushik Dutta - setParent when using setComplete(future).
+ Dmitry Apresian - Pass the original exception as the cause when throwing ConnectionClosedException
+ Rahul Parsani - SocketIO: Better handle queries when building the session url
+ Koushik Dutta - Make public some IoUtils.closeQuietly.
+
+Project: external/koush/Superuser
+ Marcos Marado - Fix bugreport toast spam.
+
+Project: external/koush/ion
+ Koushik Dutta - Missing files.
+ Koushik Dutta - Mipmap fixes.
+ Koushik Dutta - Require key as a paramter to BitmapInfo.
+ Koushik Dutta - Missing file
+ Koushik Dutta - mipmap support. Use progressive/region loading for bitmaps.
+
+Project: vendor/lge
+ xilence2210 - Imporve recovery compatability (proprietary part)
+ Ricardo Cerqueira - g2: Update qcopt
+
+Project: vendor/samsung
+ Ricardo Cerqueira - i9100: Updated OEM RIL from MS2
+ Dan Pasanen - jf: update wifi blobs from gpe 4.4.2
+ Dave Daynard - d2: update blobs
 
 Project: vendor/pa
- xilence2210 - verifier: Fix issue version mismatch
- xilence2210 - update verifier
- houst0nn - APNS: squash updates from CM
- xilence2210 - OTA: RemixPA OTA system (2/2)
- xilence2210 - OTA system: vendor part
+ xilence2210 - OTA: fully working verifier
+ xilence2210 - update device name
+ xilence2210 - Improve recovery compatability (vendor part)
+ xilence2210 - clean vendorsetup
 
 Project: build
+ xilence2210 - exclude_check: add file_contexts
  xilence2210 - clog: show log after work
- xilence2210 - OTA: update cp logic
- xilence2210 - clog: fix logic
- xilence2210 - clog: exclude project changelog
- xilence2210 - OTA: add more exclude apps and fix
- xilence2210 - OTA: introduce exclude and add prefix
- xilence2210 - OTA: fix packages name
- xilence2210 - OTA: RemixPA OTA 1.0 (1/2)
- xilence2210 - OTA: back to life
 
-Project: system/core
- Nick Kralevich - Fix overflow in adb_client
- Daniele Di Conza - fs_mgr.c: fix i++ error and optimize code
- Giulio Cervera - Add DC-HSPA+ TCP buffer sizes
- rbox - adb: Allow configuring the adb shell with a persistent property.
-
-Project: frameworks/opt/telephony
- Daniele Di Conza - SamsungQualcommRil: fix typo
+Project: system/media
+ xplodwild - [2/3] audio_effects: Add a stereo widening effect
+ xplodwild - [1/3] AudioEffects: Add center frequency param to bassboost
 
 Project: frameworks/av
- Roger1 Jonsson - Avoid jumps to faulty position after seeks
- Thomas Wendt - libnbaio: Fix previous get_presentation_position commit
- Yin Liu - Long mp3 metadata displays as corrupted file after transfer
- synergy dev - libeffects: do not use GNU old-style field designators
+ Gaurav Kumar - AudioMixer: Remove tracks from enabledTracks after reseting outTemp
 
 Project: frameworks/base
+ xilence2210 - Base: Add omni DSPmanager support
+ Anu6is - Fix: Duplicate translation strings
  Uma Maheshwari Bhiram - ProcessCpuTracker: Fix ArrayIndexOutofBoundsException in tempSpeeds
  Hemant Gupta - Bluetooth: Fix to avoid framework reboot during monkey.
  Sanket Khidkikar - server: Treat non-default route as host route
  Daniel 2 Olofsson - Fixed race condition in Spinner.DialogPopup on null reference.
+ Filippo Favaro - Quick Settings: Initial IT translation.
+ Filippo Favaro - Core: Initial IT translation.
  xilence2210 - Revert "Init Chinese phone location support" to fix ART
  D4rKn3sSyS - QS: Use AnimatorListenerAdapter
- BigBrother1984 - Quicksettings: Rework behavior on edit mode for temporary tiles.
- qqzhou - Webkit: add to support file uploading
- jungheang.lee - Appears black screen fix for a while
- Kent Persson - UI not updated correctly in expanded statusbar
- Clyde Tan - Fix the screen-off animation ignoring value set in ro.sf.hwrotation
- Martin Olsson 4 - Perform NTP lookup at Mobile data connections
- Michael Bestas - Set Settings.Global.WIFI_SUSPEND_OPTIMIZATIONS_ENABLED default value
- qqzhou - Webkit: add to support file uploading
- Naofumi Harada - FLAG_PRIVILEGED disappears if privileged app is updated and rebooted
- Elliott Hughes - Remove dead code.
- Brian Harris - Fix incorrect name in eglSwapBuffers log wrapper
- Elliott Hughes - Don't confuse stat and stat64.
- Michael Bestas - Keyguard: Fix PIN layout on sw320dp-mdpi devices
- Daniel 2 Olofsson - Fix to NullPointerException when activity is relaunched
- Hiroaki Kuriyama - onAccountsUpdated shouldn't be called back after listener unregistered
- أحمد المحمودي (Ahmed El-Mahmoudy) - Added sahlnaskh arabic font and give it higher precedence than DroidNaskh
- Dave Daynard - Allow override of DUN settings
- houst0nn - Revert "Turn off carrier provisioning by default"
- xilence2210 - zh-rCN: upUdate Immersive mode translation
- Evan Anderson - QS: RSSITile: Finally fix the data indicator
 
-Project: hardware/qcom/audio
- synergydev - voice_processing: do not use GNU old-style field designators
- synergy dev - Visualizer: do not use GNU old-style field designators
+Project: hardware/qcom/audio-caf
+ Steve Kondik - hal: Fix a merge derp :(
 
-Project: device/lge/e975
- xilence2210 - Add lightbulb overlay for app and core.
+Project: hardware/cm
+ Steve Kondik - power: Remove recursive locking
+ Steve Kondik - power: Fix locking and reference passing
+ Steve Kondik - cmpower: Add support for set_interactive extension
+ Steve Kondik - power: Always manage notify_on_migrate
 
-Project: device/samsung/maguro
- xilence2210 - udpate dependecy
- xilence2210 - update dependencies
- Carlo Savignano - Add lightbulb overlay for app and core.
- xilence2210 - udpate dependencies
+Project: device/lge/gproj-common
+ xilence2210 - Revert "BoardConfig: Disable QCOM caf"
+ xilence2210 - audio_effects: Add stereowide effect
+ xilence2210 - BoardConfig: Disable QCOM caf
+
+Project: device/lge/geehrc
+ xilence2210 - Imporve recovery compatability (device part)
+ Ricardo Cerqueira - audio: Adjust voice-speaker volumes to the original values
 
 Project: device/samsung/tuna
  xilence2210 - Overlays: Fix build
- xilence2210 - init repository
+
+Project: kernel/lge/gproj
+ Ricardo Cerqueira - msm_fb: hdmi: Remove old conflicting state switches
+ Ajay Singh Parmar - msm_fb: hdmi: Proper intialization of mhl resolutions
+ Ajay Singh Parmar - msm_fb: hdmi: Check for stale HDCP variables
+ Manoj Rao - msm: hdmi: NUL-terminate spd data
+ Aravind Venkateswaran - msm_fb: hdmi: Use common header for resolution modes
+ Ajay Singh Parmar - msm_fb: hdmi: Support for 1280x1024@60Hz resolution
+ Naseer Ahmed - msm: mdp: Fix reserved field usage
+ Ajay Singh Parmar - msm_fb: hdmi: Remove supported resolution check
+ Naseer Ahmed - msm_fb: hdmi: Fix parsing of audio capabilities
+ Siddhartha Agrawal - msm_fb: display: Configure solidfill color to black
+ Ajay Singh Parmar - msm_fb: hdmi: black out pipes on unset
+ Huaibin Yang - msm_fb: display: fix the hang issue caused by solidfill pipe
+ Mayank Chopra - msm_fb: display: Program source address registers correctly
+ Padmanabhan Komanduru - msm_fb: Make sure MDP clock is ON during register access
+ Huaibin Yang - msm_fb: display: keep a minimum mdp ib bandwidth request
+ Huaibin Yang - msm_fb: display: add scaling factor for mdp ab
+ Siddhartha Agrawal - msm_fb:display: correct bus bw for downscale case
+ Huaibin Yang - msm_fb: display: balance bus bandwidth on mdp axi port0 and port1
+ Huaibin Yang - msm_fb: display: add mdp master port1 bandwidth request
+ Huaibin Yang - msm_fb: display: check bus scale handler for registration
+ Huaibin Yang - msm_fb: display: restore previous mdp bandwidth when resume
+ Ricardo Cerqueira - Revert "msm_fb: display: delay commit video tile frame size register"
+ Ohad Ben-Cohen - iommu/core: pass a user-provided token to fault handlers
 
 Project: dalvik
- Ivan Evlogiev - dalvik: Fix leak in error condition in FindClass
- Uday Kumar Sundar - setting RLIMIT to INFINITY.
+ Steve Kondik - Revert JIT changes for now
+ Steve Kondik - vm: Enable fast multiply on perf builds too
+ Pete Delaney - Use MAP_FIXED in remapNewHeap
+ Jean-Marie Henaff - Fix dx test 034.
+ Narayan Kamath - Change exception message for ArrayStoreException.
+ Jean-Marie Henaff - Remove code related to extended-opcode.
+ Bernhard Rosenkränzer - Initialize callTgt variable
+ Bernhard Rosenkränzer - Don't implicitly cast NULL to a bool
+ Serban Constantinescu - Dalvik: Add hardware vfp support for OP_LONG_TO_DOUBLE in JIT
+ Serban Constantinescu - Dalvik: Add hardware support for OP_LONG_TO_DOUBLE in the interpreter
+ Serban Constantinescu - Dalvik: Add sdiv support in the JIT
+ Serban Constantinescu - Dalvik: Add sdiv support in the interpreter
+
+Project: .repo/repo
+ Conley Owens - Update the version number on the repo launcher
+ Conley Owens - Share git version parsing code with wrapper module
+ Conley Owens - Add wrapper module
+ Conley Owens - Respect version hyphenation
+ Conley Owens - Handle release candidates in git version parsing
+ David James - repo: Fix 'remove-project' regression with multiple projects.
+ Conley Owens - Properly iterate through values
+ Shawn Pearce - Only fetch current branch on shallow clients
 
 Project: manifest
- houst0nn - Track CM frameworks_webview
- xilence2210 - track cm webview
+ xilence2210 - removal of musicFX and track our DSPmanager
+ xilence2210 - track omni DSPmanager
 
 ---------------------------------------------------------------
 You can see more changelog from http://github.com/RemixPA
