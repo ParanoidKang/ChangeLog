@@ -1,150 +1,113 @@
-RemixPA Changelog from 01/29/2014 - 02/03/2014
+RemixPA Changelog from 02/03/2014 - 02/09/2014
 ---------------------------------------------------------------
 
-Project: packages/apps/DSPManager
- xilence2210 - zh-rCN: Add missing translation
+Project: packages/apps/Settings
+ xilence2210 - zh-rCN: add translation
+ Steve Kondik - settings: Remove ZRAM settings
+ Aaron Echols - Performance profiles
 
 Project: packages/apps/Camera2
- Pawit Pornkitprasan - Camera: fix crash on screen off-on on preview screen
- Rajaram Gudivada - Camera: Disable Camera Launcher when both Front and Back sensors are not detected
- Ethan Chen - Camera: Add indicator icon for burst mode
- Michael Bestas - Camera: Add Burst mode
+ Ethan Chen - Camera: Fix saturation, contrast, sharpness parameters
+
+Project: packages/apps/Dialer
+ xilence2210 - zh-rCN: add translation
+ xilence2210 - util: fix missing import
+ xilence2210 - Init LocationUtil support
+ xilence2210 - rm tests folder
 
 Project: packages/apps/ParanoidOTA
- xilence2210 - Changelog: Directly show raw log
+ xilence2210 - zh-rCN: update translation
+ xilence2210 - RemixServer: fix error code display
+ xilence2210 - OTA 2.0: Update
 
-Project: packages/apps/PackageInstaller
- xilence2210 - Quick Install: Better handle install notification when multi-task
- xilence2210 - Quick Install: Improve UE
- xilence2210 - Quick Install: Tweak window background alpha
+Project: packages/providers/DownloadProvider
+ Pawel Kozak - Remove download notification after preview
+
+Project: external/bluetooth/bluedroid
+ Ricardo Cerqueira - Return an explicit error if initing BLE callbacks without support
 
 Project: external/koush/AndroidAsync
- Koushik Dutta - setParent when using setComplete(future).
- Dmitry Apresian - Pass the original exception as the cause when throwing ConnectionClosedException
- Rahul Parsani - SocketIO: Better handle queries when building the session url
- Koushik Dutta - Make public some IoUtils.closeQuietly.
-
-Project: external/koush/Superuser
- Marcos Marado - Fix bugreport toast spam.
+ Koushik Dutta - DiskLruCache: Add a way to commit ignoring whether the file was written. This is kinda hacky. But Streams suck, and I needed a way to do this.
 
 Project: external/koush/ion
- Koushik Dutta - Missing files.
- Koushik Dutta - Mipmap fixes.
- Koushik Dutta - Require key as a paramter to BitmapInfo.
- Koushik Dutta - Missing file
- Koushik Dutta - mipmap support. Use progressive/region loading for bitmaps.
-
-Project: vendor/lge
- xilence2210 - Imporve recovery compatability (proprietary part)
- Ricardo Cerqueira - g2: Update qcopt
+ Koushik Dutta - Change the deepZoom tile dimension to 256. Better with memory.
+ Koushik Dutta - Tweak deepZoom to not use pixel perfect tiles so aggressively.
+ Koushik Dutta - deepZoom registers with the diskLruCache
+ Koushik Dutta - fix sample
+ Koushik Dutta - deepZoom sample
 
 Project: vendor/samsung
- Ricardo Cerqueira - i9100: Updated OEM RIL from MS2
- Dan Pasanen - jf: update wifi blobs from gpe 4.4.2
- Dave Daynard - d2: update blobs
+ Ricardo Cerqueira - i9100: Disable ril reset dumpstates
 
 Project: vendor/pa
- xilence2210 - OTA: fully working verifier
- xilence2210 - update device name
- xilence2210 - Improve recovery compatability (vendor part)
- xilence2210 - clean vendorsetup
+ Andre Saddler - Update prebuilt su
+ houst0nn - init: add cpufreq settings
+ Dan Pasanen - add more vzw eri's
+ dhacker29 - multi-carrier overlays: Add eri and config for US Cellular
+ xilence2210 - phonloc: add binary file
+ houst0nn - Allow override of DUN settings
+ houst0nn - Build BluetoothExt
+ houst0nn - Build BluetoothExt
+ Abhisek Devkota - Add Telenor Unified
+ houst0nn - Squash Multi-carrier common overlays
+ bryan2894 - Add skyrocket support
 
 Project: build
- xilence2210 - exclude_check: add file_contexts
- xilence2210 - clog: show log after work
+ xilence2210 - Port Pngcrusher from mokee
 
-Project: system/media
- xplodwild - [2/3] audio_effects: Add a stereo widening effect
- xplodwild - [1/3] AudioEffects: Add center frequency param to bassboost
+Project: system/core
+ Ricardo Cerqueira - rootdir: init: move cpufreq from main init.rc to vendor init
+ Ricardo Cerqueira - sdcard: Respect check_caller_access_to_name on readdir() calls
 
 Project: frameworks/av
- Gaurav Kumar - AudioMixer: Remove tracks from enabledTracks after reseting outTemp
+ Ricardo Cerqueira - libstagefright: fix AV sync late margin on non-QCOM_HARDWARE
+ Ethan Chen - Camera: Support obtaining camera memory from MemoryHeapIon
+
+Project: frameworks/native
+ Ethan Chen - binder: update MemoryHeapIon
 
 Project: frameworks/base
- xilence2210 - Base: Add omni DSPmanager support
- Anu6is - Fix: Duplicate translation strings
- Uma Maheshwari Bhiram - ProcessCpuTracker: Fix ArrayIndexOutofBoundsException in tempSpeeds
- Hemant Gupta - Bluetooth: Fix to avoid framework reboot during monkey.
- Sanket Khidkikar - server: Treat non-default route as host route
- Daniel 2 Olofsson - Fixed race condition in Spinner.DialogPopup on null reference.
- Filippo Favaro - Quick Settings: Initial IT translation.
- Filippo Favaro - Core: Initial IT translation.
- xilence2210 - Revert "Init Chinese phone location support" to fix ART
- D4rKn3sSyS - QS: Use AnimatorListenerAdapter
+ Jorge Ruesga - keyguard: fix delay lock screen sound
+ BigBrother1984 - SystemUI: Update italian translations.
+ Somber73 - Keyguard: Do not show maximized on simpin.
+ xilence2210 - zh-rCN: add translation
+ Alexander Pohl - Quicksettings: Volume tile
+ xilence2210 - phonloc: fix path
+ Steve Kondik - storage: Don't list removed volumes in storage list
+ xilence2210 - phonloc: update path
+ xilence2210 - Revert "Revert "Init Chinese phone location support""
+ xilence2210 - remove trash
+ Ricardo Cerqueira - ActivityManager: Fix monkey tests
+ houst0nn - Revert "Fix error checking in MemoryFile."
+ Brian Beloshapka - Vpn: Setup routes.
+ Cristoforo Cataldo - GlobalActions: Set the initial status of airplane mode toggle
+ BigBrother1984 - Quicksettings: Remove edit mode button flip animation.
+
+Project: bionic
+ Steve Kondik - Revert "Remove harmful attempts to be helpful in pthread_mutex functions."
+
+Project: hardware/libhardware
+ Manish Dewangan - audio: Add WMA Format suppport for offload playback
+ Amit Shekhar - usbaudio: Fixing return value from out_write
 
 Project: hardware/qcom/audio-caf
- Steve Kondik - hal: Fix a merge derp :(
+ slayher - Policy Hal:  Fix video stutters.
 
-Project: hardware/cm
- Steve Kondik - power: Remove recursive locking
- Steve Kondik - power: Fix locking and reference passing
- Steve Kondik - cmpower: Add support for set_interactive extension
- Steve Kondik - power: Always manage notify_on_migrate
+Project: hardware/ril
+ Bernhard Rosenkränzer - Fix parameter mismatch between header and implementation
 
 Project: device/lge/gproj-common
- xilence2210 - Revert "BoardConfig: Disable QCOM caf"
- xilence2210 - audio_effects: Add stereowide effect
- xilence2210 - BoardConfig: Disable QCOM caf
+ xilence2210 - Global FX (Test)
 
-Project: device/lge/geehrc
- xilence2210 - Imporve recovery compatability (device part)
- Ricardo Cerqueira - audio: Adjust voice-speaker volumes to the original values
-
-Project: device/samsung/tuna
- xilence2210 - Overlays: Fix build
-
-Project: kernel/lge/gproj
- Ricardo Cerqueira - msm_fb: hdmi: Remove old conflicting state switches
- Ajay Singh Parmar - msm_fb: hdmi: Proper intialization of mhl resolutions
- Ajay Singh Parmar - msm_fb: hdmi: Check for stale HDCP variables
- Manoj Rao - msm: hdmi: NUL-terminate spd data
- Aravind Venkateswaran - msm_fb: hdmi: Use common header for resolution modes
- Ajay Singh Parmar - msm_fb: hdmi: Support for 1280x1024@60Hz resolution
- Naseer Ahmed - msm: mdp: Fix reserved field usage
- Ajay Singh Parmar - msm_fb: hdmi: Remove supported resolution check
- Naseer Ahmed - msm_fb: hdmi: Fix parsing of audio capabilities
- Siddhartha Agrawal - msm_fb: display: Configure solidfill color to black
- Ajay Singh Parmar - msm_fb: hdmi: black out pipes on unset
- Huaibin Yang - msm_fb: display: fix the hang issue caused by solidfill pipe
- Mayank Chopra - msm_fb: display: Program source address registers correctly
- Padmanabhan Komanduru - msm_fb: Make sure MDP clock is ON during register access
- Huaibin Yang - msm_fb: display: keep a minimum mdp ib bandwidth request
- Huaibin Yang - msm_fb: display: add scaling factor for mdp ab
- Siddhartha Agrawal - msm_fb:display: correct bus bw for downscale case
- Huaibin Yang - msm_fb: display: balance bus bandwidth on mdp axi port0 and port1
- Huaibin Yang - msm_fb: display: add mdp master port1 bandwidth request
- Huaibin Yang - msm_fb: display: check bus scale handler for registration
- Huaibin Yang - msm_fb: display: restore previous mdp bandwidth when resume
- Ricardo Cerqueira - Revert "msm_fb: display: delay commit video tile frame size register"
- Ohad Ben-Cohen - iommu/core: pass a user-provided token to fault handlers
-
-Project: dalvik
- Steve Kondik - Revert JIT changes for now
- Steve Kondik - vm: Enable fast multiply on perf builds too
- Pete Delaney - Use MAP_FIXED in remapNewHeap
- Jean-Marie Henaff - Fix dx test 034.
- Narayan Kamath - Change exception message for ArrayStoreException.
- Jean-Marie Henaff - Remove code related to extended-opcode.
- Bernhard Rosenkränzer - Initialize callTgt variable
- Bernhard Rosenkränzer - Don't implicitly cast NULL to a bool
- Serban Constantinescu - Dalvik: Add hardware vfp support for OP_LONG_TO_DOUBLE in JIT
- Serban Constantinescu - Dalvik: Add hardware support for OP_LONG_TO_DOUBLE in the interpreter
- Serban Constantinescu - Dalvik: Add sdiv support in the JIT
- Serban Constantinescu - Dalvik: Add sdiv support in the interpreter
-
-Project: .repo/repo
- Conley Owens - Update the version number on the repo launcher
- Conley Owens - Share git version parsing code with wrapper module
- Conley Owens - Add wrapper module
- Conley Owens - Respect version hyphenation
- Conley Owens - Handle release candidates in git version parsing
- David James - repo: Fix 'remove-project' regression with multiple projects.
- Conley Owens - Properly iterate through values
- Shawn Pearce - Only fetch current branch on shallow clients
+Project: device/samsung/maguro
+ xilence2210 - add missing dependencies
 
 Project: manifest
- xilence2210 - removal of musicFX and track our DSPmanager
- xilence2210 - track omni DSPmanager
+ houst0nn - Track some repos from CM
+ xilence2210 - track our art
+
+Project: art
+ xilence2210 - Initializer blacklist: Add into blacklist to fix bootloop
 
 ---------------------------------------------------------------
 You can see more changelog from http://github.com/RemixPA
