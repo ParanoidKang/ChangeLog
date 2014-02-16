@@ -1,113 +1,218 @@
-RemixPA Changelog from 02/03/2014 - 02/09/2014
+RemixPA Changelog from 02/09/2014 - 02/17/2014
 ---------------------------------------------------------------
 
+Project: packages/services/Telephony
+ Lars Greiss - [3/3]Quiet Hours
+ Muhammed Nazim - [2/3] services_telephony: National Data Roaming
+
+Project: packages/apps/ContactsCommon
+ Jorge Ruesga - contacts-common: Add support for import contacts to local phone storage
+
 Project: packages/apps/Settings
- xilence2210 - zh-rCN: add translation
- Steve Kondik - settings: Remove ZRAM settings
- Aaron Echols - Performance profiles
+ xilence2210 - Lockscreen notification (2/2)
+ xilence2210 - LED: Battery Light [2/2]
+ xilence2210 - Derps
+ Ricardo Cerqueira - DisplaySettings: Add hardware-framework support for tap-to-wake
+ MNT - Statusbar: double-tap to sleep (settings part)
+ houst0nn - Revert "Settings: Double Tap to Sleep Gesture [2/2]"
+ Jon Evans - Display options: allow configuration of wake on plug behavior
+ p4r4n01d - Display Settings: Better font size control
+ Sam Mortimer - Settings LightSettingsDialog: update led on text change
+ Sam Mortimer - [1/2] Settings: instant led test
+ houst0nn - merge derp: missing comma
+ Konsta - add option to force high-end graphics on low memory devices
+ xilence2210 - zh-rCN: update translation
+ Lars Greiss - [2/3]Quiet Hours
+ Konsta - Performance: Allow enabling KSM by default
+ Lars Greiss - [2/3]Quiet Hours
+ xilence2210 - Settings: More Kitkat
+ Filippo Favaro - Update IT translation
+
+Project: packages/apps/Calculator
+ Michael Bestas - Calculator: Update copyright year
+ Arthur Zamarin - Calculator: IW translations
+ Lorenzo M - Calculator: ES translations
+ Eddy Witkamp - Calculator: don't translate cube root symbol
+ Jacob Overgaard Madsen - Calculator: DA translation
+
+Project: packages/apps/Contacts
+ Jorge Ruesga - contacts: Add support for import contacts to local phone storage
 
 Project: packages/apps/Camera2
+ Michael Bestas - Camera2: Update copyright year
+ Lorenzo M - Camera2: ES translations
+ Eddy Witkamp - Camera2: NL translation
+ Jacob Overgaard Madsen - Camera2: DA translation
+ Michael Bestas - Camera2: EL translations
+ Gustavo - Camera2: PT-BR Translations
+ Eddy Witkamp - Camera2: NL translation
+ Frant1c - Camera2: LT translations
+ Michael Bestas - Camera2: Modify AOSP EL translations
+ Lars Greiss - Camera2: tweak volume key zoom and cleanup
+ Lars Greiss - Camera2: add option to prevend autofocus cancel if preview stopped
+ Lars Greiss - Camera2: fix possible NPE on configurationchange
+ Lars Greiss - Camera2: actually fix ArrayAdapter on MoreSettingsPopup
+ arnau - Camera2: CA translations
+ Vladislav Koldobskiy - Camera2: RU translation
  Ethan Chen - Camera: Fix saturation, contrast, sharpness parameters
+
+Project: packages/apps/Browser
+ Lorenzo M - Browser: ES translations
+ Marco Brohet - Browser: fix translations
+
+Project: packages/apps/Trebuchet
+ Jorge Ruesga - trebuchet: remove aapt warnings
+ Danesh Mondegarian - Trebuchet : Avoid unecessary generatePressedFocusedStates
+ Frant1c - Trebuchet: LT translations
+ Ondrej Zima - Trebuchet: CS translation
+ Danesh M - Trebuchet : Avoid upgrade paths if ALL_APPS button
+ Danesh M - Trebuchet : Fix appInfo crash for hotseat
+ Danesh Mondegarian - Trebuchet : Add iconMask/iconBack/iconUpon/iconScale support
+ Eddy Witkamp - Trebuchet: NL translation
+ Jacob Overgaard Madsen - Trebuchet: DA translation
+ Michael Bestas - Trebuchet: EL translations
+ Gustavo - Trebuchet: PT-BR Translations
+ Arthur Zamarin - Trebuchet: IW translation
+ elektroschmock - Trebuchet: Initial DE translation
+ Vladislav Koldobskiy - Trebuchet: RU translation
+ Vladislav Koldobskiy - Trebuchet: copyright info should be translatable
 
 Project: packages/apps/Dialer
  xilence2210 - zh-rCN: add translation
- xilence2210 - util: fix missing import
- xilence2210 - Init LocationUtil support
- xilence2210 - rm tests folder
+
+Project: packages/apps/Mms
+ namagi - Mms: Allow text input field to expand up to 6 lines
+
+Project: packages/apps/Gallery2
+ Jacob Overgaard Madsen - Gallery2: DA translation
+ Michael Bestas - Gallery2: Modify AOSP EL translations
+
+Project: packages/apps/Email
+ Michael Bestas - Email: Update copyright year
+ Jacob Overgaard Madsen - Email: DA translation
+
+Project: packages/apps/Calendar
+ Ondrej Zima - Calendar: CS translation
+ Gustavo - Calendar: PT-BR Translations
+ Michael Bestas - Calendar: EL translations
+ Jacob Overgaard Madsen - Calendar: DA translation
+ arnau - Calendar: CA translations
+ Vladislav Koldobskiy - Calendar: RU translation
 
 Project: packages/apps/ParanoidOTA
  xilence2210 - zh-rCN: update translation
  xilence2210 - RemixServer: fix error code display
  xilence2210 - OTA 2.0: Update
 
-Project: packages/providers/DownloadProvider
- Pawel Kozak - Remove download notification after preview
-
-Project: external/bluetooth/bluedroid
- Ricardo Cerqueira - Return an explicit error if initing BLE callbacks without support
-
-Project: external/koush/AndroidAsync
- Koushik Dutta - DiskLruCache: Add a way to commit ignoring whether the file was written. This is kinda hacky. But Streams suck, and I needed a way to do this.
-
-Project: external/koush/ion
- Koushik Dutta - Change the deepZoom tile dimension to 256. Better with memory.
- Koushik Dutta - Tweak deepZoom to not use pixel perfect tiles so aggressively.
- Koushik Dutta - deepZoom registers with the diskLruCache
- Koushik Dutta - fix sample
- Koushik Dutta - deepZoom sample
-
-Project: vendor/samsung
- Ricardo Cerqueira - i9100: Disable ril reset dumpstates
+Project: external/chromium_org
+ Jorge Ruesga - chromium: clear favicon bitmap prior to load an url
 
 Project: vendor/pa
- Andre Saddler - Update prebuilt su
- houst0nn - init: add cpufreq settings
- Dan Pasanen - add more vzw eri's
- dhacker29 - multi-carrier overlays: Add eri and config for US Cellular
- xilence2210 - phonloc: add binary file
- houst0nn - Allow override of DUN settings
- houst0nn - Build BluetoothExt
- houst0nn - Build BluetoothExt
- Abhisek Devkota - Add Telenor Unified
- houst0nn - Squash Multi-carrier common overlays
- bryan2894 - Add skyrocket support
+ xilence2210 - fix whitespace
+ Arne Coucheron - Cleanup and consolidate APNs for providers using Telenor NO network
+ Anu6is - Bump: PA version beta 5
+ houst0nn - init: remove superuser include
+ xilence2210 - config: Build Trebuchet
 
 Project: build
- xilence2210 - Port Pngcrusher from mokee
+ xilence2210 - Merge branch 'google/kitkat-mr1.1-release'
+ xilence2210 - Fix scripts
 
-Project: system/core
- Ricardo Cerqueira - rootdir: init: move cpufreq from main init.rc to vendor init
- Ricardo Cerqueira - sdcard: Respect check_caller_access_to_name on readdir() calls
+Project: system/media
+ xplodwild - [2/3] audio_effects: Add a stereo widening effect
+ xplodwild - [1/3] AudioEffects: Add center frequency param to bassboost
+ Eric Laurent - audio_route: fix crash with unsupported control types
+ elektroschmock - Revert "audio_route: fix possible segfault"
+
+Project: frameworks/opt/telephony
+ Shareef Ali - DCTracker: if cdma sim is not avaliable, load from predefined property from build.prop
+ Muhammed Nazim - [1/3] opt_telephony: National Data Roaming
 
 Project: frameworks/av
+ Haynes Mathew George - audio: Use composition instead of multiple inheritance
+ Pavan Chikkala - audio: Check the return code of MediaWriter::start
+ Naresh Tanniru - Audio: Tunnel Exception for ER AAC ELD profile format
+ Nitesh Bhardwaj - audioflinger: Add Null pointer check while enabling effects for LPA
+ Phani Kumar Allada - framework/av: Fix for frame drop in video playback
+ wjiang - audio: Supress redundant effect config events in short duration
+ Sharad Sangle - audioflinger: SRS effects are not working for LPA
+ Eric Laurent - audioflinger: do not use raw pointer for tracks
+ Shashank Mittal - media: Add Ops check before starting audio recording.
+ wjiang - framework/av: Check for NULL pointer of mCblk and zero division error
+ Divya Narayanan Poojary - frameworks/av: Mediacodec initialization check in QCUtils
+ Ethan Chen - camera: Remove deprecated HTC camera support code
+ Tom Marshall - camera: Add required symbols for Oppo devices
+ Dheeraj CVR - libstagefright: unbreak hardware OMX on OMAP3
  Ricardo Cerqueira - libstagefright: fix AV sync late margin on non-QCOM_HARDWARE
- Ethan Chen - Camera: Support obtaining camera memory from MemoryHeapIon
-
-Project: frameworks/native
- Ethan Chen - binder: update MemoryHeapIon
 
 Project: frameworks/base
+ xilence2210 - Lockscreen Notification (1/2)
+ Arham Jamal - Improve scrolling cache
+ xilence2210 - LED: Battery Light [1/2]
+ Evan Anderson - QS: Fix handling of dialer checks
+ xilence2210 - fix build
+ Carlo Savignano - Quicksettings: Few misc adjustements and fixes.
+ Jon Evans - Display options: allow configuration of wake on plug
+ Nilesh Poddar - Release wakelocks acquired by SyncManager
+ Guntawee Tiwapong - server: Handle broadcast intent and receiver
+ Kyrylo Mikos - framework/base: Add EdgeGesture service.
+ Oskar Andero - Make sure to turn off led after pulse()
+ Sam Mortimer - [2/2] Framework: instant led test
+ Danny Baumann - Keep on notification LED while dreaming.
+ Leavitt Zhang - BroadcastQueue: fix class typo of next receiver
+ Andrew Sutherland - allow forcing HighEndGfx mode
+ Jorge Ruesga - systemui: improve DessertCaseDream immersive mode exit
+ Gert-Jan Anema - National roaming info for the Netherlands
+ Nicolas Lorin - National roaming info for BSNL in India
+ Nicolas Lorin - National roaming info for Noverca in Italia
+ Nicolas Lorin - National roaming info for Saunalahti in Finland
+ d95andek - National roaming info for Spring Mobil in Sweden...
+ arnau - National roaming info for Jazztel Movil in Spain
+ arnau - National roaming info for Simyo in Spain
+ broodplank - National roaming info for Bob in Austria.
+ Fernando Membrive Guillén - National roaming info for Tuenti Movil in Spain
+ broodplank - National roaming info for Tesco Mobile in Ireland.
+ Fernando Membrive - National roaming info for Pepephone in Spain
+ Nebojsa Cvetkovic - National roaming info for 3 in Ireland
+ coudu - National roaming info for Free Mobile in France
+ Geo Pan - National roaming info for yesss! in Austria
+ Lars Greiss - [1/3]Quiet Hours
+ xilence2210 - Frameworks: More Kitkat
  Jorge Ruesga - keyguard: fix delay lock screen sound
+ Muhammed Nazim - [3/3] frameworks/base: National Data Roaming
  BigBrother1984 - SystemUI: Update italian translations.
  Somber73 - Keyguard: Do not show maximized on simpin.
- xilence2210 - zh-rCN: add translation
- Alexander Pohl - Quicksettings: Volume tile
- xilence2210 - phonloc: fix path
- Steve Kondik - storage: Don't list removed volumes in storage list
- xilence2210 - phonloc: update path
- xilence2210 - Revert "Revert "Init Chinese phone location support""
- xilence2210 - remove trash
- Ricardo Cerqueira - ActivityManager: Fix monkey tests
- houst0nn - Revert "Fix error checking in MemoryFile."
- Brian Beloshapka - Vpn: Setup routes.
- Cristoforo Cataldo - GlobalActions: Set the initial status of airplane mode toggle
- BigBrother1984 - Quicksettings: Remove edit mode button flip animation.
 
 Project: bionic
- Steve Kondik - Revert "Remove harmful attempts to be helpful in pthread_mutex functions."
+ TheMrcool212 - Add back removed code on previous commit
+ Will Newton - libc/arch-arm/cortex-a15/bionic/memcpy.S: Integrate cortex-strings memcpy.
+ TheMrcool212 - Revert "libc: Update to latest cortexa15 memcpy code."
+ Will Newton - libc/arch-arm/cortex-a9/bionic/memcpy.S: Integrate cortex-strings memcpy.
+ synergydev - libm: sync with upstream freebsd
+ synergydev - libm: add fmal long double stub
 
-Project: hardware/libhardware
- Manish Dewangan - audio: Add WMA Format suppport for offload playback
- Amit Shekhar - usbaudio: Fixing return value from out_write
-
-Project: hardware/qcom/audio-caf
- slayher - Policy Hal:  Fix video stutters.
+Project: hardware/qcom/gps
+ Nicholas Flintham - Fix typo for AMSS 1240 support
 
 Project: hardware/ril
- Bernhard Rosenkränzer - Fix parameter mismatch between header and implementation
+ Elliott Hughes - Fix pthread_create error handling in ril.
+ Elliott Hughes - Stop the kernel complaining about rild.
+ Elliott Hughes - Remove an outdated hack.
 
-Project: device/lge/gproj-common
- xilence2210 - Global FX (Test)
+Project: hardware/libhardware_legacy
+ Steve Kondik - audio: Fix check for sonification on digital docks
 
-Project: device/samsung/maguro
- xilence2210 - add missing dependencies
+Project: device/lge/geehrc
+ xilence2210 - Enable Lockscreen notification dynamic width
 
 Project: manifest
- houst0nn - Track some repos from CM
- xilence2210 - track our art
-
-Project: art
- xilence2210 - Initializer blacklist: Add into blacklist to fix bootloop
+ Bob Peng - test to use bionic from AOSPAL
+ Bob Peng - bump to android 4.4.2_r2
+ houst0nn - Track some CM repos
+ houst0nn - manifest: Track our own Contacts
+ houst0nn - manifest: Track our own ContactsProvider
+ Bob Peng - reorder
+ xilence2210 - use Trebuchet instead of Launcher3
 
 ---------------------------------------------------------------
 You can see more changelog from http://github.com/RemixPA
