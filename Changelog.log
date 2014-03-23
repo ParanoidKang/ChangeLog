@@ -1,941 +1,144 @@
-RemixPA Changelog from 02/23/2014 - 03/19/2014
+RemixPA Changelog from 03/19/2014 - 03/23/2014
 ---------------------------------------------------------------
 
 Project: packages/services/Telephony
- Steve Kondik - telephony-msim: Fix package errors
- Scott Warner - Fix crash in network mode settings
- Michael Bestas - Telephony: Fix network selection array
- Ricardo Cerqueira - Add compatibility code with mainline's configuration options for unlock
- slickrick - Clean up after QCRIL merge
- BigBrother1984 - Italian translations for national roaming.
- D4rKn3sSyS - Spanish translation for national roaming
- Muhammed Nazim - [2/3] services_telephony: National Data Roaming
- Anu6is - [1/3] services/Telephony: Add AOSP Dialer check
- Anu6is - [2/2] services/Telephony: Combine LTE & 2G/3G Tiles
- Anu6is - [3/3] services/Telephony: Increasing Ringtone
- Anu6is - [3/3] services/Telephony: Add Network Tiles
- slickrick - Revert "Phone: Enable LTE for GSM LTE phones (part I)"
- slickrick - Revert "Add back increasing ring feature."
- slickrick - Revert "Add back call blacklist backend."
- slickrick - Revert "Quiet Hours: Allow disabling phone ringer (3/3)"
- slickrick - Revert "Telephony: Port "Add to blacklist" support to in-call ui (2 of 2)"
- slickrick - Revert "Move message blacklist to framework (2/3)."
- Marco Brohet - Telephony: PT-BR translations
- Sumit Bajpai - BT: Multi HF support for BluetoothManager in Telephony.
- Francesco - Telephony: IT translations
- isimobile - Telephony: Af Translations
- Michael Bestas - Revert "Telephony: ES translations"
-
-Project: packages/apps/BluetoothExt
- Marco Brohet - BluetoothExt: Fix files for Crowdin
- Francesco - BluetoothExt: IT translations
- Lorenzo M - BluetoothExt: ES tranlations
-
-Project: packages/apps/ContactsCommon
- elektroschmock - ContactsCommon: Update DE translation
- Marco Brohet - ContactsCommon: PT-BR translations
- Francesco - ContactsCommon: IT translations
- DelPETER - ContactsCommon: FR translation
- Lorenzo M - ContactsCommon: ES translations
- isimobile - ContactsCommon: Af Translation
- Michael Bestas - Revert "ContactsCommon: ES translations"
-
-Project: packages/apps/Bluetooth
- Danny Baumann - Fix duplicate request responses.
- Marco Brohet - Bluetooth: Workaround for aapt warnings
+ xilence2210 - Forward Lookup: Add Baidu Provider (2/2)
+ xilence2210 - zh-rCN: Update translation
+ Xiao-Long Chen - [2/4] Dialer lookup
 
 Project: packages/apps/Settings
+ xilence2210 - zh-rCN: update translation
+ Jorge Ruesga - AccountPreference: Sync in progress accessibility status
+ dhacker29 - Don't hide baseband on dual sim devices
+ xilence2210 - ButtonSettings: Fix up button backlight restore after reboot
+ dhacker29 - Don't hide baseband on dual sim devices
+ dhacker29 - Look for the msim settings in the new location deviceinfo/msim
  houst0nn - Settings: default EdgeGesture service preference to false
- xilence2210 - add translation
- Ricardo Cerqueira - Fix the APN editor fix
- Clark Scheff - Fix resource IDs being added to the android namespace
- Bruno Randolf - Settings/Wifi: Add support for Ad-hoc (IBSS) networks
- Pawit Pornkitprasan - Settings: use CMHW serial number for MSim
- Timo Wendt - Buttons: Allow disabling hard navigation keys
- xilence2210 - Fix missing translation
- Kyrylo Mikos - Settings: Add preference for EdgeGesture service.
- dagix5 - Settings: Day and week on data usage cycle (2/2)
- Steve Kondik - settings: Put MSIM files in the right place
- TomasValenta - czech translation - string fix
- Dave Daynard - Settings: Fix value from being overwritten with null.
- Steve Kondik - Fix some string derps
- Steve Kondik - Unbreak the APN editor
- Muhammed Siju - Telephony (MSIM): Retain the pref selection when set voice sub fails.
- Rakesh Pallerla - Telephony: Disable PIN Toggle option if SIM is in Locked state.
- Alan Wang - Add initial preferred APN feature
- Ravindra - Settings: Removal of DSDS menu in SSSS mode
- Sindhu Kanathur - Settings: Tune Away option is not retained on UI.
- Maanasa Gopal - MSIM : Enhance UI when no SIM / single SIM is present
- Hariprasad Jayakumar - Settings: Show Service State status in Phone Status properly
- Sudheer Reddy Yampalla - Add support for below network modes info in hidden menu
- Sudheer Reddy Yampalla - Settings(MSIM): Add TuneAway and PrioritySub to MultiSimSettings
- Rakesh Pallerla - Multisim: Add support for MSIM
- Steve Kondik - Fix some string derps
- Steve Kondik - Unbreak the APN editor
- Muhammed Siju - Telephony (MSIM): Retain the pref selection when set voice sub fails.
- Rakesh Pallerla - Telephony: Disable PIN Toggle option if SIM is in Locked state.
- Alan Wang - Add initial preferred APN feature
- Ravindra - Settings: Removal of DSDS menu in SSSS mode
- Sindhu Kanathur - Settings: Tune Away option is not retained on UI.
- Maanasa Gopal - MSIM : Enhance UI when no SIM / single SIM is present
- Hariprasad Jayakumar - Settings: Show Service State status in Phone Status properly
- Sudheer Reddy Yampalla - Add support for below network modes info in hidden menu
- Sudheer Reddy Yampalla - Settings(MSIM): Add TuneAway and PrioritySub to MultiSimSettings
- Rakesh Pallerla - Multisim: Add support for MSIM
- Sudheer Reddy Yampalla - Telephony: Avoid list of Apns in ApnSettingsMenu
- Alex Yakavenka - Telephony: Use new apn.sim.operator_numeric property
- slickrick - Revert "Settings: updating policy list after switching mobile data switch"
- gerard - Fix double end
- Phil Tunstall - Remove 'Allow custom buttons' checkbox (2/2)
- Vladislav Koldobskiy - Camera button support (2/2)
- xilence2210 - fix latest changes build and add translation for screen recorder
- xilence2210 - Revert "Lockscreen notification (2/2)"
- Zhijun Peng - Settings: Fix the memory leak in Settings
- Anu6is - On-the-spot preferences
- Loris Chiocca - Settings: updating policy list after switching mobile data switch
- Sumit Bajpai - BT: Multi HF support in Settings App.
- Kun Liang - AppOps: Modify Chinese string for Camera as MIIT's suggestion.
- Jun Su - Fix memory leak in ManageApplication
- Kent Persson - Total and available fields missing in Settings storage menu
-
-Project: packages/apps/Calculator
- Marco Brohet - Calculator: PT-BR translations
- Michael Bestas - Calculator: EL translations
- Marco Brohet - Calculator: MS translations
- Marco Brohet - Revert "Calculator: IW translations"
- Michael Bestas - Revert "Calculator: ES translations"
-
-Project: packages/apps/InCallUI
- blackhand1001 - Hide Titlebar while loading InCallUI (2 of 2)
- Steve Kondik - msim: Put files in the corret location
- Michael Bestas - InCallUI: Cleanup CAF additions
- slickrick - Revert "InCallUI: Port "Add to blacklist" support to in-call ui (1 of 2)"
- Steve Kondik - Fix various issues after merge
- Steve Kondik - Revert "Display supplementary service dialogs for CF and CB."
- Muhammed Siju - MSIM(DSDA): Ensure phone screen wake up on DSDA incoming call.
- Garik Badalyan - MS-VT: Fix camera reconfiguration
- Ravindra - Update CallCard when Multiparty state change
- Rekha Kumar - IMS-VT: Peer Resolution feature and split screen fix
- Garik Badalyan - IMS-VT: Build and install libvt_jni and libimscamera_jni
- Ravi Paluri - Ims: Silently drop the call after SRVCC
- Rekha Kumar - Enable InCall UI logging
- Sindhu Kanathur - InCallUI not dismissing after end call is clicked.
- Rekha Kumar - IMS-VT: Surface Texture creation fix
- Garik Badalyan - IMS-VT: Relayout VideoCallPanel to create surface textures
- Garik Badalyan - IMS-VT: Do not change visibility of the camera preview.
- Garik Badalyan - IMS-VT: Enable modify call functionality on InCallUI
- Sandeep Gutta - DSDA: Add InCallUI DSDA support.
- Pavan Kumar Tatavarthi - IMS: Enable Modify Call functionality
- Rekha Kumar - IMS-VT: Recording Buffer and CVO Features
- Garik Badalyan -     Phone: Add support for video calls
- Pavan Tatavarthi - IMS support for UI interface
- Sandeep Gutta - MSIM: Add multisim support.
- Muhammed Siju - Display supplementary service dialogs for CF and CB.
- Sandeep Kunta - STK Call Control feature implementation.
- DelPETER - InCallUI: FR translation
- Francesco - InCallUI: IT translations
- dimfishr - Disable Touch by Proximity Sensor
- Michael Bestas - Revert "InCallUI: ES translations"
 
 Project: packages/apps/Camera2
- myfluxi - Camera: Fix the removal of histogram setting fix
- Michael Bestas - Camera: Fix JPEG quality DB update
- Michael Bestas - Camera: Fix removal of histogram setting
- Ricardo Cerqueira - Fix initialization of new installations
- Lars Greiss - Camera: remove fine/normal/superfine jpegquality and use always int
- Hashcode - Camera: video stabilization setting - don't default enable
- Steve Kondik - camera: Histogram, ZSL burst mode, HDR-on-ZSL
- Steve Kondik - camera: Add metadata-based ASD
- Ethan Chen - Camera2: Fix burst mode, auto scene detect layout
- henry j. mason - Camera2: Smart scene icons w. original artwork
- Dave Daynard - Camera2: Do not issue autofocus cancel if preview stopped
- Michael Bestas - Camera: Enable video stabilization setting
- Michael Bestas - Camera2: Correct copyright notice
- Michael Bestas - Camera2: EL translations
- Marco Brohet - Camera2: Crowdin fixes
- Steve Kondik - camera: Make some parameter lookups safer
- Suman Mukherjee - Close open cursors
- Tanmaya Godbole - Camera: Disable livesnapshot for 4kx2k video
- Santhosh Kumar Thimmanna Bhattar - camera: fix camera crash in hfr
- Vladimir Petrov - Camera2: Calculate UI aspect ratio based on preview size
- Santhosh Kumar Thimmanna Bhattar - Camera: Add a filter to remove unsupported hfr modes in camcorder
- Manikanta Kanamarlapudi - Camera2: Added pause button in Camcorder
- Santhosh Kumar H E - Update settings pref values when BSM is not auto.
- Santhosh Kumar Thimmanna Bhattar - Camera: Add checker for null pointer exception during camera release
- Santhosh Kumar Thimmanna Bhattar - Camera: Prevent callling of resize  before camera is initialized
- Santhosh Kumar Thimmanna Bhattar - Camera2: Synchronize access to camera parameters
- Santhosh Kumar Thimmanna Bhattar - Camera2: Check mCameradevice before setting skinToneEnhancement
- Santhosh Kumar Thimmanna Bhattar - Camera2: Fix concurrency issues with camera messages
- Santhosh Kumar Thimmanna Bhattar - Camera2:stop recording from camcorder app in case of error
- Santhosh Kumar Thimmanna Bhattar - Camera2: override Saturation&Contrast item when enable scence mode
- Santhosh Kumar Thimmanna Bhattar - Camera: Dont reset camera state while capture is in progress.
- Sai Kumar Sanagavarapu - Camera2 : Reset mSnapshotInProgress if recording stopped.
- Vijay kumar Tumati - Camera: Don't do cancel_af till all CBs are received in burst shot
- Vladimir Petrov - Camcorder: Switch video torch when preview focused
- Santhosh Kumar Thimmanna Bhattar -  Camera: Remove AF UI when faces are detected in photo ui
- Azam Sadiq Pasha Kapatrala Syed - Camera: Add support for 4K camcorder
- Vijay kumar Tumati - Camera: Avoid animating cature with decoded jpeg in long shot
- elektroschmock - Camera2: Update DE translation
- Francesco - Camera2: IT translations
- codeworkx - camera: add support for samsung and htc camcorder modes
- lee worrall - Camera2: Fix WB onScreenIndicator when some are settings filtered out.
- Lorenzo M - Camera2: ES translations
- elektroschmock - Camera2: Remove untranslatable strings in CA translation
- Michael Bestas - Revert "Camera2: ES translations"
- Arnau - Revert "Camera2: CA translations"
-
-Project: packages/apps/Browser
- Marco Brohet - Browser: PT-BR translations
- Dan - Browser: Fix Progress bar when quick Controls Enabled
- Marco Brohet - Browser: MS translations
- Michael Bestas - Revert "Browser: ES translations"
-
-Project: packages/apps/Trebuchet
- Jorge Ruesga - trebuchet: build headers from internal adapter instance
- malditoastur - Trebuchet: AST translations4
- lee worrall - Trebuchet: fix icons disappearing from the hotseat (dock).
- Marco Brohet - Trebuchet: PT-BR translations
- Francesco - Trebuchet: IT translations
- Marco Brohet - Trebuchet: MS translations
- Francesco - Trebuchet: IT translations
- Lorenzo M - Trebuchet: ES translations
- isimobile - Trebuchet: Af Translations
- Jorge Ruesga - trebuchet: fix custom home transition effect
- Marco Brohet - Trebuchet: Transifex fix revert 2
- Marco Brohet - Trebuchet: revert Transifex fixes
- Michael Bestas - Revert "Trebuchet: ES translations"
+ Ethan Chen - Camera2: Add 50MP, 37.5MP resolution entry
 
 Project: packages/apps/Dialer
+ xilence2210 - Baidu Lookup: Improve lookup
+ xilence2210 - Forward Lookup: Add Baidu Forward Lookup Provider (1/2)
+ xilence2210 - update strings
  xilence2210 - Chinese T9 support
  xilence2210 - add isChinese function
- blackhand1001 - Hide Titlebar while loading InCallUI (1 of 2)
- Vladislav Koldobskiy - Dialer: un-derp the keypad UI
- Qiang Chen - Dialer: Add call log to google search
- Umashankar Godachi - Fix dialer force close.
- Pavan Kumar Tatavarthi - IMS: Dialer app changes for IMS
- Garik Badalyan - IMS-VT: Add DIAG permission to the Dialer application.
- Sandeep Gutta - DSDA: Define MSimInCallActivity in manifest file
- Garik Badalyan - IMS-VT: Add CAMERA  permissions.
- Jiju Kinattingal - Dialer(MSIM): Dialer app support for multisim
- Marco Brohet - Dialer: PT-BR translations
- Marco Brohet - Dialer: MS translations
- Michael Bestas - Revert "Dialer: ES translations"
 
 Project: packages/apps/Lightbulb
- Matthias Freund - Lightbulb: DE translation
- TomasValenta - czech translation
- Silver Hu - add Chinese Simplified translation
- VonOx - Add french translation
- Yamil Ghazi - Lightbulb lockscreen widget
+ elibl - Lightbulb: german translation
 
-Project: packages/apps/Mms
- Lorenzo M - Mms: ES translations
- Michael Bestas - Mms: Cleanup CAF additions
- Sukanya Rajkhowa - Add receiver for cell broadcasts
- Yashdev Singh - MMS: Redesign of Mms auto-retrieval feature.
- Yampalla Sudheer Reddy - Fix to insert proper "from" address in MO MMS
- Sukanya Rajkhowa - Cell Broadcast Support in Messaging app
- Umashankar Godachi - Send 'reject call with sms' on the correct subscription.
- DelPETER - Mms: FR translation
- Marco Brohet - Mms: PT-BR translations
- Arthur Zamarin - Mms: Update IW translations
- Dan - MMS: Disable Android 4.2 specific hack regarding keyboard behavior.
- Marco Brohet - Mms: MS translations
- Michael Bestas - Revert "Mms: ES translations"
-
-Project: packages/apps/Gallery2
- Danesh M - Gallery2 : Store DATE_TAKEN as milliseconds
- Ricardo Cerqueira - Camera: Fix out-of-order operations while setting up the editor
- Rob Walker - Gallery2: add support for the DASH mimetype
- Suman Mukherjee - Camera: Ensure background edition complete on back Key
-
-Project: packages/apps/Email
- Daniel Volk - Don't fetch deleted messages from IMAP folder
- DelPETER - EMail: FR translation
- Arthur Zamarin - Email: Update IW translations
-
-Project: packages/apps/Calendar
- Marco Brohet - Calendar: PT-BR translations
- Arthur Zamarin - Calendar: IW translations
- Marco Brohet - Calendar: MS translations
- Francesco - Calendar: IT translations
- Lorenzo M - Calendar: ES translations
- DelPETER - Calendar: FR translation
- Michael Bestas - Revert "Calendar: ES tranlations"
- Arnau - Revert "Calendar: CA translations"
-
-Project: packages/apps/ParanoidOTA
- BigBrother1984 - Add kitkat settings icon.
- TomasValenta - czech translation
- VonOx -  French translation - Adding missing strings
- Yamil Ghazi - Fix crash when cm's gapps are installed
- Yamil Ghazi - Typo
- Matthias Freund - ParanoidOTA: DE translation 2
-
-Project: packages/apps/CMFileManager
- Jorge Ruesga - CMFM: Fix association dialog layout
- Jorge Ruesga - CMFM: Set theme before setContentView
- Jorge Ruesga - CMFM: New high resolution launcher icons
- Lorenzo M - CMFileManager: ES translations
- Florian Edelmann - [CMFM] bookmarks and history in a navigation drawer
- Michael Bestas - CMFM: EL translations
- Lorenzo M - CMFM: ES translations
- Michael Bestas - Revert "CMFM: ES translations"
-
-Project: packages/apps/Stk
- Michael Bestas - Stk: Cleanup CAF additions
-
-Project: packages/providers/DownloadProvider
- Lasse Brudeskar Vikås - DownloadProvider: Add transfer speeds in notification
-
-Project: packages/providers/TelephonyProvider
- xilence2210 - Fix permission
- Steve Kondik - Revert "AppOps: use OPS_READ_MMS/OPS_WRITE_MMS for mms operation"
- Steve Kondik - Upgrade database with priority column and skip version 58.
- kaiyiz - TelephonyProvider: Impressive performance improvement for Mms delete
- Sridhar Dubbaka - Mms: Support priority when send sms
- Kun Liang - AppOps: use OPS_READ_MMS/OPS_WRITE_MMS for mms operation
- Steve Kondik - Fix APN database upgrade
- Alex Yakavenka - Add initial preferred APN feature
- Rakesh Pallerla - TelephonyProvider(MSIM): Add support for MSIM
- Ravindra Thattahalli Javaraiah - Fix permission check for deleting  SMS on UICC.
+Project: external/libphonenumber
+ xilence2210 - update to Feb db
 
 Project: external/sepolicy
- Steve Kondik - sepolicy: Fix a few denials
- Steve Kondik - Let Zygote talk to init
- dcashman - quash SELinux denial for healthd
- Stephen Smalley - Label adb keys file and allow access to it.
-
-Project: external/skia
- Xin Qi - Skia: bug fix for SkBitmapProcState_shaderproc.h
-
-Project: external/bluetooth/bluedroid
- zombah - bta_hh: Change bus_type to BUS_USB for USB HCI
- Matt Mower - bluedroid: remove duplicate BLUETOOTH_QCOM_SW define
- David Marble - Fix compile without Bluetooth LE stack
- Steve Kondik - Remove annoying log message when a2dp isn't in use
-
-Project: external/chromium_org
- Evan McClain - Fix JNI generation on Darwin and XCode 5.1
- Hui (QRD) Yu - Webview: Implement the suspend/resume operation in webview of chromium
- Hui (QRD) Yu - Webview: Release MediaMetadataRetriever after get media info
-
-Project: external/koush/Superuser
- BILLyTheLiTTle - Fix UXD for tablets
- elektroschmock - Superuser: Update DE translation
- BILLyTheLiTTle - Fix for current activity refresh
- DelPETER - Superuser: FR translation
- Eddy Witkamp - Superuser: NL translation
- Michael Bestas - Superuser: EL translations
- Francesco - Superuser: IT translations
- BILLyTheLiTTle - Greek translation for pop-up dialog
- BILLyTheLiTTle - Create pop-up dialog for each application
- BILLyTheLiTTle - Fix Trash icon/action bug
- BILLyTheLiTTle - Fix several compiler warnings
- Lorenzo M - Superuser: ES translations
+ Steve Kondik - sepolicy: Fix more denials
+ Stephen Smalley - Get rid of separate download_file type.
+ jaejyn.shin - Adding permissions needed to remove cache
+ Stephen Smalley - Get rid of separate platform_app_data_file type.
+ Ricardo Cerqueira - Let installd relabel the lib symlinks
+ Takeshi Aimi - Make bluetooth, nfc, radio and shell adb-installable
+ Stephen Smalley - Allow installd to restorecon /data/data.
+ Steve Kondik - sepolicy: Allow vold to use rootfs entrypoint
+ Stephen Smalley - Add a domain for the recovery console.
 
 Project: vendor/samsung
- Arne Coucheron - serranoltexx: Use stock NFC firmware
- Ethan Chen - i9500: Add libQmageDecoder for LPM
- Arne Coucheron - serrano: Add serranoltebmc to build barrier
- jt1134 - expressatt: use device-specific ril blobs
- Arne Coucheron - serrano: Add serranoltespr to build barrier
- Steve Kondik - hlte: Update blobs
- Dan Pasanen - jflte: remove old rilblobs
- Dan Pasanen - jflte: use jfltetmo blobs for gsm
- Dave Daynard - express/apexq: consolidateallthethings
- Dan Pasanen - d2lte: split up gsm/cdma rilblobs
- Arne Coucheron - serrano: Add serranodsdd to build barrier
- Arne Coucheron - Revert "Revert "Add time_daemon""
+ Arne Coucheron - serrano: Consolidate and update blobs
+
+Project: vendor/lge1
+ Ricardo Cerqueira - v500: Updated adreno
 
 Project: vendor/pa
- Matt Mower - Re-add apns from squashed revert
- Matt Mower - Squashed revert of mms and spn-specific overlays
- Brian Beloshapka - apns: Add type default for Sprint.
- xilence2210 - Revert "add telephony-msim.jar to BOOTCLASSPATH"
- Evan Anderson - ....4.2-BETA1!!
- TheMrcool212 - Add support for i9500 (GS4 Exynos)
- Dan Pasanen - overlay: add tmo and att default LTE apns
- cj360 - add support for these motorola devices: https://github.com/CyanogenMod/android_device_motorola_moto_msm8960/blob/cm-11.0/README.md
- Bryan Smith - Add support for dlx (HTC Droid DNA)
- xilence2210 - add telephony-msim.jar to BOOTCLASSPATH
- xilence2210 - add gee support
- xilence2210 - remove phoneloc prebuilt
- Matt Mower - overlay: remove Verizon specific eri.xml
- BigBrother1984 - 4.1 BETA2
- dcos - Add support for p880 (LG Optimus 4X HD)
- black - Add Japanese APNs/eri for au, docomo MVNO, EMOBILE and SoftBank
- Anu6is - Not BETA7
- sbrissen - t0ltevzw: update fingerprint and description
- dhacker29 - Add apns/eri for Boost Mobile
- black - Clean up Japanese APNs
- tilaksidduram - Add hlte(Note 3) support
- Andre Saddler - Add Motorola Moto X support
- Andre Saddler - D2 & JF device variants makeover for unified d2lte & jflte
- Jake Weinstein - Add Gee (LG Optimus G) supported devices
- Joe Wooster - Add Sony Yuga (Xperia Z) support
+ elibl - Initial setup for a510 and a700
+ SferaDev - vendor: Add GT-N5110 support (Note 8.0 Wifi)
+ SferaDev - vendor: Add GT-N5110 support (Note 8.0 Wifi)
+ Joe Wooster - Add support for odin (Xperia ZL)
+ Ricardo Cerqueira - Revert "Add SELinux filesystem relabeling to init"
 
 Project: build
- Ethan Chen - Remove QuickSearchBox from build
- Steve Kondik - [HAX] Allow per-target dtbTool
- Michael Bestas - Use CM standard qcom naming
- Steve Kondik - build: Add script to generate extra images
- slickrick - roomservice: fix derp breaking initial device sync
- Brint E. Kriebel - Store the value from BOARD_CUSTOM_BOOTIMG_MK to a file
- Chaitanya Saggurthi - Telephony(MSIM) : Add telephony-msim jar to build
- Pawit Pornkitprasan - Keep InCallUI in memory (3/3)
- Chaitanya Saggurthi - Telephony(MSIM) : Add telephony-msim jar to build
- synergy - gettop: fix symlink detection
- Andrew Dodd - roomservice: Fix handling of devices with _ in their name
+ Brint E. Kriebel - releasetools: don't create prebuilt_dir path if it exits
+ Ricky Salinas - Add support for CM's bootable/recovery
+
+Project: bootable/recovery
+ Steve Kondik - recovery: Compatibility with upstream minui change
 
 Project: system/vold
- Ricardo Cerqueira - Volume: Don't crap out when dealing with unformatted cards
+ JP Abgrall - Avoid segv by checking argc in "storage user <mountpoint>"
+ Stephen Smalley - Convert all selinux_android_restorecon and _setfilecon calls to new API.
+ Robert Craig - Add SELinux restorecon calls on ASEC containers.
+
+Project: system/extras
+ Pawit Pornkitprasan - ext4_utils: fix utility build (libmincrypt)
 
 Project: system/core
- Steve Kondik - Underp an ifdef
- ApurupaPattapu - audio: New audio formats for PCM Offload
- Aviral Gupta - system/audio: Add the the SPDIF device entry
- Manish Dewangan - audio: Add Dolby subformat
- Ricardo Cerqueira - rootdir: init: move cpufreq from main init.rc to vendor init
- Steve Kondik - Add keystore to system group
- Amir Goldstein - ueventd: fix a busy loop while reading uevents
- synergy dev - Unicode: Fix mismatched type initialization
- Flamefire - Fix assertion failure
-
-Project: frameworks/opt/telephony-msim
- Pawit Pornkitprasan - MSimPhoneFactory: use custom RIL class
- Steve Kondik - telephony-msim: Fix package issues
- dhacker29 - telephony-msim: Add SMS Middleware layer.
- Steve Kondik - telephony-msim: Fix package directory
-
-Project: frameworks/opt/telephony
- Ricardo Cerqueira - SamsungQualcomm: Add support for Samsung's EMS dialing request
- markcs - SamsungQualcommRIL: allow mQANElements to be device specific
- Pawit Pornkitprasan - telephony: MSim: propagate roaming and data settings to SIM
- Pawit Pornkitprasan - RIL: mark mInstanceId as protected
- Ricardo Cerqueira - SamsungQualcomm: Skip new requests on old RILs
- markcs - DcTrackerBase: Dont provision APN if default is disconnecting
- Ethan Chen - telephony: Fix initialization ordering of SMS middleware
- Ethan Chen - telephony: Clean up IccSmsInterfaceManagerProxy
- Desterly - telephony: Remove CdmaLteUicc and CDMA fix
- Pawit Pornkitprasan - telephony: disable the use of SMS_EXPECT_MORE by default (2/2)
- markcs - UiccController: Query GET_SIM_STATUS when radio state is ON
- Pawit Pornkitprasan - Fix "telephony: DataConnection: support old RILs"
- slickrick - Revert "Store phone blacklist in content provider (1/4)"
- slickrick - Revert "Telephony: Generic Blacklist support (5 of 5)"
- slickrick - Revert "Move message blacklist to framework (1/3)."
- Steve Kondik - telephony: Fixes for SMS middleware
- Steve Kondik - telephony: Fix initialization order of SMS proxy
- Steve Kondik - telephony: Fix custom RILs for new API
- Daniele Di Conza - SamsungQualcommRil: fix typo
- Koushik Dutta - Voice+, Whisperpush: Need to send SMS_RECEIVED_ACTION for all apps.
- Danny Baumann - Move message blacklist to framework (1/3).
- Shareef Ali - SamsungQualcommRIL: fixup drivercall for universal builds
- Ricardo Cerqueira - GsmSST: Disregard any invalid verbose values for timezones in NITZ requests
- Shareef Ali - SamsungQualcommRIL: Add Operator replace functionality to search network.
- Ricardo Cerqueira - PhoneFactory: Block radio init if the device's custom class can't be used
- Shareef Ali - SamsungQualcommRil: bring back operatorCheck. (1/2)
- Shareef Ali - SamsungQualcommRIL: rebase ril to 4.4.2
- Shareef Ali - SamsungQualcommRIL: fix compile error.
- slayher - Fixup operatorCheck for Note3
- Shareef Ali - SamsungQualcommRIL enhance and error proof icccardobject.
- Shareef Ali - SamsungQualcommRIL: Create 2 more app for nv type of subscription.
- Shareef Ali - SamsungQualcommRIL: skip setCdmaSubscriptionSource if CDMA_SUBSCRIPTION_MODE is null
- Shareef Ali - SamsungQualcommRIL: kill off some old code
- Jon Haus - PhoneFactory: fall back to default RIL if custom RIL Class fails
- Shareef Ali - SamsungQualcommRIL: fix my derp.
- Dave Daynard - Allow tablets to send SMS if enabled in device overlays (2/2)
- Kevin Liu - Fix typo
- M1cha - telephony: do only run setCellInfoListRate for RIL version >= 8 old libraries like those from MR0 don't support this and sending this command causes endless wakelocks
- Shareef Ali - SamsungQualcommRil: reversed engineered implimentation of dial() from touchwiz
- Shareef Ali - SamsungQualcommRIL: Add more validation of Signal Strength
- Peter Pan - Could not enable data connection
- Dorian Snyder - SamsungCDMAv6RIL: update to latest RIL
- Michael Gernoth - CdmaLte: call setDataRegState when using RilVoiceRadioTechnology for data
- Danny Baumann - Properly handle a null URI.
- Jed Hamilton - Fix NPE on sending multipart texts.
- Ricardo Cerqueira - IccSmsInterfaceManager: Don't intercept short-code premium messages
- dhacker29 - CdmaLte: Fix 3G reported as unknown on certain devices
- Ricardo Cerqueira - SMSDispatcher: Fix determining the defaultSmsApp for proxied messages
- Koushik Dutta - Add SMS Middleware layer.
- Steve Kondik - telephony: Add Qualcomm42RIL
- Shareef Ali - Telephony: check if the provisioning apn is actually empty before
- Richard Ross - cdma: Restore SVDO after merge.
- Richard Ross - HTCQualcommRIL: properly reset radio on RIL_CONNECTED
- Pawit Pornkitprasan - SamsungExynos3RIL: fix sim PIN handling
- Pawit Pornkitprasan - telephony: DataConnection: support old RILs
- jared caliendo - Move custom icccardstatus back to HTCQualcommRil.
- Alan Wang - Add initial preferred APN feature
- Sandeep Gutta - Telephony: Query SignalStrength when there is a RAT change.
- Ethan Chen - HTCQualcommRIL: fix data drops when switching state
- Shareef Ali - Telephony: prevent NPE
- Ricardo Cerqueira - RIL subclasses: Fix processSolicited for the new API
- Ricardo Cerqueira - Revert "Initialize RIL with the correct CDMA subscription mode setting"
- Pawit Pornkitprasan - SamsungExynos3RIL: rebase to latest RIL
- Pawit Pornkitprasan - telephony: set PROPERTY_DATA_NETWORK to data technology
- jared caliendo - Introduce HTCCDMAQualcommRIL for HTC CDMA devices
- DvTonder - Telephony: Generic Blacklist support (5 of 5)
- Chirayu Desai - CM: Use Rlog
- Shareef Ali - SamsungQualcommRIL: use proper Log tag
- Shareef Ali - SamsungQualcommRIL: rebase Sammyqualcommril to RIL.java 4.3.
- Shareef Ali - SamsungQualcommRIL: fix NPE
- Shareef Ali - Revert "SamsungQualcommRIL: always convert hex to int."
- Shareef Ali - Samsungqualcommril: fix parser
- Ricardo Cerqueira - Update all CM radio code for the current API
- Shareef Ali - SamsungQualcommRIL: fix HD voice
- Shareef Ali - SamsungQualcommRIL: always convert hex to int.
- Shareef Ali - SamsungQualcommRIL: fix passing isgsm flag
- Daniel Hillenbrand - SamsungExynos4RIL: cleanup for use with opensource libril
- Danny Baumann - Store phone blacklist in content provider (1/4)
- Seth Shelnutt - CallTracker: Add back-off and retry toggle to getCurrentCalls
- Shareef Ali - SamsungQualcommRIL: support google play edition blobs
- Matt Mower - HTCQualcommRIL: handle more unsolicited states
- Matt Mower - HTCQualcommRIL: optionally ignore IccCard states greater than 2
- Shareef Ali - SamsungQualcommRIL: support exynos RIL radio states.
- Shareef Ali - SamsungQualcommRIL: fix errors and replaces it with known values
- Daniel Hillenbrand - HTCQualcommRIL: clean up unused functions and responses
- David Ferguson - SamsungQualcommRIL: evaluate samsungDriverCall in responseCallList()
- Shareef Ali - SamsungQualcommRIL: fix race condition when starting phone type.
- Shareef Ali - SamsungQualcommRIL: use the advantage of static type.
- Steve Kondik - ril: Add Samsung-specific unsolicited commands
- Shareef Ali - SamsungQualcommRIL: fix logic order
- Shareef Ali - SamsungQcomRIL: New class and get rid of old and outdated codes
- Ethan Chen - HTCQualcommRIL: re-add force LTE modes
- Ethan Chen - HTCQualcommRIL: remove unused responseIccCardStatus function
- Ethan Chen - Revert "libril: HTC8960RIL: add flag to force CDMA+LTE network mode"
- Ethan Chen - HTCQualcommRIL: allow skipping of initial radio power off message
- Ethan Chen - HTCQualcommRIL: adaptable signal strength format
- Ethan Chen - HTCQualcommRIL: squashed set of updates
- Steve Kondik - telephony: Remove SamsungQualcommD2RIL
- David Ferguson - SamsungQualcommUiccRIL: fix responseCallList for v7 RIL
- Tom Marshall - Allow disabling radio with property persist.ril.enable.
- Ricardo Cerqueira - RIL: Add compatibility with qcom's DSDS
- Michael Bestas - RIL: Add SEMC 7x30 RIL
- Dan Pasanen - PhoneProxy: Add a prop to enable always creating of CDMALTEPhone
- Giulio Cervera - QualcommSharedRIL: allow skipping pin/puk count
- codeworkx - telephony: add SamsungQualcommM3RIL for samsung m3 devices
- David Ferguson - Qualcomm LTE RILs: do not make mLteRsrp negative
- Roman Birg - SamsungExynos4RIL: fix emergency dialing
- Veeti Paananen - Update the SMS sending limit instantly (1/2)
- Ricardo Cerqueira - LGEQualcommUiccRIL: New subclass to deal with the latest qcom RIL
- codeworkx - SamsungExynos4RIL: provide a fallback solution if signalstrength is invalid
- Pawit Pornkitprasan - SamsungExynos3RIL: fix unable to swtich 2G/3G while connected to wifi
- Ankit Vani - SamsungExynos4RIL: Allow signal strength to be handled for GB modems
- athurh - SamsungExynos4RIL: fix signal strength
- jt1134 - SamsungExynos3RIL: don't send IccStatus notification on CDMA devices
- João Ventura - Fix restoring network mode preference on reboot
- Mike Kasick - SMSDispatcher: Add option for sending pseudo-multipart SMSes
- Shareef Ali - d2ril: change readint offset of one
- xoomdev - SamsungCDMAQualcommRIL: add icc handler to run when radio on
- Austen Dicken - telephony: CdmaServiceStateTracker: Get cdma sub. when ruim ready.
- Danny Baumann - Allow registering for supplementary service notifications.
- Danny Baumann - Add notification type constants.
- Shareef Ali - SamsungQcomCDMARIL: Add support for SIM.
- Richard Ross - RIL: add HTC radio state and RIL class
- Pawit Pornkitprasan - Samsung STK: Fix SMS-based STK
- Scott Brissenden - patch responseSignalStrength
- NewbyJE - core and telephony: Additional HSPAP support
- Pawit Pornkitprasan - Samsung STK: Add USSD support
- Pawit Pornkitprasan - Add Samsung STK support (telephony part)
- jt1134 - fix for Samsung CDMA incoming SMS bug
- Ricardo Cerqueira - Telephony: Add getLteOnGsmMode() method (2/2)
- Giulio Cervera - telefony: Custom RIL for Sony 8x60 baseband
- Shareef Ali - RIL: Add SamsungCDMAQualcommRIL
- Steve Kondik - telephony: Add custom QC RILs from CM10
- Pawit Pornkitprasan - SamsungExynos3RIL: buffer CAT Proactive Command
- codeworkx - SamsungExynos4RIL: fixup radio states, notify on PIN-unlock
- Will Keaney - 	RIL for Samsung v6 RIL CDMA devices, based on SamsungRIL.
- codeworkx - SamsungExynos4RIL: set number of elements returned from QAN response
- Ricardo Cerqueira - RIL: Underp DataCall
- Naveen Kalla - Initialize RIL with the correct CDMA subscription mode setting
- Ricardo Cerqueira - Allow a device to include its own RIL subclass
- Pawit Pornkitprasan - telephony: add SamsungExynos3RIL
- Pawit Pornkitprasan - RIL: squashed support for old RIL
- codeworkx - telephony: add SamsungExynos4RIL class
- Ricardo Cerqueira - telephony: Reintroduce the old ICS RadioStates
- Pawit Pornkitprasan - telephony: Use reflection to create command interface (RIL class)
- Ricardo Cerqueira - RIL: Make RIL subclassable
- Ricardo Cerqueira - Telephony: Add getLteOnGsmMode() method (2/2)
-
-Project: frameworks/opt/hardware
- Ricardo Cerqueira - HAF: Add KeyDisabler stub
+ Ricardo Cerqueira - Revert "Apply strict SELinux checking of PROT_EXEC on mmap/mprotect calls."
+ Stephen Smalley - Handle policy reloads within ueventd rather than restarting it.
+ Alex Klyubin - Expose /dev/hw_random to group "system".
+ Stephen Smalley - Add -D option to restorecon for relabeling /data/data.
+ Stephen Smalley - Convert all selinux_android_restorecon and _setfilecon calls to new API.
+ Stephen Smalley - Unify toolbox restorecon and libselinux restorecon implementations.
+ Ricardo Cerqueira - Revert "toolbox: Add levelFromUid categorization support to restorecon"
+ Stephen Smalley - Apply restorecon_recursive to all of /data.
+ Stephen Smalley - Trigger a policy reload from post-fs-data.
+ Stephen Smalley - Move creation of /data/misc/wifi and /data/misc/dhcp to main init.rc file.
+ Stephen Smalley - Move restorecon and restorecon_recursive code to libselinux.
+ Stephen Smalley - Set security context of /adb_keys and /data/misc/adb/adb_keys.
+ Stephen Smalley - Apply strict SELinux checking of PROT_EXEC on mmap/mprotect calls.
+ Stephen Smalley - Run the console service shell in the shell domain.
+ Stephen Smalley - Do not change ownership on /sys/fs/selinux/enforce.
+ Steve Kondik - charger: Query pathmap for recovery headers location
+ Doug Zongker - update minui library call
+ Kenny Root - Add support for ECDSA P-256 with SHA256
 
 Project: frameworks/av
- Dheeraj CVR - libstagefright: bring back mistakenly removed codec quirks
- Pavan Chikkala - audio: Added lock during closing of direct output
- Pawit Pornkitprasan - ifdef "stagefright: Enable GraphicBuffer usage to decoder before querying formats"
- myfluxi - libstagefright: Add NULL check for mHFRRatio
- Ricardo Cerqueira - media_profiles: the HFR parameters don't need to be mandatory
- Steve Kondik - stagefright: Disable HSR for now
- Praveen Chavan - stagefright: Enable GraphicBuffer usage to decoder before querying formats
- Leena Winterrowd - libstagefright: Enable HFR feature for video recording
- Subhash Chandra Bose Naripeddy - libstagefright: Add support for AC3/EC3 playback in tunnel mode
- Haynes Mathew George - AudioTrack: Handle track invalidate on wait for stream done
- quic_mqiu - Revert "Audio: Add Pause/Resume in AMR-WB tunnel recording"
- ApurupaPattapu - libstagefright: Set is_streaming flag for all widevine content
- Krishnankutty Kolathappilly - libmediaplayerservice: Avoid writing silence for offload tracks
- Manikanta Kanamarlapudi - [frameworks/av] : added .mov extension
- Santhosh Behara - libstagefright: fix mute issue for h.264 and MPEG4
- Sidipotu Ashok - libstagefright: Enhance compress offload logging
- ApurupaPattapu - libstagefright: Add support for PCM in offload path
- Arvind Thatikonda - libstagefright : Allow seek in RTSP VOD streaming using Helix Server
- Shalaj Jain - libstagefright: Add custom IOCTL for prefetching CMA data for wv playback
- RonGokhale - add Sony camera parameters
- Haynes Mathew George - AudioTrack: Fix for race condition
- Haynes Mathew George - AudioFlinger: Remove unwanted update of track generation
- Mingming Yin - audio: Add support for tunnel mode recording and compress voip
- Steve Kondik - stagefright: Use pause/flush logic for all targets
- Steve Kondik - stagefright: Various cleanups
- quic_mqiu - Audio: Add Pause/Resume in AMR-WB tunnel recording
- Manikanta Kanamarlapudi - libstagefright: Fix DP Parsing issue with mpeg4 SP,ASP
- Mingming Yin - stagefright: do not offload MAIN-AAC decoding
- Eric Laurent - stagefright: do not offload LD-AAC decoding
- Xiaoqin Yang - libstagefright: fix force close issue when mute MPEG4 clips
- Mingming Yin - libstagefright: Do not offload HEVC AV decoding
- ApurupaPattapu - AwesomePlayer: Enable audio offload for widevine
- Krishnankutty Kolathappilly -  libstagefright: Signal input EOS after last buffer is released
- Surajit Podder - libstagefright: Fix crash during seek
- Manikanta Kanamarlapudi - [libstagefright] : camcorder pause-resume implementation
- Hui (QRD) Yu - Add 2 APIs (suspend/resume) in MediaPlayer
- Surajit Podder - libstagefright: Fix ANR issue in HTTP Streaming
- Vladislav Koldobskiy - Revert "camera: Add a few missing legacy camera params."
- Steve Kondik - audioflinger: Power hints for audio activity
+ Ethan Chen - Camera: Avoid redefinition of ISO params
+ Ethan Chen - Camera: Remove merge artifact
 
 Project: frameworks/native
- Manoj Kumar AVM - sf: Determine if virtual display can use HWC for composition
- radhakrishna - SF: Fix invalid reduction of transparent region from a layer.
- Kyrylo Mikos - [2/2] Speed up booting on multicore devices.
- Flamefire - Do not just silently fail if surface creation fails
- Steve Kondik - surfaceflinger: Conditional compilation for swaprect feature
- Naseer Ahmed - Revert "Add sessionId metadata with every buffer queued through Surface"
- Ramakant Singh - Display: Define new composition type for blit composition
- Arun Kumar K.R - SurfaceFlinger: Change to support framebuffer flip for 2D blitters
- Ramakant Singh - SF: Add flag for swaprect status in HAL
+ Stephen Smalley - Convert all selinux_android_restorecon and _setfilecon calls to new API.
+ Robert Craig - Proper security labeling of multi-user data directories.
+ Stephen Smalley - restorecon /data/media when re-creating it for multi-user upgrade.
+ Robert Craig - Extend installd to support SELinux restorecon function.
 
 Project: frameworks/base
- Ricardo Cerqueira - Keyguard: Fix configuration change observer
- Yamil Ghazi - Catalan translations
- Yamil Ghazi - Give public access to immersive mode static vars
- Jorge Ruesga - FaceUnlock: Check if faceunlock is disabled
- Danny Baumann - Don't recreate keyguard for MCC/MNC changes.
- Danny Baumann - Don't let apps disable the SIM PIN entry screen.
- Timo Wendt - Runtime toggle of navbar
- mik_os - PackageManager: Fix reconnection logic in Installer.
- Dirk Rettschlag - Tethering: fix NPE when retrieving active interfaces
- blackhand1001 - SystemUI: Set Status bar opaque during drawer pulldown on tablets only
- BigBrother1984 - Guidelines cleanup for some immersive stuffs.
- BigBrother1984 - PhoneStatusBar: Use an inline observer instead of a class for battery style.
- Kyrylo Mikos - PhoneWindowManager: add ability to use EdgeGestureService for system gestures.
- kevdliu - Immersive: Fix black bar in some games
- dagix5 - frameworks/base: Day and week on data usage (1/2)
- Kyrylo Mikos - Fix ellipsizing of emoji symbols in StatisLayout.
- TomasValenta - czech translation
- Dirk Rettschlag - Tethering: fix NPE when retrieving active interfaces
- Vikas Reddy Pachika - EncoderCapabilities: Adding HFR entry in EncoderCapabilities and JNI
- Liangcai Li - Service: Keep services needing restart.
- Pawit Pornkitprasan - telephony: disable the use of SMS_EXPECT_MORE by default (1/2)
- mik_os - PackageManager: Fix reconnection logic in Installer.
- dhacker29 - SystemUI: Only show H+ if config_hspa_data_distinguishable is set
- houst0nn - fix msim derps
- AnubhavGupta - Bluetooth: Added new key to store last connected A2dp Sep type
- pramod kotreshappa - Bluetooth: Fix for FileDescriptor leakage causing ANR
- huiy - VideoView: Correct a type error in the previous patch
- Juffin Alex Varghese - Bluetooth-OBEX: Reduce the MTU size if default OBEX MTU > 8k
- Nilesh Poddar - Fix tracking of broadcast reference count
- Michael Bestas - lights: Add music light support (2/2)
- xilence2210 - Remove old phonloc junk
- D4rKn3sSyS - Quicksettings: Better switch effect.
- Liangcai Li - Service: Keep services needing restart.
- Anu6is - Fix: Linked volumes
- BigBrother1984 - Quicksettings: Update immersive IT translations.
- D4rKn3sSyS - Quicksettings: New transition animation.
- xilence2210 - fix merge
- Sangkyu Lee - Fix graphics corruption caused by HWUI caches
- Brice Jaglin - Fixed upgrading from forward-lock application to system application
- lina.x.pi - Release locked buffer when it fails to acquire graphics buffer
- Alexander Toresson - Fix for positioning of glyphs within a bitmap
- gerard - Catalan translation correction
- slickrick - Clean up after QCRIL merge
- xilence2210 - fix build due to last change
- BigBrother1984 - Quicksettings: Bump dual switch icon(s).
- jiaguo - Tethering: Skip link local addresses when enabling NAT
- Lorenzo Colitti - Minor cleanups to NetdCallbackReceiver.onEvent.
- Qiang Chen - Telephony(MSIM): Add control flag for SIM app auto provisioning
- Yashdev Singh - Telephony: Implementation for IWLAN.
- Qiang Chen - Mms: Add interface to support sending sms with origination port
- Zhang Fang - Add config for the expire age of partial segment messages
- Qiang Chen - Update for IP call prefix
- Qiang Chen - Add support for IP call prefix
- Chaitanya Saggurthi - Message priority support for 3gpp2
- lrichard - Ringtone: Add the default ringtone for multi SIMs
- Qiang Chen - Telephony: Set the value of min match according to one property
- Ethan Chen - NetworkController: Hide signal strength icon when no SIM icon is shown
- Suchand Ghosh - Statusbar(MSIM): Do not display data icon if data is not connected.
- Steve Kondik - systemui: Kill logspam
- blong - Telephony(MSIM): Add subscription information for the call log
- Sudheer Reddy Yampalla - Telephony: Add support for tune away and priority sub
- Rakesh Pallerla - Telephony: Modify code to check PUK code length is always 8.
- Uma Maheshwari Bhiram - Fix null pointer exception in PhoneWindowManager
- Ravindra - Remove the incorrect message after 3 wrong PIN attempts
- Sindhu Kanathur - Telephony[MSIM]: Change the package name of NumPadKey.
- blong - Contacts: add the local group info and API
- kaiyiz - Keyguard: PIN lock input views flash when SIM status ready
- kayiz - Lockscreen: Add chinese string for airplane mode
- Suchand Ghosh - SystemUI (MSIM): Fix Airplane mode toggle issue using Quick Access menu.
- Jiju Kinattingal - Telephony: Do not display the data icon if data is not connected.
- Sindhu Kanathur - Telephony(MSIM): Increase the size of cancel button.
- Susheel nyamala - MSIM: Fix for 3G symbol not displayed on T+G issue
- Steve Kondik - telephony: Cleanup after QCRIL merge
- Muhammed Siju - Telephony(MSIM): Fix framework dex2oat failure in ART mode.
- Rakesh Pallerla - Telephony (MSIM): Change the code to use @bool/kg_use_all_caps.
- Sridhar Dubbaka - Telephony: Add 7bit Ascii support for long messages
- Qiang Chen - Mms: Add configuration for sending and receiving Mms with data disabled
- Sukanya Rajkhowa - Add config to send SMS on 1x
- Yashdev Singh - Telephony:Add config item for regular deactivation
- Banavathu Srinivas Naik - Telephony: Do not send Radio Power Off on SIM_RESET
- Rakesh Pallerla - Telephony: Few PIN/PUK fixes
- Susheel nyamala - Fix data disconnect issue on G sub for C+G DSDS
- Alan Wang - Telephony: Ignore the timingAdvance field in SignalStrength
- Chris Lei - Telephony: Update TD-SCDMA Network Type String
- Chaitanya Saggurthi - Add AppOps check for sendTextWithPriority
- Yashdev Singh - Telephony: Handle DATA_CALL_LIST in DCC.
- Rakesh Pallerla - Telephony: Add ME Depersonalization support.
- Rakesh Pallerla - Telephony(MSIM): Add StatusBar support for MultiSim.
- Chaitanya Saggurthi - Telephony(MSIM): MultiSim support for PIN/PUK & Operator Name.
- Chaitanya Saggurthi - Telephony(MSIM): Add support for MultiSim
- Suresh Koleti - Telephony: STK CC feature implementation
- Uma Maheswari Ramalingam - Fix for data and roaming icons
- Susheel nyamala - Update markings for the OMH changes
- Susheel nyamala - Property constants to support OMH
- Garik Badalyan -     CSVT: Introduce Circuit-Switch Video Telephony.
- Alex Yakavenka - Telephony: Add data rat constant
- Rekha Kumar - telephony: IMS changes for VoLTE and VT
- Chaitanya Saggurthi - Telephony: Add TD-SCDMA network modes
- Rika Brooks - Telephony: SMS over IMS
- Alex Yakavenka - Telephony: Add new apn.sim.operator_numeric property
- Rakesh Pallerla - Telephony: Add functionality to handle ICC IO error
- Srikanth Chintala - Telephony: Initialize GsmCellLocation class members properly
- Sandeep Gutta - Telephony: Add Managed Roaming Intent.
- Sandeep Kunta - Telephony: Add support for NETWORK_TYPE_GSM
- Matthias Freund - Android Framework Base: DE translation
- Ying Wang - Fix indirect misuse of $(my-dir).
- houst0nn - Revert "Added sahlnaskh arabic font and give it higher precedence than DroidNaskh"
- houst0nn - Revert "Added sahlnaskh arabic font to Android.mk & fonts.mk files to actually get the font installed"
- Dave Platt - Fix descriptor leak after accepting connections
- slickrick - Revert a few commits
- D4rKn3sSyS - Fix derp on imports
- D4rKn3sSyS - Switch quick settings drag to long click
- Anu6is - Fix: Correct string reference error
- Phil Tunstall - Remove 'Allow custom buttons' checkbox (1/2)
- Vladislav Koldobskiy - Camera button support (1/2)
- David96 - VolumePanel: Don't force navigation bar
- D4rKn3sSyS - Spanish translations
- Anu6is - Disable safe headset volume warning
- xilence2210 - Revert "Lockscreen Notification (1/2)"
- Kyrylo Mikos - [1/2] Speed up booting on multicore devices.
- Pawit Pornkitprasan - PackageManager: fix app lib migration for device with /datadata
- Colin Cross - GpsLocationProvider: look for config file in /etc/gps.<ro.hardware.gps>.conf
- lina.x.pi - Release locked buffer when it fails to acquire graphics buffer
- jiaguo - Tethering: Skip link local addresses when enabling NAT
- Henrik Baard - Structure device not freed in error case
- Manikanta Kanamarlapudi - MediaRecorder: Add pause interface
- Hui (QRD) Yu - VideoView: Implement the suspend/resume operation in VideoView
- Hui (QRD) Yu - Add 2 APIs (suspend/resume) in MediaPlayer
- houst0nn - fix derp in public API
- blunden - Update the color of the expandable volume panel icon
- slickrick - core: bring original volume panel expand icon back
- Kiran Kelageri - Bluetooth: Add Power apply enable event handling
- Srinu Jella - Bluetooth: Handle exceptions for bluetoot socket read
- Kiran Kelageri - Bluetooth: Add SDK apis for Wipower and Peripheral feature
- Minoru Aoi - Fix the issue that the top of fullscreen dialog is clipped away
- Nilesh Poddar - Adjust the index of the ArrayList during iteration
- kaiyiz - NumberPicker: Don't filter Devanagari-Indic characters
- kaiyiz - NumberPicker: Don't filter Bengali-Indic characters
- quic_mqiu - AudioService: add STREAM_DTMF to stream affected by ringer mode
- Xiaocheng Li - audio: Set slient persist property according to ringer mode
- Solomon Sunder - donot translate maps xml file added
-
-Project: bionic
- Josue Rivera - Fix Cortex-a15 compile
- Steve Kondik - libc: Fix memchr inclusion
- Bernhard Rosenkraenzer - Replace Cortex A15 strlen implementation with cortex-strings
- Bernhard Rosenkraenzer - Import memchr implementation from cortex-strings for Cortex A15
- Vince Leung - libc: krait: support KINGFISHER optimized memcpy
-
-Project: hardware/libhardware
- Kiran Kelageri - Bluetooth: Add Wipower power apply events to HAL
- Kiran Kelageri - Bluetooth: Wipower HAL changes
- Sumit Bajpai - BT: Multi HF support in libhardware.
- Sumit Bajpai - BT: Added new file bt_multi_hf.h
- Srinu Jella - Bluetooth: Header file changes to add new APIs for Test APK
- Tatenda Chipeperekwa - libhardware: Define queriable attribute for max. WriteBack width
- Steve Kondik - libhardware: Add audio power hint
-
-Project: hardware/qcom/audio-caf
- ApurupaPattapu - hal: Fix error in log message
- Ricardo Cerqueira - hal: msm8960: Don't even try to calculate a compress-offload buffer
- Krishnankutty Kolathappilly - hal: Fix memory leak in listen module
- Gopikrishnaiah Anandan - mm-audio: Update bitrate based on profile and samplerate
- wjiang - post_proc: send ENABLE_FLAG directly to offload effect driver
- Sidipotu Ashok - hal: Enhance compress offload logging
- Mingming Yin - hal: Fix for down-mixing of multi-ch offload playback
- Mingming Yin - hal: set Dolby DMID for low latency playback
- Krishnankutty Kolathappilly - hal: Update the correct channel count for dolby configuration
- Narsinga Rao Chella - hal: fix a bug introduced as part of changes done for fixing memroy leak
- Krishnankutty Kolathappilly - hal: Fix memory leak in HAL debug logs
- ApurupaPattapu - hal: Add support for PCM in offload path
- Steve Kondik - hal: Port fixes and features to msm8960 variant
- Steve Kondik - hal: Add suport for dedicated VoIP devices
- Apoorv Raghuvanshi - hal: Minor usb stability fix
- Steve Kondik - hal: Remove extra checks for proprietary features
- Pavan Chikkala - audio: Add support for AUXPCM BT
- Pavan Chikkala -  audio: Increase the period size for USB audio
- Gopikrishnaiah Anandan - mm-audio: Fix openmax encoder hang during flush
+ Ricky Salinas - Default EdgeGestureService to off
+ jereksel - Fix CYAN-3555 bug
+ Will Keaney - Avoid collision with RIL constant 1138, used in some Samsung devices for RIL_UNSOL_TETHERED_MODE_STATE_CHANGED. Needs http://review.cyanogenmod.org/#/c/61292/ Thanks to iptux on XDA for pointing out the change in constants between CM-10.2 and CM-11.0.
+ Michael Bestas - Core/Keyguard: Cleanup CAF additions
+ dhacker29 - msim: Add support for H+ icons
+ Stephen Smalley - Convert all selinux_android_restorecon and _setfilecon calls to new API.
+ Robert Craig - Allow PMS to restorecon directories under /data.
+ Robert Craig - Augment SELinuxMMAC functionality.
+ Xiao-Long Chen - [1/4] Dialer lookup
 
 Project: hardware/qcom/display-caf
  xilence2210 - fix -fno-strict-aliasing
  Jeykumar Sankaran - hwc: Crop source rect for the optimized destination
  Jeykumar Sankaran - hwc: Add deduction operation to Rect utils
- Baldev Sahu - hwc_copybit: wait on fb target acquire fence before composition
- Baldev Sahu - hwc: Do not use copybit if planeAplha and downscaling invloved
- Baldev Sahu - hwc: remove waiting for fence in copybit and avoid sending to mdp
- Baldev Sahu - hwc: Reset layer composition to GLES if copybit fails
- Baldev Sahu - hwc: Enabled COPYBIT for UI layers in VideoOnly composition
- radhakrishna - display : Add wormholeRegion Calculation
- Justin Philip - liboverlay: Correctly roundoff the Downscale factor
- Arne Coucheron - Revert "overlay: Add tolerance to downscale factor"
- Justin Philip - libhwcomposer: Synchronize Uevent and Composition threads
- Baldev Sahu - gralloc: Set default value for implementation defined formats
- Raj Kamal - Invoke a padding round in certain use-cases.
- Justin Philip - liboverlay: Rotator hangs on playing VP9 tile encoded video
- Colin Cross - libmemtrack: Fix compilation warning error
-
-Project: hardware/qcom/media-caf
- Maheshwar Ajja - mm-core: initial video bring-up on 8x55 target
- xilence2210 - fix strick aliasing
-
-Project: hardware/qcom/fm
- Eddy Witkamp - fmapp2: NL translation
- Lorenzo M - fm2app: ES translations
- isimobile - qcom_fm: Af Translations
- Eddy Witkamp - FMRecord: NL transation
-
-Project: hardware/qcom/audio
- Ricardo Cerqueira - hal: Apply TMobile US voice paths to Google products only
- Steve Kondik - hal: Various USB audio fixes
+ Steve Kondik - Enable build with postproc if requested
 
 Project: hardware/ril
- Ricardo Cerqueira - More compatibility for renamed macros...
- Yashdev Singh - Telephony: Implementation of IWLAN.
- Ricardo Cerqueira - rild: Don't use the clientId argument with non-qcom hardware
+ Dave Carey -  hardware: ril: Avoid collision with RIL constant 1138
 
-Project: hardware/libhardware_legacy
- Chris Soyars - Revert "audio: Fix check for sonification on digital docks"
-
-Project: hardware/ti/wlan
- Michael Bestas - Use AOSP version of wpa_supplicant_lib
+Project: device/lge/gee-common
+ Jake W - gee-common: EGL update
+ xilence2210 - update prop
+ xilence2210 - Fix permission of cmdline
 
 Project: device/lge/geehrc
- xilence2210 - Fix cmhw path
- xilence2210 - Fix global audio fx
- Ricardo Cerqueira - Make the KeyDisabler available
- xilence2210 - Fix for cwm recovery
- xilence2210 - Revert "Enable Lockscreen notification dynamic width"
+ xilence2210 - Revert "use gee vendor"
+ xilence2210 - use gee vendor
+ xilence2210 - clean some repo
 
 Project: device/lge/gee
- xilence2210 - fix repository path
- xilence2210 - cleanup dependencies
- Jake W - Update pa.dependencies
-
-Project: device/qcom/common
- Ethan Chen - qcom-common: Fix dtbTool code formatting
- David Ng - qcom/common: add dtbtool
-
-Project: kernel/lge/gproj
- Ricardo Cerqueira - lge_touch_core: Allow disabling the nav keys
-
-Project: kernel/lge/gee
- Jake Weinstein - defconfigs: Update
- Jake Weinstein - Compressed: Add cortex-a15 opt to makefile
- Dennis Rassmann - fix gcc4.7 compile
- Jake Weinstein - Defconfigs: Auto brightness fix (thanks Paulicat)
- Jake Weinstein - defconfigs: Enable GPU Kcontrol module
- Jake Weinstein - GPU: Add ShowP1984's Kcontrol module
- mrg666 - ARM: 7587/1: implement optimized percpu variable access
- Jake Weinstein - Revert "arm: Use generic idle thread allocation"
- Jake Weinstein - Revert "ARM: 7587/1: implement optimized percpu variable access"
- Jake W - Sched: disable gentle fair sleepers
- Sebastian Andrzej Siewior - crypto: arc4 - now arc needs blockcipher support
- Jussi Kivilinna - crypto: arc4 - improve performance by using u32 for ctx and variables
- Jussi Kivilinna - crypto: arc4 - improve performance by adding ecb(arc4)
- Hugh Dickins - tmpfs: support fallocate FALLOC_FL_PUNCH_HOLE
- Hugh Dickins - tmpfs: optimize clearing when writing
- Hugh Dickins - tmpfs: enable NOSEC optimization
- Michel Lespinasse - rwsem: do not block readers at head of queue if other readers are active
- Michel Lespinasse - rwsem: implement support for write lock stealing on the fastpath
- Michel Lespinasse - rwsem: simplify __rwsem_do_wake
- Michel Lespinasse - rwsem: skip initial trylock in rwsem_down_write_failed
- Michel Lespinasse - rwsem: avoid taking wait_lock in rwsem_down_write_failed
- Michel Lespinasse - rwsem: use cmpxchg for trying to steal write lock
- Michel Lespinasse - rwsem: more agressive lock stealing in rwsem_down_write_failed
- Michel Lespinasse - rwsem: simplify rwsem_down_write_failed
- Michel Lespinasse - rwsem: simplify rwsem_down_read_failed
- Michel Lespinasse - rwsem: move rwsem_down_failed_common code into rwsem_down_{read,write}_failed
- Michel Lespinasse - rwsem: shorter spinlocked section in rwsem_down_failed_common()
- Michel Lespinasse - rwsem: make the waiter type an enumeration rather than a bitmask
- Alex Shi - rwsem: Implement writer lock-stealing for better scalability
- Yuanhan Liu - rwsem-spinlock: Implement writer lock-stealing for better scalability
- Will Deacon - ARM: 7592/1: nommu: prevent generation of kernel unaligned memory accesses
- Rob Herring - ARM: 7492/1: add strstr declaration for decompressors
- Sooraj - lcd_calibration: iP5 calibration Signed-off-by: Sooraj <soorajj@me.com>
- Will Deacon - ARM: rwsem: use asm-generic rwsem implementation asm-generic offers an atomic-add based rwsem implementation, which can avoid the need for heavier, spinlock-based synchronisation on the fast path.
- Will Deacon - asm-generic: rwsem: de-PPCify rwsem.h
- Will Deacon - asm-generic: rwsem: ensure sem->cnt is only accessed via atomic_long_*
- mrg666 - ARM: 7587/1: implement optimized percpu variable access
- Jake Weinstein - arm: Use generic idle thread allocation
- mrg666 - qseecom: Fix race condition when loading app When two clients issue a 'qseecom_start_app' request to load and start the same app, check_if_app_exist() call may return an incorrect status of the app to have been already loaded.
- mrg666 - qseecom: Return failure if TZ version is incorrect
- mrg666 - qseecom: Add clk gating
- Hariprasad Dhalinarasimha - qseecom: Release the memory after processing INCOMPLETE_CMD
- mrg666 -  qseecom: Process incomplete load app command
- Mona Hossain - qseecom: Fix memory leak when __check_if_app_exist() fail
- mrg666 - qseecom: Tie performance request to client handle When a user space client application crashes without disabling clk vote,  there is a possibiltity of crypto HW being left at its high bandwidth mode.  This results in power drain.
- Mona Hossain - qseecom: Add clk management
- mrg666 - qseecom: Add support for loading commonlib image
- mrg666 - qseecom: Remove support for QSEOS_VERSION_TZ13 Remove support for interfacing with TZ version 1.3. The support for this is deprecated.
- mrg666 - crypto: msm: update from CAF kk_3.5_rb2.9
- Jake Weinstein - Makefile: No more unsafe math optimizations
- morfic - Parking this WIP to catch up thermald and mpdecision removal first.
- morfic - Usual ondemand setup.
- Jake Weinstein - Fix Touch redefinitions
- Jake Weinstein - Touchscreen: Remove Redefinitions in Kconfig
- Dennis Rassmann - drivers/input/touchscreen/lge_touch_core: fix ifdef, fixes dt2w without s2w
- Jake Weinstein - Revert "mfd: pm8xxx-misc: Add API to read PMIC registers"
- Jake Weinstein - defconfigs: Disable 802.11AC and VOWIFI since we don't have the HW for that
- anarkia1976 - Revert "prima: add WAKE_UP_IDLE routine"
- faux123 - touchscreen: tweak some initialization parameters for better UI response
- Jake Weinstein - defconfigs: Switch back to Bricked Thermal
- Jake Weinstein - Revert "Intelli-Thermal added"
- Dennis Rassmann - drivers/input/touchscreen/lge_touch_core: release all touchscreen events when going to sleep
- Dennis Rassmann - drivers/input/touchscreen/lge_touch_core: Add prevent_sleep functionality
- Dennis Rassmann - drivers/input/touchscreen/sweep2wake: Fix compilation with earlysuspend
- Dennis Rassmann - drivers/input/touchscreen/doubletap2wake: Fix compilation with earlysuspend
- Dennis Rassmann - driver/input/touchscreen: add new s2w & dt2w implemenation from hammerhead
-
-Project: kernel/samsung/tuna
- Bruno Randolf - bcmdhd: workaround broken AC video queue in IBSS mode
+ xilence2210 - dependecies: Do some clean
 
 Project: manifest
- slickrick - Remove QuickSearchBox from manifest
- houst0nn - Track some packages from CM
- xilence2210 - add qcom/commom
- xilence2210 - track fm
- xilence2210 - fix merge derp
- slickrick - Clean up after QCRIL merge
- Steve Kondik - Add telephony-msim to the build
-
-Project: art
- xilence2210 - Remove mokee location from black list
+ xilence2210 - add missing pj
+ Ricky Salinas - Track repos for CM's bootable/recovery
+ xilence2210 - track back cm bionic
+ houst0nn - Track our own bootable_recovery
+ houst0nn - Track CM CellBroadcastReceiver
 
 ---------------------------------------------------------------
 You can see more changelog from http://github.com/RemixPA
