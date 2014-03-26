@@ -1,0 +1,33 @@
+TODO list for RemixPA
+date: 2014-03-26 23:53
+
+frameworks/base: 
+    Fix on-screen navbar and make it compatable with immersive mode(pie)
+
+Dialer:
+    Improve number lookup for better experience.
+    Enable translucent bar
+
+Calendar:
+    lunar calendar for Chinese users(this might take a long time to pending)
+    Enable translucent bar
+
+Trebuchet:
+    Icon pack support
+    Drawer toggle
+    complete translation
+
+Mms:
+    Enable translucent bar
+
+Settings:
+    New UI (pending you know..)
+
+IncallUI
+    Enable translucent bar
+    New UI (pending you know x2)
+    
+DownloadUI
+    complete translation
+
+    
