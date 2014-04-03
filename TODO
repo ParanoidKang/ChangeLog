@@ -2,7 +2,7 @@ TODO list for RemixPA
 date: 2014-03-26 23:53
 
 frameworks/base: 
-    Fix on-screen navbar and make it compatable with immersive mode(pie)
+    // Fix on-screen navbar and make it compatable with immersive mode(pie) -- likely done
 
 Dialer:
     Improve number lookup for better experience.
@@ -13,9 +13,9 @@ Calendar:
     Enable translucent bar
 
 Trebuchet:
-    Icon pack support
-    Drawer toggle
-    complete translation
+    // Icon pack support -- done
+    // Drawer toggle -- done
+    // complete translation -- done
 
 Mms:
     Enable translucent bar
