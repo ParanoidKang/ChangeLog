@@ -1,144 +1,539 @@
-RemixPA Changelog from 03/19/2014 - 03/23/2014
+RemixPA Changelog from 03/30/2014 - 04/22/2014
 ---------------------------------------------------------------
 
 Project: packages/services/Telephony
- xilence2210 - Forward Lookup: Add Baidu Provider (2/2)
- xilence2210 - zh-rCN: Update translation
- Xiao-Long Chen - [2/4] Dialer lookup
+ Steve Kondik - telephony: Disable MSIM settings if unavailable
+ Michael Bestas - Telephony: Shorten some strings
+
+Project: packages/apps/BluetoothExt
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Initial translation import
+
+Project: packages/apps/ContactsCommon
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Initial translation import
+
+Project: packages/apps/Bluetooth
+ Steve Kondik - Revert "BT: Multi HF support in Bluetooth App."
+ Steve Kondik - Revert "BT: HFP: Start DIALING_OUT_TIMEOUT for correct matching device"
+ Andrew Wyman - CYAN-3187: Bluetooth MAP SMS reciept sending entire phone number list
 
 Project: packages/apps/Settings
- xilence2210 - zh-rCN: update translation
- Jorge Ruesga - AccountPreference: Sync in progress accessibility status
- dhacker29 - Don't hide baseband on dual sim devices
- xilence2210 - ButtonSettings: Fix up button backlight restore after reboot
- dhacker29 - Don't hide baseband on dual sim devices
- dhacker29 - Look for the msim settings in the new location deviceinfo/msim
- houst0nn - Settings: default EdgeGesture service preference to false
+ xilence2210 - LockscreenNotification: update default value
+ xilence2210 - Bring back Lockscreen notification (2/2)
+ Danny Baumann - Make phone status string translatable.
+ Steve Kondik - Revert "BT: Multi HF support in Settings App."
+ xilence2210 - Device name customize (2/2)
+ Lars Greiss - Settings: SlimRecents scaling + lefty mode (3/3)
+ Steve Kondik - settings: Make mobile settings a first-class citizen
+ Brian Resnik - Changed "Wake on plug" description...
+ xilence2210 - HardwareKey: fix array values to avoid fc
+ xilence2210 - Revert "[3/3] Settings: Built-in superuser"
+ xilence2210 - Revert "SuperSU: Cleanup change to superuser"
+ xilence2210 - Revert "Settings: Replace SuperSu with Superuser"
+ Silver Hu - Add zh-rCN Translation
+ Danil K - Settings: Add RU translations
+ veteran29 - Settings: Polish translation for pa_strings.xml
+ cristianomatos - Settings: PT-BR translations
+ fuzz - SoundSettings: Assigning a null to an unnecessary variable
+ houst0nn - Battery LED: put a state summary (enable/disable)
+ xilence2210 - don't build test apk
+ houst0nn - Settings: Replace SuperSu with Superuser
+ xilence2210 - fix derps due to last change
+ xilence2210 - Revert "Bring back Lockscreen notification (2/2)"
+ xilence2210 - Revert "LockscreenNotification: update default value"
+ cristianomatos - Notification LED: put a state summary (enable/disable)
+ Ethan Chen - Buttons: Prevent toggling disable hardware keys too quickly
+ Anu6is - SuperSU: Cleanup change to superuser
+ Eddy Witkamp - Settings: Set untranslatable
+ Roman Birg - Settings: Integrate Voice+ into Settings (1/2)
+ xilence2210 - Fix Backlight finally
+ Jorge Ruesga - Settings: Fix aapt locale set caused by SuperUser
+ Michael Bestas - Settings: EL AOSP translation fixes
+ xilence2210 - LockscreenNotification: update default value
+ Michael Bestas - Settings: EL AOSP translation fixes
+ xilence2210 - BatteryPulse: fix default value
+
+Project: packages/apps/DSPManager
+ Ethan Chen - dsp: don't read off the end of the data array
+
+Project: packages/apps/Calculator
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Initial translation import
+
+Project: packages/apps/InCallUI
+ Vladislav Koldobskiy - InCallUI: Modify AOSP RU translation
 
 Project: packages/apps/Camera2
- Ethan Chen - Camera2: Add 50MP, 37.5MP resolution entry
+ xilence2210 - update
+
+Project: packages/apps/Browser
+ Pawit Pornkitprasan - Browser: fix crash updating recycled favicon
+ Michael Bestas - Automatic translation import
+ Jorge Ruesga - browser: allow to load browser internal assets
+
+Project: packages/apps/Trebuchet
+ Michael Bestas - Trebuchet: Fix capitalization of some strings
+ xilence2210 - merge upstream
+ Michael Bestas - Automatic translation import
+ Steve Kondik - Oh hey there.
+ Michael Bestas - Automatic translation import
+ Flamefire - Fix displaying of the sort order
+ Danesh Mondegarian - Trebuchet : Fix search bar icon/text disapearing
+ xilence2210 - Drawer: Add toggle to disable drawer
+ xilence2210 - Icon Pack: bring back icon pack and update translation
+ xilence2210 - init translation for zh-rCN
+ Michael Bestas - Initial translation import
+ Danesh Mondegarian - Trebuchet : Check if target is null for cancelled events
 
 Project: packages/apps/Dialer
- xilence2210 - Baidu Lookup: Improve lookup
- xilence2210 - Forward Lookup: Add Baidu Forward Lookup Provider (1/2)
- xilence2210 - update strings
- xilence2210 - Chinese T9 support
- xilence2210 - add isChinese function
+ Chintan Shah - Round overflow icns
+ Pawit Pornkitprasan - Dialer (MSIM): display all IMEI/MEID for *#06#
 
 Project: packages/apps/Lightbulb
- elibl - Lightbulb: german translation
+ veteran29 - Lightbulb: Polish translation
+ cristianomatos - Lightbulb: PT-BR translations
+ Vincent KULAK -  Lightbulb: Fix Fr Translation
+ SferaDev - Lightbulb: Add RU translation
+ Evan Anderson - Drawables: update ic_stat_torch
+
+Project: packages/apps/Mms
+ Mahdi-Rom - Update list_selected_holo_light drawables thanks to rush25
+ Valerio Pilo - QuickMessagePopup: pager fix on multiple messages.
+ Michael Bestas - Mms: Move Mark as unread strings to the correct places
+ Vladimir Vainer - Implement SMS mark for unread (Cyan-348)
+
+Project: packages/apps/Gallery2
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Fix for crowdin
+
+Project: packages/apps/Email
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Jorge Ruesga - email: add support for Server Name Indication (SNI)
+ Michael Bestas - Initial translation import
+ Jorge Ruesga - Revert "email: add support for Server Name Indication (SNI)"
+
+Project: packages/apps/Calendar
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Initial translation import
+
+Project: packages/apps/ParanoidOTA
+ Alexis Rico - OTA: Update Note 8.0 variants
+ Joe Wooster - Add honami (Xperia Z1) to OTA
+ ayysir - Update dictionary.properties
+ veteran29 - ParanoidOTA: Polish translations
+ warren - Add hikari (Xperia Acro S) device to OTA
+ ayysir - Update dictionary.properties
+ cristianomatos - ParanoidOTA: PT-BR translations
+ SferaDev - ParanoidOTA: Add RU translation
+ xilence2210 - RemixPA: fix error message display
+ ale8530 - Paranoid OTA:Update Fix IT Translation
+ filippofavaro - IT translation
+ ale8530 - Paranoid OTA:Update Fix IT Translation
+ xilence2210 - RomUpdater: abandoned LegacyServer
+ ayysir - Update dictionary.properties
+ Yamil Ghazi - Clean dos carriage returns
+ filippofavaro - IT translation
+ Parthipan Ramesh - Fix/Improvement: add touch cancel event on item + code cleanup
+ Yamil Ghazi - Clean dos carriage returns
+
+Project: packages/apps/Stk
+ Michael Bestas - Automatic translation import
+
+Project: packages/providers/DownloadProvider
+ Michael Bestas - Automatic translation import
+ qqzhou - [2/2] DownloadProvider: DownloadManager: add support pause/resume/stop notifications
+ Anu6is - DownloadProvider: Standardize notifications
+ bvx89 - DownloadProvider: Normal notification for singles
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Initial translation import
+
+Project: external/busybox
+ Tanguy Pruvot - touch -h: quickfix for bionic
+ Tanguy Pruvot - update config for 1.22.1, add F2FS volume_id support
+ Denys Vlasenko - zcat: complain if input is not compressed
+ Denys Vlasenko - libbb: open_zipped() should not fail on non-compressed files
+ Denys Vlasenko - nc: fix option bit positions. Closes 6926
+ Eugene Rudoy - iplink: fix build with kernel versions prior to 2.6.23
+ Denys Vlasenko - libbb: fix parsing of "10101010" date/time form
+ Denys Vlasenko - ash: in bash compat mode, always export $SHLVL
+ Denys Vlasenko - libarchive: open_zipped() does not need to check extensions for e.g. gzip
 
 Project: external/libphonenumber
- xilence2210 - update to Feb db
+ xilence2210 - update latest db and fix derp
+ xilence2210 - update latest db
 
 Project: external/sepolicy
- Steve Kondik - sepolicy: Fix more denials
- Stephen Smalley - Get rid of separate download_file type.
- jaejyn.shin - Adding permissions needed to remove cache
- Stephen Smalley - Get rid of separate platform_app_data_file type.
- Ricardo Cerqueira - Let installd relabel the lib symlinks
- Takeshi Aimi - Make bluetooth, nfc, radio and shell adb-installable
- Stephen Smalley - Allow installd to restorecon /data/data.
- Steve Kondik - sepolicy: Allow vold to use rootfs entrypoint
- Stephen Smalley - Add a domain for the recovery console.
+ Stephen Smalley - Move audio_firmware_file and /data/misc/audio entry to core sepolicy.
+ Geremy Condra - Fix denials encountered while getting bugreports.
+ Nick Kralevich - Allow apps to execute app_data_files
+ Stephen Smalley - Isolate untrusted app ptys from other domains.
+ Stephen Smalley - Make sure exec_type is assigned to all entrypoint types.
+ William Roberts - Start confining ueventd
+ Nick Kralevich - sysfs_devices_system_cpu should be a sysfs_type
 
-Project: vendor/samsung
- Arne Coucheron - serrano: Consolidate and update blobs
+Project: external/skia
+ xilence2210 - Revert "New Theme Engine [3/6]"
+ Andy Mast - New Theme Engine [3/6]
 
-Project: vendor/lge1
- Ricardo Cerqueira - v500: Updated adreno
+Project: external/bluetooth/bluedroid
+ Steve Kondik - Revert "BT: Multi HF support in bluedroid stack."
+
+Project: external/openssl
+ Dr. Stephen Henson - Add heartbeat extension bounds check.
+
+Project: external/chromium_org/third_party/openssl
+ Dr. Stephen Henson - Add heartbeat extension bounds check.
+
+Project: external/koush/Superuser
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Initial translation import
+
+Project: vendor/lge
+ xilence2210 - Update d802 and hammerhead
+ xilence2210 - Imporve recovery compatability (proprietary part)
 
 Project: vendor/pa
- elibl - Initial setup for a510 and a700
- SferaDev - vendor: Add GT-N5110 support (Note 8.0 Wifi)
- SferaDev - vendor: Add GT-N5110 support (Note 8.0 Wifi)
- Joe Wooster - Add support for odin (Xperia ZL)
- Ricardo Cerqueira - Revert "Add SELinux filesystem relabeling to init"
+ ayysir - DAT 4.2 Beta 5
+ xilence2210 - fix missing  geehrc support
+ houst0nn - Add HTC One M7 Verizon & Sprint
+ Michael Gernoth - apns: remove default- and dun-types for Verizon MMS 31x/48x
+ Shareef Ali - Revert "apns: Add type default for Sprint."
+ Samir Ibradžić - Softbank carrier overlay that fixes Mms User Agent for both Mms.apk & Hangouts
+ xilence2210 - Revert "PA-Vendor: Built-in superuser"
+ Joe Wooster - Add support for honami (Xperia Z1)
+ ayysir - a700 & a510: fix bootanimation
+ Steve Kondik - cm: sepolicy: Allow ueventd to load WiFi and audio firmware
+ Steve Kondik - cm: sepolicy: Allow ueventd to properly handle cpufreq changes
+ BigBrother1984 - 4.2 BETA4
+ houst0nn - build CellBroadcastReceiver
+ Parthipan Ramesh - PA-Vendor: Built-in superuser
+ ayysir - add Motorola OMAP4 devices -edison (Atrix 2 MB865) -maserati (Droid 4 XT894) -spyder (Droid RAZR XT912) -targa (Droid Bionic XT875) -umts_spyder (RAZR XT910)
+ ayysir - Add jem & jemlte  (Amazon Kindle Fire HD 8.9)
+ ayysir - add Moto G (falcon, non-dual sim)
+ ayysir - Add tate (Amazon Kindle Fire HD 7)
+ ayysir - add Xperia Acro S (hikari) & Xperia S (nozomi)
+ ayysir - Add Samsung Galaxy Mega 6.3 GSM Version GT-I9200
+ BigBrother1984 - 4.2 BETA4
+ houst0nn - build CellBroadcastReceiver
+ Parthipan Ramesh - PA-Vendor: Built-in superuser
+ BigBrother1984 - 4.2 BETA4
+ alteredlikeness - add Motorola OMAP4 devices -edison (Atrix 2 MB865) -maserati (Droid 4 XT894) -spyder (Droid RAZR XT912) -targa (Droid Bionic XT875) -umts_spyder (RAZR XT910)
+ xilence2210 - add hammerhead support
+ jb2kred - Add jemlte (Amazon Kindle Fire HD 8.9)
+ Ayysir - Add jem (Amazon Kindle Fire HD 8.9)
+ ayysir - add Moto G (falcon)
+ elibl - Add tate (Amazon Kindle Fire HD 7)
+ ayysir - add Xperia Acro S (hikari) & Xperia S (nozomi)
+ Silesh K Nair - Add Samsung Galaxy Mega 6.3 GSM Version GT-I9200
+ Lalit Maganti - pa: add mint (Xperia T)
+ ayysir - update Supersu
+ ayysir - DAT 4.2 Beta 3
+ Dan Pasanen - vendor/cm: add more verizon apns
 
 Project: build
- Brint E. Kriebel - releasetools: don't create prebuilt_dir path if it exits
- Ricky Salinas - Add support for CM's bootable/recovery
+ xilence2210 - Revert "Port Pngcrusher from mokee"
+ Michael Bestas - build: Disable languages that have no translations
+ xilence2210 - Getdevice: Fix device check logic
+ xilence2210 - Log: Fix date specify and some text changes
+ Michael Bestas - build: Re-enable Sinhala language
+ Stefan Walter - Wrong product package: Gallery was replaced by Gallery2
+ Tom Marshall - build: edify: use set_metadata for backuptool
+ Dominik Marszk - roomservice: Add -f and --no-clone-bundle flags to repo sync
+ Brint E. Kriebel - releasetools: Add radio images to fastboot packages
+ Michael Bestas - build: Disable Punjabi & Sinhala languages
+ Evan Anderson - TEMPORARY: Remove supersu backup script
+ xilence2210 - Add getdevice funtion for RemixPA
+ Brint E. Kriebel - releasetools: use variable instead of fixed name for bootable image
+ Michael Bestas - build: Add support for Luxembourgish
 
 Project: bootable/recovery
- Steve Kondik - recovery: Compatibility with upstream minui change
+ Matt Mower - Version 6.0.4.8
+ M1cha - dualboot: handle 'format_device'
+ M1cha - dualboot: add menu item under advanced to set bootmode - also refresh dualboot entries everytime before calling 'get_filtered_menu_selection'   to sync changes
+ M1cha - dualboot: add truedualboot support
+ M1cha - allow changing menu color
+ M1cha - add basic support for native dualboot
+ M1cha - mounts: add find_mounted_volume_by_real_node this function finds a mounted volume by the real device node(resolved symlink)
+ M1cha - allow using custom recovery_ui.c
+ philz-cwm6 - loki updates:
+
+Project: system/netd
+ Boxiang Pan - Netd: Do not reset routing policies
+ Subash Abhinov Kasiviswanathan - netd: Use append to add routes to secondary routing table
+ Boxiang pan - RouteController: use fixed priority for ip rule
 
 Project: system/vold
- JP Abgrall - Avoid segv by checking argc in "storage user <mountpoint>"
- Stephen Smalley - Convert all selinux_android_restorecon and _setfilecon calls to new API.
- Robert Craig - Add SELinux restorecon calls on ASEC containers.
+ sndnvaps - Add missing head sys/types.h to Volume.h  Fix compile error of build with C++
+ Dinesh K Garg - Adding support of dm-req-crypt
 
 Project: system/extras
- Pawit Pornkitprasan - ext4_utils: fix utility build (libmincrypt)
+ JP Abgrall - ext4_utils: don't leave bad image file in case of error
+ Geremy Condra - Set s_flags to 2 to prevent a write on first mount.
+ Colin Cross - make_ext4fs: fix block allocation to be best-fit
 
 Project: system/core
- Ricardo Cerqueira - Revert "Apply strict SELinux checking of PROT_EXEC on mmap/mprotect calls."
- Stephen Smalley - Handle policy reloads within ueventd rather than restarting it.
- Alex Klyubin - Expose /dev/hw_random to group "system".
- Stephen Smalley - Add -D option to restorecon for relabeling /data/data.
- Stephen Smalley - Convert all selinux_android_restorecon and _setfilecon calls to new API.
- Stephen Smalley - Unify toolbox restorecon and libselinux restorecon implementations.
- Ricardo Cerqueira - Revert "toolbox: Add levelFromUid categorization support to restorecon"
- Stephen Smalley - Apply restorecon_recursive to all of /data.
- Stephen Smalley - Trigger a policy reload from post-fs-data.
- Stephen Smalley - Move creation of /data/misc/wifi and /data/misc/dhcp to main init.rc file.
- Stephen Smalley - Move restorecon and restorecon_recursive code to libselinux.
- Stephen Smalley - Set security context of /adb_keys and /data/misc/adb/adb_keys.
- Stephen Smalley - Apply strict SELinux checking of PROT_EXEC on mmap/mprotect calls.
- Stephen Smalley - Run the console service shell in the shell domain.
- Stephen Smalley - Do not change ownership on /sys/fs/selinux/enforce.
- Steve Kondik - charger: Query pathmap for recovery headers location
- Doug Zongker - update minui library call
- Kenny Root - Add support for ECDSA P-256 with SHA256
+ dhacker29 - Add Nokia vendor ID to adb and fastboot
+ Tom Marshall - adb: Do not look for bu in /system/bin when in recovery mode
+ Michael Bestas - Revert "init: Fix serial number display for semc msm7x30 devices"
+ Steve Kondik - charger: Underp the backlight
+ Kun Liang - QuickBoot: Charger: add parameter to support QuickBoot mode
+
+Project: frameworks/opt/cards
+ Lars Greiss - Cardslib: do not pass trough touch event to gesture listener during swipe
+ Lars Greiss - Cardslib: CardsListView allow to touchevents from swipetodismiss for gesture events
+ Lars Greiss - push to 1.5.0 release
+ Lars Greiss - Fix new import RTL/LTR
+ gabrielemariotti - LIB: Fixed Overflow animation button
+ gabrielemariotti - LIB: kitkat styles
+ gabrielemariotti - LIB: Added the method getCardThumbnailView in CardThumbnail
+ gabrielemariotti - LIB: Added a ForegroundLayout
+ gabrielemariotti - LIB: Added a ForegroundLayout
+ gabrielemariotti - Cleanup
+ gabrielemariotti - LIB: Added a custom scrollListener for ListView and Swipe #98
+ gabrielemariotti - LIB: Added `ViewToClickToExpand.setupCardElement()` to enable the expand/collapse action on the default card elements
+ gabrielemariotti - LIB: Added a flag to disable the broadcast in CardThumbnail
+ gabrielemariotti - LIB: DismissAnimation
+ gabrielemariotti - #Fixed #104
+ gabrielemariotti - LIB: Expand action for cursorAdapter
+ gabrielemariotti - LIB: Expand action for cursorAdapter
+ gabrielemariotti - Fixed log on CardListView
+ gabrielemariotti - Fixed call with a ViewToClickToExpand()
+
+Project: frameworks/opt/telephony-msim
+ dhacker29 - Do not show new card dialog if config_auto_provision_enable is set
+
+Project: frameworks/opt/telephony
+ Ricardo Cerqueira - DcTracker: wait for default apn to disconnect before setting up new
+ Shareef Ali - SamsungQualcommRIL: fix power on and off state
+ Michael Bestas - Remove SemcQualcomm7x30RIL
+ Shareef Ali - DCTracker: upgrade stubbed apn to Qcril Standard.
+ Shareef Ali - Telephony: Bring back older IMSI method for legacy RIL
+ Shareef Ali - Telephony: DcTracker: Fix CDMA APN Data issues.
+ Pawit Pornkitprasan - SamsungExynos4RIL: buffer CAT Proactive Command
+ Shareef Ali - Telephony: Allow ruim to fetch in CDMA LTE mode
+ dhacker29 - Fix Samsung STK code for msim
+
+Project: frameworks/opt/connectivity
+ Nilesh Poddar - Update the proxy when default interface is down.
 
 Project: frameworks/av
- Ethan Chen - Camera: Avoid redefinition of ISO params
- Ethan Chen - Camera: Remove merge artifact
+ Praveen Chavan - stagefright: enable traces for performance debugging
+ Steve Kondik - stagefright: Remove dead code
+ Divya Narayanan Poojary - audio: calculate mute duration using getOutputLatency
+ Vineeta Srivastava - Fix kAutoRampDurationUs overflow issue
+ Leena Winterrowd - stagefright: Handle missing text track language
+ Divya Narayanan Poojary - audio: mute duration at the beginning of recording
+ Haynes Mathew George - AudioTrack: When paused, return cached playback position
+ wjiang - audioflinger: forward device change to effects in direct thread
+ Ravi Kumar Alamanda - stagefright: Correct the updation of extension sample rate
+ ApurupaPattapu - libmedia: Set the correct audio latency in offload mode
+ Haynes Mathew George - audioflinger: OffloadThread fix for resume underrun
+ Abhishek Pant - Framework: Fixing media server crash.
+ Haynes Mathew George - AudioFlinger: Introduce CBLK_STREAM_FATAL_ERROR flag
+ Krishnankutty Kolathappilly - libmediaplayerservice: Fix bug due to operator precedence
+ vivek mehta - libstagefright: mkv parser: check for divx format
 
 Project: frameworks/native
- Stephen Smalley - Convert all selinux_android_restorecon and _setfilecon calls to new API.
- Robert Craig - Proper security labeling of multi-user data directories.
- Stephen Smalley - restorecon /data/media when re-creating it for multi-user upgrade.
- Robert Craig - Extend installd to support SELinux restorecon function.
+ Omprakash Dhyade - SF: Add known programs to cache.
+ Ramkumar Radhakrishnan - egl: Addition of eglGpuPerfHintQCOM
+ Jeykumar Sankaran - frameworks/native: Propagate dirty region in hwc_layer
+ Steve Kondik - Revert swaprect feature for new upstream implementation.
 
 Project: frameworks/base
- Ricky Salinas - Default EdgeGestureService to off
- jereksel - Fix CYAN-3555 bug
- Will Keaney - Avoid collision with RIL constant 1138, used in some Samsung devices for RIL_UNSOL_TETHERED_MODE_STATE_CHANGED. Needs http://review.cyanogenmod.org/#/c/61292/ Thanks to iptux on XDA for pointing out the change in constants between CM-10.2 and CM-11.0.
- Michael Bestas - Core/Keyguard: Cleanup CAF additions
- dhacker29 - msim: Add support for H+ icons
- Stephen Smalley - Convert all selinux_android_restorecon and _setfilecon calls to new API.
- Robert Craig - Allow PMS to restorecon directories under /data.
- Robert Craig - Augment SELinuxMMAC functionality.
+ xilence2210 - Lockscreen Notification (1/2)
+ xilence2210 - fix merge derp
+ xilence2210 - PIE: Disable orientation sensor when we don't need it
+ qqzhou - Download: add to support pause/resume download by manual
+ Martin Wallgren - Parallel shutdown
+ Nicolai Ehemann - fix WRITE_SETTINGS to be "dangerous"
+ Sachin Sharma - Fix setSurfaceTexture to handle surface caching
+ Sun Junwen - Fix very long app_name crash.
+ Ethan Chen - quickboot: Disable quickboot by default
+ Ashwin Kumar - Fix for crash in LocationManagerService
+ Dante Russo - Combo Provider: Specific location screening
+ Dante Russo - Combo Provider: Get the package name from resource
+ Kevin Tang - decouple SW FLP and HW FLP overlay flags
+ kaiyiz - Keyguard: Fix "Show more than a "." when input wrong PIN code" issue
+ xilence2210 - Device hostname customize (1/2)
+ Lars Greiss - SlimRecents: Adress the 50ms touch unsresponsive issue
+ Lars Greiss - Frameworks: SlimRecents make it RTL/LTR aware + scaling + lefty mode (1/3)
+ xilence2210 - reccent:fix build 2
+ Yamil Ghazi - DocumentsUI: Allow open files instead of URIs
+ Lars Greiss - Frameworks: SlimRecents pass gesture detector to the cardslistview
+ Lars Greiss - Keyguard: We need to ensure that keyguard is showing as well to set the token
+ Jim Miller - Fix problem where PhoneWindowManager waits for keyguard to draw
+ Lars Greiss - Frameworks: add 1dp more bottom padding
+ Martin Wallgren - Parallel shutdown
+ Lars Greiss - Frameworks: SlimRecents: Make expanded layout pretty
+ Juan Flores - Volumes in Settings/Sound is slow to start
+ Jubakuba - Framework: Add Landscape layout for ECA
+ Lars Greiss - Frameworks: do not kill favorite recent apps
+ Mikael Gullstrand - Null pointer exception in FileRotator.java
+ Lars Greiss - Frameworks: add favorite mode
+ Mathias Jeppsson - NFC: getNdefMessage() should throw exception if no tag in field.
+ xilence2210 - recent: fix build
+ Kiril Mikos - SystemUI: Fix missing top task in recent panel.
+ Lars Greiss - Frameworks: notify arrayadapter early that data has changed on clear all
+ xilence2210 - Frameworks: go kitkat + style tweaks and follow googles color sheme Googles color sheme on cards is
+ Lars Greiss - Frameworks: fix the random fc on pinch
+ Lars Greiss - Frameworks: make recent multiuser compatible
+ Lars Greiss - Frameworks: keep IME keyboard alive due recent is showing
+ Lars Greiss - Frameworks: Slimrecents: cover bad 3rd party apps behaviour
+ Lars Greiss - Frameworks: slimrecents: allow closing recents in middle of the open animation
+ Lars Greiss - Frameworks: slimrecents: call app details screen correctly
+ Lars Greiss - Frameworks: SlimRecents - add TRDS
+ Lars Greiss - Frameworks: Slim recent app screen
+ muzbit.kim - Prevent a duplicated registration of Observers
+ muzbit.kim - Change SQL to improve performance.
+ xilence2210 - SystemUi: init controllers once
+ qqzhou - [1/2] Base: DownloadManager: add support pause/resume/stop notifications
+ xilence2210 - QS: Fix and improve
+ xilence2210 - QS: Fixes for pie
+ xilence2210 - zh-rCN: add translation
+ Joe Wooster - Framework: Allow choice of screen-off animation (1/2)
+ Michael Bestas - fonts: Add LBhashitaComplexSans font for Sinhala
+ Michael Bestas - Keyguard: Set untranslatable
+ Yamil Ghazi - DocumentsUI: Allow open files instead of URIs
+ Jeykumar Sankaran - frameworks/base: Call setDirtyRect to update dirty rectangle
+ Yamil Ghazi - SystemUI: catalan translations
+ Steve Kondik - Make the default value of in-call noise suppression configurable.
+ Silver Hu - Add zh-rCN Translation
+ Anu6is - Fix possible NPE
+ AlvaroOrduna - Base: ES translation
+ Danil K - Base: Add RU translations
+ BigBrother1984 - Recents: Fix showing of main or alternate clear all.
+ Danesh Mondegarian - ConnectivtyService : Execute connectivityCheck in thread pool
+ Dirk Rettschlag - Set some GC parameters only for dalvik
+ veteran29 - Framework: Polish Translation
+ cristianomatos - Core: PT-BR translations
+ cristianomatos - SystemUI: PT-BR translations
+ Matthias Freund - SystemUI: German translation
+ Jesús David Gulfo Agudelo - Revert "Custom lockscreen"
+ Jesús David Gulfo Agudelo - Revert "Fix: Custom lockscreen force close"
+ kristof.petho - Smooth Spinners: Makes the loading "spinner" animation smoother in non-holo apps
+ Christopher R. Palmer - base: Fix screen on stats after a boot
+ houst0nn - revert our dialer lookup and keep inline with mainline aospa
+ BigBrother1984 - PIE: Prevent a rare freeze that appears on quick iterations.
+ Guo Xie - Audio: Fixed system/call stream volume can't adjust with HS connected.
+ ale8530 - Update IT Translation
+ Liam Mark - ActivityManager: Update timeline debug statements
+ Shashank Mittal - Use checkOperation in BroadcastQueue.
+ Roman Birg - frameworks: add SmartCover stubs
+ Roman Birg - Keyguard: allow keyguard to be dismissed via intent
+ Pawit Pornkitprasan - PackageManager: allow build-time disabling of components
+ Alexander Ivanov - server: start cne service
+ dhacker29 - msim: Add DC-HSPAP support
+ Pawit Pornkitprasan - MSimNetworkController: fix Quick Settings
+ Anu6is - [1/2] Frameworks: Battery Icons
  Xiao-Long Chen - [1/4] Dialer lookup
+ Jens Gulin - Solve three memory leaks related to PatchCache
+ Jianzheng Zhou - remove unnecessary switchUser call
+ Jeanette Löfgren - Prevent Lockscreen album art from activating FLAG_KEEP_SCREEN_ON
+ Yevgen Pronenko - Do not show Home behind full screen activity
+ shower - Hang off call by power button while screen is on
+ Michael Bestas - core: Add support for Luxembourgish
+ Parthipan Ramesh - Framework: Show advanced reboot menu only if device is unlocked
+ Steve Kondik - bootanim: Add continuous splash support
+ Prashant Somashekar - bootanimation: performance/speedup enhancements
+ Pawit Pornkitprasan - framework: Allow specifying max wallpaper width
+ Ricky Salinas - Quicksettings: Fix immersive icons mismatch.
+ BigBrother1984 - Quicksettings: Upgrade immersive drawables with more polish ones.
+ Xin Qi - GC: Improve the string parsing for GC parameter setting
+ Eddy Witkamp - core: IT translation
+ Michael Bestas - core/Keyguard: EL AOSP translation fixes
+ Veeti Paananen - Base: Live wallpaper in recent view
+ Anu6is - Fix: Graphics error when switching to recents using Pie controls
+
+Project: hardware/libhardware
+ Steve Kondik - Revert "BT: Multi HF support in libhardware."
+ Jeykumar Sankaran - libhardware: Add dirty region field to hwc layer
+
+Project: hardware/qcom/audio-caf
+ Pavan Chikkala - audio: Update call state from RIL during silent mode
+ Ricardo Cerqueira - hal: Do not apply CSD voice switch API on 8960
+ Vimal Puthanveed - hal: Check hfp usecase to differenciate between nb and wb
+ Vidyakumar Athota - hal: Add new CSD API to reduce in call device switch delay
+ Narsinga Rao Chella - hal: apply TTY mode change for all voice use cases
+ Amit Shekhar - hal: HFP support for setting volume
+ Narsinga Rao Chella - hal: start voip driver independent of voip output stream
+ Pavan Chikkala - audio: primary desc check for sonification
+ Tanya Finkel - Audio: Add routing option between HDMI speakers and device speakers
+ wjiang - post_proc: disable effect immediately when routed to invalid devices
+ Vidyakumar Athota - hal: update bt-sco sample rate before device enable
+ wjiang - post_proc: disable Bassboost and Virtualizer for certain devices
+ wjiang - post_proc: reverb preset id is not mapped correctly
+ wjiang - post_proc: Enable reverb in DSP to start effect
+ Gopikrishnaiah Anandan - hal: Clear VI feedback cal after VI capture path is started
+ dhacker29 - Allow msm8226 to use same functions as msm8974
 
 Project: hardware/qcom/display-caf
- xilence2210 - fix -fno-strict-aliasing
- Jeykumar Sankaran - hwc: Crop source rect for the optimized destination
- Jeykumar Sankaran - hwc: Add deduction operation to Rect utils
- Steve Kondik - Enable build with postproc if requested
+ Baldev Sahu - libhwcomposer: Don't reset cached layer handle on MDP comp
+ Justin Philip - hwc: Reset previous width and height
+ Nirmal Abraham - hwc: Correct Display Commit sequence during WFD-HDMI interaction.
+ Balamurugan Thanikachalam - hwc: hwc_sync - populate correct fences for BLIT
+ Justin Philip - hwc: Do not use C2D composition for plane alpha
+ Baldev Sahu - hwc: send layer with non-contiguous buffers to GPU
+ Baldev Sahu - hwc: Use rotator for resolution change for all display
 
-Project: hardware/ril
- Dave Carey -  hardware: ril: Avoid collision with RIL constant 1138
+Project: hardware/qcom/wlan
+ Ethan Chen - wcnss: Build and dlopen wcnss_qmi_client as a shared library
+ Steve Kondik - Fix derpy ifdef
+ Steve Kondik - wcnss-service: Additional format support
+ Steve Kondik - wcnss-service: Additional guard on QMI support
+ Hardik Kantilal Patel - wcnss: Write WLAN Mac addr through Ctrl interfafe
+ Hardik Kantilal Patel - wcnss_service: Added support to read wlan mac from Modem NV
+
+Project: hardware/qcom/media-caf
+ srikarri - mm-video: venc: use source stride for color-converting RGB input
+
+Project: hardware/qcom/fm
+ Michael Bestas - FM: Remove duplicate translations
+ Michael Bestas - Automatic translation import
 
 Project: device/lge/gee-common
- Jake W - gee-common: EGL update
- xilence2210 - update prop
- xilence2210 - Fix permission of cmdline
+ Stephen Smalley - Move audio_firmware_file and /data/misc/audio entry to core sepolicy.
+ xilence2210 - fix sepolicy build
+ xilence2210 - Disable vibrator fow now,it's not fully working
+ xilence2210 - fix sepolicy build
 
 Project: device/lge/geehrc
- xilence2210 - Revert "use gee vendor"
- xilence2210 - use gee vendor
- xilence2210 - clean some repo
+ xilence2210 - fix sepolicy
+ Stephen Smalley - Move audio_firmware_file and /data/misc/audio entry to core sepolicy.
 
 Project: device/lge/gee
- xilence2210 - dependecies: Do some clean
+ xilence2210 - use our mod kernel for now
+
+Project: device/qcom/common
+ Ramkumar Radhakrishnan - init script: Add usergroup write permission to idle_time node.
+ h8rift - dtbtool: add new --dt_tag switch
+ Steve Kondik - qcom: Add crypto helper for ODE
+
+Project: dalvik
+ Tapas Pradhan - Dalvik :Increase the upper limit check for DexOpt Deps table
+
+Project: development
+ Ming - Update classpath to remove obsolete apps and to fix compile error when importing to eclipse
 
 Project: manifest
- xilence2210 - add missing pj
- Ricky Salinas - Track repos for CM's bootable/recovery
- xilence2210 - track back cm bionic
- houst0nn - Track our own bootable_recovery
- houst0nn - Track CM CellBroadcastReceiver
+ xilence2210 - track camera2
+ houst0nn - Track CM's external/chromium.org openssl
+ houst0nn - Add and track CM's opt_connectivity
+ Steve Kondik - Add CURL and BSON to the build.
+ Steve Kondik - Add protobuf-c project to the build
+ xilence2210 - track our launcher
+ houst0nn - Track CM external_f2fs-tools
+ houst0nn - Track CM external_aac
+ houst0nn - Track our own Contacts & MediaProvider
+
+Project: art
+ martincz - art: fix boot in art mode
 
 ---------------------------------------------------------------
-You can see more changelog from http://github.com/RemixPA
+You can see more changelog from http://github.com/RemixPA/Changelog
