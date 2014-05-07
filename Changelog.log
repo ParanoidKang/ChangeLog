@@ -1,424 +1,139 @@
-RemixPA Changelog from 04/22/2014 - 05/05/2014
+RemixPA Changelog from 05/05/2014 - 05/08/2014
 ---------------------------------------------------------------
 
 Project: packages/services/Telephony
- Mike Kasick - Remove hard-coded CDMA roaming mode restrictions.
- Steve Kondik - telephony: Remove "managed roaming" feature
- Quarx2k - MSIM: Replace names of tabs to real operator names
- dhacker29 - Fix appt warnings: Add dummy strings for no default localization
- Abhisek Devkota - Fix MSIM Network Settings (2/2)
+ Pawit Pornkitprasan - MSimDialerActivity: actually dial when an option is selected
+ Lars Greiss - Telephony: Incoming Call in Background (2/3)
+ dhacker29 - MSIM: Use operator name in Select subscription settings
+ Mustaavalkosta - use proper input type for my phone number dialog
 
 Project: packages/apps/BluetoothExt
- Michael Bestas - Automatic translation import
-
-Project: packages/apps/ContactsCommon
- Michael Bestas - Automatic translation import
-
-Project: packages/apps/Bluetooth
- AnubhavGupta - Bluetooth: Proper Sep-type update in BTAPP
+ Srinu Jella - Bluetooth: Disable BTC app layer for non Athroes BT socs
 
 Project: packages/apps/Settings
- xxxifan - Peek: Generate Lockscreen Notification into Peek
- xxxifan - add missing translation
- oliver.lienhard - Fix the Mobile networks icon in Settings
- xxxifan - fix merge derps
- xxxifan - Revert "[1/2] Settings: HALO"
- xxxifan - Revert "Update Halo"
- Ricky Salinas - Allow disabling the IME selector notification (2/2)
- Abhisek Devkota - Update MobileNetworks Icon
- BigBrother1984 - PEEK [2/2]
- dlaszlo - Call equals() comparing different types
- Toha - Move Multi Sim settings above other settings
- Quarx2k - MSIM: Ui fixes, replace Subscriptions with real operator names
- dhacker29 - MSIM: Hide latest area info broadcast if not brazilian sim
- Abhisek Devkota - Fix MSIM Network Settings (1/2)
- flamingm0e - Settings: Swedish translations
- VonOx -  Settings: Fix FR translation
- xilence2210 - LockscreenNotification: update default value
- xilence2210 - Bring back Lockscreen notification (2/2)
- Michael Bestas - Don't show "Eject card" if the card is not accessible
-
-Project: packages/apps/Calculator
- Michael Bestas - Automatic translation import
+ houst0nn - Settings: Superuser: Add root access options to dev/settings
+ flamingm0e - Settings: remove AppOps Operations Tabs
+ BigBrother1984 - Battery style: Change option's icon.
+ Lorenzo M - Settings: Add default value for display color control (2/2)
+ Evisceration - Settings: check if NfcAdapter is null
+ Tsuyoshi Kamata - Display BTH connected status correctly
+ Vladislav Koldobskiy - Data traffic details: use proper string for System UID
 
 Project: packages/apps/InCallUI
- Ricky Salinas - InCallUI: Add missing drawables
- dhacker29 - MSIM: Use operator name instead of SUBS for InCallUI
- xxxifan - Remove uneless blacklist part
- Michael Bestas - Automatic translation import
- nadlabak - InCallUI: Landscape support (for in-dock use / qwerty sliders)
+ houst0nn - merge derps
+ BigBrother1984 - InCallUI: Store dialpad showing state (2/2)
+ Lars Greiss - InCallUI: Incoming Call in Background (1/3)
 
 Project: packages/apps/Contacts
- Ricky Salinas - Revert "contacts: Holo Light ringtone picker dialog"
- jiezha2x - Check whether the contact exists when saving the contact
- Puneet K Jain - Move cursor to the right place when adding phonetic name
- jiezha2x - Check whether the contact exists when saving the contact
- Puneet K Jain - Move cursor to the right place when adding phonetic name
+ Arnav Gupta - QuickContact: onLongClick save item data to clipboard
 
 Project: packages/apps/Trebuchet
- xxxifan - Revert "Trebuchet: add lockscreen wallpaper picker"
- Flamefire - Fix NPE if a moved cell does not have a parent
- Raj Yengisetty - Cleaning up references to mDragView after reordering Workspaces
- xxxifan - zh-rCN: update translation
- xxxifan - fix merge derps
- Roman Birg - Trebuchet: add lockscreen wallpaper picker
- Eddy Witkamp - Trebuchet: change defaults to false
- Abhisek Devkota - Do Not Default Hide Labels
- Michael Bestas - Automatic translation import
- Flamefire - Add options to hide icon labels from drawer and homescreen
- Flamefire - Re-Add hidden-apps setting
- Danesh Mondegarian - Trebuchet : Don't hideoutlines if in small overview mode
-
-Project: packages/apps/Dialer
- Michael Bestas - Automatic translation import
- nadlabak - Dialer: Landscape support (for in-dock use / qwerty sliders)
- Chintan Shah - Round overflow icns
-
-Project: packages/apps/Lightbulb
- droidjam - Lightbulb: turkish translation
-
-Project: packages/apps/Mms
- Michael Bestas - Automatic translation import
- Quarx2k - MSIM: Replace SUBs with real operator name.
-
-Project: packages/apps/Gallery2
- Michael Bestas - Automatic translation import
-
-Project: packages/apps/Email
- Michael Bestas - Automatic translation import
-
-Project: packages/apps/Calendar
- Michael Bestas - Automatic translation import
-
-Project: packages/apps/ParanoidOTA
- Yamil Ghazi - Fix crash when adding a file from recents or downloaded tabs in DocumentsUI
- Parthipan Ramesh - ParanoidOTA: Card look&feel more like Google Now
- Parthipan Ramesh - ParanoidOTA: Animate card expanding and collapsing
- xilence2210 - RemixPA: syntax error msg only in RemixServer
-
-Project: packages/providers/MediaProvider
- Dirk Rettschlag - Fix mounting of ext4 formated sdcards
- Michael Bestas - Add dummy strings to prevent aapt warnings
-
-Project: packages/providers/DownloadProvider
- Lasse Brudeskar Vikås - Add Download Speeds in notification
- qqzhou - DownloadProvider: add to support pause/resume download by manual
- Michael Bestas - Automatic translation import
-
-Project: external/libphonenumber
- xilence2210 - update latest db and fix derp
-
-Project: external/bluetooth/bluedroid
- Steve Kondik - Revert "A2DP HAL: Update maximum Audio buffer size"
- Steve Kondik - bluedroid: Kill A2DP logspam
- Gubbala Venugopal Rao - A2DP HAL: Update maximum Audio buffer size
- Ayan Ghosh - Raise the transmission priority for a2dp media channel to high
- Markus Schmidt - Bluetooth losing HF connection to car-kit after 5 seconds
- Ricardo Cerqueira - hci: Limit debug options to eng builds
-
-Project: external/koush/AndroidAsync
- Koushik Dutta - fix FileCache tests
- Koushik Dutta - AsyncServer: be more mindful of what exceptions are caught. Remove keepRunning.
-
-Project: external/koush/Superuser
- Michael Bestas - Automatic translation import
-
-Project: external/koush/ion
- Danesh Mondegarian - Ion : Add support-v4 library
- cretin45 - Herp
- Koushik Dutta - Context management changes:
- cretin45 - Silly Google
-
-Project: vendor/lge
- Ricardo Cerqueira - mako: Add dxhdcp implementation
- xxxifan - lu6200: Add vendor support
+ Danesh M - Folders: Merge Folders
 
 Project: vendor/pa
- xxxifan - add mako support
- xxxifan - add LU6200 support
- houst0nn - Build CellbroadcastReceiver in telephony since tablets don't need this
- houst0nn - g2: Update LG G2 fingerprints KK release
- Ryuinferno - Add support for i9100g
- BigBrother1984 - These errors keep stopping build, all nights like nightlies.
- ayysir - add Oppo Find 7a
- ayysir - add Oppo Find 7a
- xxxifan - no more halo build
- xxxifan - remove gedit backup files shit
- Joe Wooster - yuga: update for OTA
- Ricky Salinas - ls980: update fingerprint to ZVC release
- BigBrother1984 - Fix build error, corrupted makefiles.
- houst0nn - m4: update fingerprint
- Ricky Salinas - main.mk: include telephony.mk
- Voyager2k - Add Transformer Prime (TF201)
- Ayysir - Add SGS4 Mini LTE ( GT-I9195 ) and 3G (GT-I9190 )
- houst0nn - M4: add HTC One Mini
- Emilio López - apns-conf: Add QUAM APNs
- ayysir - DAT 4.2 Beta 5
- xilence2210 - fix missing  geehrc support
- houst0nn - Add HTC One M7 Verizon & Sprint
- Michael Gernoth - apns: remove default- and dun-types for Verizon MMS 31x/48x
+ ayysir - disable common sepolicy
+ ayysir - add HTC One (M8)
+ slickrick - legacy: clean up and re-organize vendor
+ Steve Kondik - cm: Underp package names
+ Steve Kondik - cm: Build Stagefright FFMPEG plugin
+ houst0nn - Add exFat support for find7a, jflte, honami, odin & yuga
+ houst0nn - Add exFat support
+ BigBrother1984 - Fix another build error.
+ Giuseppe - Add ville (HTC One S)
+ Chirag_Galani - Add Galaxy Tab 2 7" support
+ Jurica Vukadin - apns-conf: Add TalkTalk APN
 
 Project: build
- Brint E. Kriebel - releasetools: Add a newline for radio flashing scripts
- Brint E. Kriebel - releasetools: Modify regex for radio files
- xilence2210 - Revert "Port Pngcrusher from mokee"
+ xxxifan - getlog: fix last_log_date
 
-Project: bootable/recovery
- philz-cwm6 - shell pipe: set exit code to error if any pipe element fails
- philz-cwm6 - Fix verify_root_and_recovery menu selections
- Steven Luo - Prohibit mounting/formatting swap partitions in recovery
- sbrissen - Recovery: swap XY on swipe controls
+Project: system/vold
+ maxter - [4/4] exFAT Support
+ Nick Kralevich - Validate asec names.
+
+Project: system/media
+ Haynes Mathew George - audio_route: Add APIs to update mixer based on path
 
 Project: system/core
- Ricardo Cerqueira - sdcard: Link to cutils and libc as DSOs
-
-Project: frameworks/opt/cards
- xxxifan - remove slim's stuff
-
-Project: frameworks/opt/telephony
- maxwen - telephony: added OppoRIL
- Koushik Dutta - Fix Whisperpush and Voice+ when using the new Hangouts.
-
-Project: frameworks/opt/hardware
- Lorenzo M - Add default value for display color control (1/2)
+ radhakrishna - system/core: Remove AID_GRAPHICS from adb groups.
+ Biswajit Paul - Make tombstones directory to not follow symlink.
+ Nick Kralevich - Remove obsolete vdc call.
 
 Project: frameworks/av
- Leena Winterrowd - stagefright: Handle acquireWakeLock failure case
- Deva Ramasubramanian - libstagefright: Copy the entire buffer from/to OMX component
- Kim Zhang - StagefrightRecorder: Pause audio encoder on recorder pause
- Shivaprasad Hongal - libstagefright/omx: Fix logic to handle dead observers.
- Praveen Chavan - stagefright: yield callbackDispatcher to writer safely
- Praveen Chavan - stagefright: ExtendedCodec: enable arbitrary/frame-by-frame mode
- wjiang - libstagefright: Drain input buffer on resume
+ Thomas Wendt - libstagefright: Re-introduce a QCOM_HARDWARE ifdef after the FFMPEG commit
+ Chih-Wei Huang - libstagefright: Extended media support via FFMPEG
+ Dan Pasanen - camera: add getBrightnessLumaTargetSet and getRawSize stubs for HTC hardware
 
 Project: frameworks/native
- Jeykumar Sankaran - libs/gui: Release acquired buffer when createImage fails
+ Chih-Wei Huang - Add OMX_AUDIO_CodingAPE and OMX_AUDIO_CodingDTS
 
 Project: frameworks/base
- xxxifan - DocumentsUi: Fix FC
- xxxifan - remove switch apps derp
- Gubbala Venugopal Rao - Send Media button events as foreground Intent
- Pramod Sivaraman - Bluetooth:Settings:Handled ACTION_STATE_CHANGED intent at boot time
- Satish kumar sugasi - Bluetooth: Adds check to verify Bluetooth adapter state
- Ethan Chen - Revert "Set some GC parameters only for dalvik"
- Flamefire - Fix a NPE when putting a null-Bundle in an Intent
- ywen - frameworks/base: Fix change propagating issue
- Yograj Verma - Media process is crashing with NullPointer exception
- Yamil Ghazi - Kill floating activities running in the same thread when tapping outside
- Parthipan Ramesh - Framework: Create "on-the-spot" preference dialog only if needed
- xxxifan - Revert "Long press recents to switch to last app"
- gerard - Fix double finger when 'Quick pull down' is disabled.
- xxxifan - fix merge derps
- xxxifan - Revert "[2/2] Frameworks: HALO"
- Ricky Salinas - Allow disabling the IME selector notification (1/2)
- Xiao-Long Chen - Add OpenCnam paid account settings keys
- BigBrother1984 - PEEK: Clean tabs and whitespaces
- D4rKn3sSyS - PEEK [1/2]
- BigBrother1984 - Floating Window: Welcome back
- BigBrother1984 - Immersive: Update global tile drawables
- Ricky Salinas - Revert "Download: add to support pause/resume download by manual"
- Yamil Ghazi - Long press recents to switch to last app
- Paresh Nakhe - wallpapercropper: OOM issue while opening *.bmp image
- Yograj Verma - Media process is crashing with NullPointer exception
- kaiyiz - WallpaperCropper: Fix crash when set .gif as wallpaper
- Ricardo Cerqueira - SignalStrength: Hotfix TD-SCDMA
- xxxifan - fix merge derp
- qqzhou - [1/2] Add to support pause/resume download
- dhacker29 - MSIM: Expanded StatusBar: Show SIM slot number
- dhacker29 - MSimNetworkController: Set debug to false.
- Vladislav Koldobskiy - SystemUI: Don't try to translate SIM slot numbers
- dhacker29 - MSIM: Rework statusbar, order signal clusters to match settings
- houst0nn - couple fixes for msim dual sim
- Gaurav Asati - Bluetooth: Add Total track number.
- Ayan Ghosh - Bluetooth: pause music player on A2dp service disconnect
- Silver Hu - update zh-rCN translation
- Sachin Sharma - Fix setSurfaceTexture to handle surface caching
- Sun Junwen - Fix very long app_name crash.
- Nicolai Ehemann - fix WRITE_SETTINGS to be "dangerous"
- Martin Wallgren - Parallel shutdown
- cristianomatos - [TEMP] PIE: fix a freezing bug
- Matthias Freund - SystemUI: Fix Removed USB Storage Notification
- xilence2210 - PIE: Disable orientation sensor when we don't need it
- xilence2210 - Lockscreen Notification (1/2)
- Michael Bestas - Add config_batterySdCardAccessibility to symbols.xml
- xilence2210 - fix merge derp
- xilence2210 - PIE: Disable orientation sensor when we don't need it
- qqzhou - Download: add to support pause/resume download by manual
- Martin Wallgren - Parallel shutdown
- Nicolai Ehemann - fix WRITE_SETTINGS to be "dangerous"
- Sachin Sharma - Fix setSurfaceTexture to handle surface caching
- Sun Junwen - Fix very long app_name crash.
+ xxxifan - Slimrecent: add Floating mode menu
+ Chih-Wei Huang - MediaFile: support more media types
+ Boxiang Pan - services: change default sampling interval to -1
+ Ravi Joshi - Connectivity: Set TCP delayed ACK and User Configuration Flag
+ Sukanya Rajkhowa - Update LinkProperties with MTU value
+ Chad Brubaker - Add the calling package name to requestRouteToHost
+ Yamil Ghazi - Never load launcher on long press recents
+ D4rKn3sSyS - Recents: Launch as Floating App
+ BigBrother1984 - SystemUI: Fix build after translations merges.
+ BigBrother1984 - Frameworks: Store dialpad showing state (1/2)
+ Andrea Arcangeli - resume: fix recents showing up when waking the device with the home button
+ Michael Bestas - Add android_system_label to symbols.xml
+ namagi - Fix Javadoc link for getModifierBehavior()
+ Christopher R. Palmer - PackageManager: Fix concurrent access to shared state
+ Silver Hu - DocumentsUI: add zh-rCN translation
 
 Project: hardware/qcom/audio-caf
- Steve Kondik - hal: Correct the V/I feedback PCM device for 8974
- Venkata Narendra Kumar Gutta -   hal: Fix device disable/enable sequence
- Vidyakumar Athota - policy_hal: remove VGS check for BT volume
- Narsinga Rao Chella - hal: fix BT device switch issue for audio playback during VoIP call
- Ravi Kumar Alamanda - hal: Ensure all the mutexes are initialized
- Dhanalakshmi Siddani -  Audio: Fix for audio loss on switching between speaker and USB headset
- Narsinga Rao Chella - hal: fix to handle voip issue when input stream starts first
- Bharath Ramachandramurthy - hal: fix listen and audio calibration concurency
- Vidyakumar Athota - hal: update csd soft volume and mute controls
- Pavan Chikkala - audio: Disabled excessive logging in OMX AACEncoder
- Steve Kondik - postproc: Add exceptions for USB digital out
-
-Project: hardware/qcom/display-caf
- Flemmard - liboverlay: do not return error if fb num >= 2 doesn't exist (writeback).
- Dave Daynard - Don't force GPU composite for older devices
+ Haynes Mathew George - audio: use of audio_route_{apply/reset}_and_update_path APIs
+ Vidyakumar Athota - hal: Update BT sample rate for BT input device
+ Steve Kondik - Revert "audio: primary desc check for sonification"
+ Richard Ross - hal: Add speaker backend case handling
 
 Project: hardware/qcom/media-caf
- Paras Nagda - mm-video: vdec : Avoid updating stride in flushing state
- Rudolf Tammekivi - mm-video: vdec: Fix memory leak in color converter.
+ Steve Kondik - media-caf: Avoid collision with FFMPEG plugin
 
-Project: hardware/qcom/fm
- Michael Bestas - Automatic translation import
+Project: hardware/qcom/media
+ Steve Kondik - media: Avoid collision with FFMPEG plugin
+
+Project: hardware/libhardware_legacy
+ Mahesh A Saptasagar - wlan: Fix for improper comparison of driver_status string
+ Dhanalakshmi Siddani -  Audio: Fix for audio loss on switching between speaker and USB headset
+ Vidyakumar Athota - Audio: Fix HDMI audio device switch issue
+ Chaithanya Krishna Bacharaju - audio: Handle sonification for last stream in stopOutput
+
+Project: device/lge/hammerhead
+ xxxifan - Enable use of FFMPEG codecs for extended formats
+ Lorenzo M - hammerhead: Add hardware tunables support: display
+ Lorenzo M - hammerhead: Add hardware tunables support: vibrator
+ Carlo Savignano - Add lightbulb overlay for app and core.
+ Evan - Revert "hammerhead: Show 1/2G networks as 3G for sprint"
 
 Project: device/lge/iprj-common
- xxxifan - init repository
+ xxxifan - DisplayColorCalibration: update API
 
 Project: device/lge/g2-common
+ xxxifan - Enable use of FFMPEG codecs for extended formats
  xxxifan - Squashed commit of cm updates
+ Ricardo Cerqueira - cmhw: DisplayColorCalibration: Updated API
 
 Project: device/lge/gproj-common
- xxxifan - use solid kernel
-
-Project: device/lge/lu6200
- xxxifan - dependency: add qcom stuff
- xxxifan - fix derp
- xxxifan - update dependencies
- xxxifan - init lu6200 support
+ xxxifan - Enable use of FFMPEG codecs for extended formats
+ xxxifan - DisplayColorCalibration: update API
 
 Project: device/lge/gee-common
- Stephen Smalley - Move audio_firmware_file and /data/misc/audio entry to core sepolicy.
+ xxxifan - Enable use of FFMPEG codecs for extended formats
+ xxxifan - DisplayColorCalibration: Update API
 
 Project: device/lge/d802
- xxxifan - update dependency
+ xxxifan - use our common
 
 Project: device/lge/mako
- xxxifan - remove cm's stuff
- xxxifan - init repository
-
-Project: device/qcom/common
- Robin Humble - dtbtool: fix for filesystems that don't return d_type from readdir
- Robin Humble - dtbtool: simplify code. reducing indenting.
-
-Project: kernel/lge/gee-franco
- franciscofranco - mako_hotplug: fix a bug where cores would get stuck online caused by a wrong if check during an input boost case.
- Badhri Jagan Sridharan - cpufreq: interactive: restructure CPUFREQ_GOV_LIMITS
- LaboDJ - Linux 3.4.88
- LaboDJ - Linux 3.4.87
- franciscofranco - 3.4.85 and .86
- JP Abgrall - net: ipv4: current group_info should be put after using.
- Ruchi Kandoi - nf: IDLETIMER: time-stamp and suspend/resume handling.
- Matt Wagantall - ARM: Don't dump vmalloc addresses with show_data()
- Mihir Shete - cfg80211: unblock user hint when cfg80211_regdom is intersected
- myfluxi - cpufreq: interactive: Optimize sync_freq implementation
- ThatKawaiiGuy - Revert "Revert "msm: rotator: Add support to YCBYCR rotator format""
- ThatKawaiiGuy - Revert "Revert "msm_fb: display: Add support to YCBYCR MDP format""
- franciscofranco - mako_hotplug: we're getting the load from the governors, no need to increment the counter by 2 and we can increase the threshold to 70 to balance things out.
- franciscofranco - input: touchboost: this needs to be set on a per cpu basis.
- franciscofranco - Revert "USB: Set power supply online status to false after cable disconnect"
- franciscofranco - msm: thermal: improve some codes.
- Stratos Karafotis - cpufreq: Initial CPU utilization should be 0
- franciscofranco - cpufreq: export the cpu load across cores to the policy struct. On Performance governor let's emulate a constant 100% load (in this Kernel's case it will make all cores online, which is kinda the purpose of a performance governor isn't it?).
- franciscofranco - mako_hotplug: instead of calculating the load every sample (which is kinda expensive) we can use the governors load calculation instead of trying to recreate the same thing (adding unecessary overhead). Also cleanup some code.
- franciscofranco - cpufreq: create a helper function to get CPU utilization. Picked from @stratosk
- Stratos Karafotis - cpufreq: Break out early if freq equals to target_freq
- franciscofranco - mako_hotplug: online cpu1 right after screen on instead of waiting 1 second. Also fix identations and remove blank spaces.
- Saket Saurabh - USB: Set power supply online status to false after cable disconnect
- franciscofranco - mako_hotplug: clean up some code, remove the high priority flag from the workqueue, don't see why we need it and on screen on instead of onlining all cores just online cpu1 and 1 second after screen on, at least for now to test.
- franciscofranco - msm: thermal: the wq can freezes during freezer phase.
- franciscofranco - cpufreq: interactive: remove problematic code.
- franciscofranco - cpufreq: bail early if target_freq == current.
- franciscofranco - Revert "cpufreq: break earlier if target_freq is equal to current freq. Also fetch a fix from @imoseyon to update other cpuX nodes when cpu0 gets updated (max/min/gov)."
- Paolo Pisati - regulator: core: if voltage scaling fails, restore original voltage values
- Laura Abbott - cma: Remove potential deadlock situation
- Pranav Vashi - staging:android:lmk: Use for_each_thread helper
- Oleg Nesterov - introduce for_each_thread() to replace the buggy while_each_thread()
- David Rientjes - mm, oom: base root bonus on current usage
- David Rientjes - mm, oom: prefer thread group leaders for display purposes
- Oleg Nesterov - oom_kill: add rcu_read_lock() into find_lock_task_mm()
- Oleg Nesterov - oom_kill: has_intersects_mems_allowed() needs rcu_read_lock()
- Oleg Nesterov - oom_kill: change oom_kill.c to use for_each_thread()
- Rusty Russell - mm/oom_kill: remove weird use of ERR_PTR()/PTR_ERR().
- David Rientjes - mm, oom: remove redundant sleep in pagefault oom handler
- David Rientjes - mm, oom: cleanup pagefault oom handler
- Lai Jiangshan - oom: use N_MEMORY instead N_HIGH_MEMORY
- David Rientjes - mm, oom: allow exiting threads to have access to memory reserves
- Sunil Khatri - genalloc: Correct nbytes calculation on long boundary
- Hareesh Gundu - msm: kgsl: Fix Z180 memory leak
- David Rientjes - mm, memcg: move all oom handling to memcontrol.c
- David Rientjes - mm, oom: reduce dependency on tasklist_lock
- David Rientjes - mm, memcg: introduce own oom handler to iterate only over its own threads
- David Rientjes - mm, oom: introduce helper function to process threads during scan
- David Rientjes - mm, oom: move declaration for mem_cgroup_out_of_memory to oom.h
- David Rientjes - mm, oom: fix potential killing of thread that is disabled from oom killing
- David Rientjes - mm, oom: do not schedule if current has been killed
- David Rientjes - mm, oom: fix and cleanup oom score calculations
- David Rientjes - mm, oom: fix badness score underflow
- David Rientjes - mm, oom: normalize oom scores to oom_score_adj scale only for userspace
- franciscofranco - mako_hotplug: if the device is input boosted ignore the condition to keep the cpu core online for extra 5 samples to avoid weird race conditions.
- ChandanaKishori Chiluveru - usb: gadget: Fix synchronization issue between f_audio_source
- franciscofranco - input: touchboost: don't refresh the policy limits if the current frequency is not lower than input_boost_freq.
- Alok Chauhan - msm: msm_bus: Fix the type error causing bandwidth overflow
- Sana Venkat Raju - msm: buspm: Correct size type in buspm_xfer_req
- franciscofranco - msm: thermal: no need for this check.
- Murali Nalajala - qcom: mpm-of: fix bug in finding the pending interrupts
- franciscofranco - Revert dubious sched patches.
- franciscofranco - Add build script.
- franciscofranco - Add .zip contents.
- franciscofranco - Add franco_defconfig.
-
-Project: kernel/lge/gproj-solid
- Loller79 - CPU Underclock
- Loller79 - Ondemand as default GPU Governor
- Loller79 - S2W and D2W Fix Part 3
- Loller79 - Forgot about Committing these Files
- Loller79 - Fixed Voltage Control Min/Max
- Loller79 - S2W and D2W Fix Part 2
- Loller79 - Sweep2Wake and Doubletap2Wake Screen Freeze Fix
- Loller79 - Fixes for Linaro 4.7 Toolchain
- Loller79 - Missing Files from Sound Control Commit
- Loller79 - FIOPS and SIO I/O Schedulers
- Loller79 - Added Voltage Control : Thanks to Faux123
- Loller79 - Special Thanks ;)
- Loller79 - Added Intelliactive Governor : Thanks to Faux123
- Loller79 - Added Sound Control : Thanks to Faux123
- Loller79 - Increased Watchdog Timeout
- Loller79 - Added Intelliplug : Thanks to Faux123
- Loller79 - Added Fast Charge : Thanks to Faux123
- Loller79 - PM: Introduce suspend state PM_SUSPEND_FREEZE
- Loller79 - Added Gamma Control : Thanks to Faux123
- Loller79 - Added Sweep2Wake and Doubletap2Wake : Thanks to showp1984
- Loller79 - GPU Overclock
- Loller79 - Added FSync : Thanks to franciscofranco
- Loller79 - Use GNU implementation of lib/string & lib/memcpy
- Loller79 - Initializing Makefile
- Loller79 - First Commit
-
-Project: dalvik
- Steve Kondik - Revert "dalvik: add placeholder for future changes"
- Mathieu Chartier - Use RETURN_PTR(NULL) instead of RETURN_VOID in newNonMovableArray.
- Abhishek Arpure - Dalvik :Increase the upper limit check for DexOpt Deps table
- Ricardo Cerqueira - Revert "Use MAP_FIXED in remapNewHeap"
- Ricardo Cerqueira - Revert "Change exception message for ArrayStoreException."
-
-Project: .repo/repo
- Conley Owens - Ensure HEAD is correct when skipping remote fetch
- Conley Owens - Add 'shallow' gitfile to symlinks
- Jeff Hamilton - Add linkfile support.
+ xxxifan - Enable use of FFMPEG codecs for extended formats
 
 Project: manifest
- xxxifan - track our cards lib
- xxxifan - no more halo
- Tom Marshall - manifest: track libtar
- ayysir - Track own Downloadprovider
- xxxifan - track our download provider
- xxxifan - More details for readme
- xxxifan - track card lib
-
-Project: art
- martincz - art: Implement SetTargetMinHeapFree, SetTargetHeapConcurrentStart
+ xxxifan - fix packageInstaller
+ Steve Kondik - Add FFMPEG and stagefright-plugins to the project
+ houst0nn - Add exFat support
 
 ---------------------------------------------------------------
 You can see more changelog from http://github.com/RemixPA/Changelog
