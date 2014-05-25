@@ -1,23 +1,90 @@
-RemixPA Changelog from 05/05/2014 - 05/08/2014
+RemixPA Changelog from 05/05/2014 - 05/25/2014
 ---------------------------------------------------------------
 
 Project: packages/services/Telephony
+ Pawit Pornkitprasan - SelectSubscription: set default parameters for ACTION_DATA_ROAMING_SETTINGS
+ Pawit Pornkitprasan - MSim: always enable activity disabler
+ Vladislav Koldobskiy - Telephony: Set X-Divert as untranslatable.
+ xxxifan - zh-rCN: update translation
  Pawit Pornkitprasan - MSimDialerActivity: actually dial when an option is selected
  Lars Greiss - Telephony: Incoming Call in Background (2/3)
- dhacker29 - MSIM: Use operator name in Select subscription settings
- Mustaavalkosta - use proper input type for my phone number dialog
+
+Project: packages/apps/Exchange
+ Michael Bestas - Automatic translation import
 
 Project: packages/apps/BluetoothExt
  Srinu Jella - Bluetooth: Disable BTC app layer for non Athroes BT socs
 
+Project: packages/apps/ContactsCommon
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+
+Project: packages/apps/Bluetooth
+ Hamster Tian - [2/3]Bluetooth: add "Accept all files" option for incoming files via Bluetooth
+ Gaurav Asati - Bluetooth: Set HFP HF stream Volume.
+
+Project: packages/apps/CellBroadcastReceiver
+ Michael Bestas - Automatic translation import
+
 Project: packages/apps/Settings
- houst0nn - Settings: Superuser: Add root access options to dev/settings
- flamingm0e - Settings: remove AppOps Operations Tabs
- BigBrother1984 - Battery style: Change option's icon.
- Lorenzo M - Settings: Add default value for display color control (2/2)
- Evisceration - Settings: check if NfcAdapter is null
+ Rakesh Pallerla - Telephony(MSIM): Disable DDS Switch in Airplane Mode.
+ Pawit Pornkitprasan - Revert "Fix MSIM Network Settings (1/2)"
+ Matt Mower - Settings: correct y-axis brightness in preview
+ Hamster Tian - [3/3]Settings: add "Accept all files" option for incoming files via Bluetooth
+ Danny Baumann - Consistently use start/end instead of left/right layout properties.
+ BigBrother1984 - IT: Automatic translations import
+ xxxifan - add translation for zh-rCN
+ Jun Su - Fix NullPointerException issue when user change
+ Matt F - Revert "Settings: Translation Import Spanish"
+ Matt F - Revert "Settings: Translation Import German"
+ Matt F - Revert "Settings: Translation Import Indonesian"
+ Matt F - Revert "Settings: Translation Import Polish"
+ Matt F - Revert "Settings: Translation Import Portuguese, Brazilian"
+ Matt F - Revert "Settings: Translation Import Dutch"
+ Matt F - Revert "Settings: Translation Import Italian"
+ Jun Su - Fix NullPointerException issue when user change
+ Matt F - Revert "Settings: Translation Import Chinese (Simplified)"
+ Matt F - Revert "Settings: Translation Import Catalan"
+ Andre Saddler - Settings: Translation Import Catalan
+ Andre Saddler - Settings: Translation Import Chinese (Simplified)
+ Andre Saddler - Settings: Translation Import Dutch
+ Andre Saddler - Settings: Translation Import Italian
+ Andre Saddler - Settings: Translation Import Portuguese, Brazilian
+ Andre Saddler - Settings: Translation Import Indonesian
+ Andre Saddler - Settings: Translation Import Polish
+ Srinu Jella - Bluetooth: GAP: Cancel the pairing notification on bond state change
+ Rob Fletcher - HTML injection fix for bluetooth pairing, issue 65946
  Tsuyoshi Kamata - Display BTH connected status correctly
- Vladislav Koldobskiy - Data traffic details: use proper string for System UID
+ Andre Saddler - Settings: Translation Import German
+ Andre Saddler - Settings: Translation Import Spanish
+ Nalla Kartheek - Packages : Fix for Softap turn ON/OFF fail issue.
+ Rashmi Ramanna - P2PSetting:Avoid p2p_find on group removal event
+ Nitin Arora - Bluetooth: Increase allowed duration to connect to a profile
+ Subramanian Srinivasan - Fixes error message during pairing of HOGP devices
+ Srinu Jella - Bluetooth: Ignore the second button if one already pressed
+ Nitin Shivpure - Bluetooth: Release pan proxy object while coming out from tethering menu
+ Steve Kondik - settings: Remove "mobile plan"
+ Vladislav Koldobskiy - Settings: modify AOSP RU translation
+ dhacker29 - MSIM: Update icon for Multi Sim Settings category
+ dhacker29 - MSim Settings: Update UI/UX with user friendly strings
+ Unpublished - Show "Eject card" for usb storage
+ flamingm0e - Settings: Replace low battery warning icon with Google warning icon
+ xxxifan - zh-rCN: update translation
+ kroz - Settings: follow kitkat's ui
+ flamingm0e - Settings: Remove leftover reference to AppOps tabs
+ Cristiano Matos - Settings: Advanced low battery indicator options (2/2)
+ houst0nn - Settings: Superuser: Add root access options to dev/settings
+
+Project: packages/apps/DSPManager
+ DelphinPETER - DSPManager: FR translation
+
+Project: packages/apps/Calculator
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Revert "Automatic translation import"
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
 
 Project: packages/apps/InCallUI
  houst0nn - merge derps
@@ -27,10 +94,188 @@ Project: packages/apps/InCallUI
 Project: packages/apps/Contacts
  Arnav Gupta - QuickContact: onLongClick save item data to clipboard
 
+Project: packages/apps/Camera2
+ xxxifan - fix permission
+
+Project: packages/apps/Browser
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Filip Matusiak - Handle DownloadManager expceptions
+ Sebastien MICHEL - Fix Memory leaks on Browser application
+ Michael Bestas - Revert "Automatic translation import"
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+
 Project: packages/apps/Trebuchet
+ xxxifan - zh-rCN: fix missing translation
+ xxxifan - fix merge
+ Michael Bestas - Automatic translation import
+ Danesh M - Trebuchet : Destroy cropview to avoid leaks in picker
+ Clark Scheff - Use wallpaper picker added to WallpaperCropper apk.
+ Flamefire - Fix name of default
+ Michael Bestas - Automatic translation import
+ Danesh M - Trebuchet : Only reset overscrolled child
+ Danesh M - Revert "Trebuchet : Fix overscroll overlay issue"
+ Danesh M - Trebuchet : Fix overscroll overlay issue
  Danesh M - Folders: Merge Folders
+ Thomas Wendt - Fix hidden "Remove" and "App info" buttons in landscape
+
+Project: packages/apps/Lightbulb
+ Andre Saddler - IT: Automatic Translation Import
+ Matt F - Revert "Update Catalan translations"
+ Matt F - Revert "Lightbulb: Translation Import German"
+ Matt F - Revert "Lightbulb: Translation Import Spanish"
+ Matt F - Revert "Lightbulb: Translation Import Polish"
+ Matt F - Revert "Lightbulb: Translation Import Portuguese, Brazilian"
+ Matt F - Revert "Lightbulb: Translation Import Indonesian"
+ Matt F - Revert "Lightbulb: Translation Import Dutch"
+ Matt F - Revert "Lightbulb: Translation Import Chinese (Simplified)"
+ Andre Saddler - Lightbulb: Translation Import Chinese (Simplified)
+ Andre Saddler - Lightbulb: Translation Import Dutch
+ Andre Saddler - Lightbulb: Translation Import Portuguese, Brazilian
+ Andre Saddler - Lightbulb: Translation Import Indonesian
+ Andre Saddler - Lightbulb: Translation Import Polish
+ Andre Saddler - Lightbulb: Translation Import German
+ Andre Saddler - Lightbulb: Translation Import Spanish
+ ayysir - Update Catalan translations
+
+Project: packages/apps/Mms
+ Emmanuel Berthier - Stop previous TaskStack worker
+ Guobin Zhang - Avoid ConversationList/ComposeMessage activity leaks
+ Michael Bestas - Automatic translation import
+
+Project: packages/apps/Gallery2
+ Michael Bestas - Automatic translation import
+
+Project: packages/apps/Email
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Flamefire - Fix leaking a cursor
+ Michael Bestas - Automatic translation import
+
+Project: packages/apps/Calendar
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Revert "Automatic translation import"
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+
+Project: packages/apps/ParanoidOTA
+ Andre Saddler - IT: Automatic Translation Import
+ Yamil Ghazi - Don't crash when a download status is not reachable
+ Matt F - Revert "Update Catalan translations"
+ Matt F - Revert "PAOTA: Translation Import Spanish"
+ Matt F - Revert "PAOTA: Translation Import German"
+ Matt F - Revert "PAOTA: Translation Import Polish"
+ Matt F - Revert "PAOTA: Translation Import Portuguese, Brazilian"
+ Matt F - Revert "PAOTA: Translation Import Indonesian"
+ Matt F - Revert "PAOTA: Translation Import Dutch"
+ Matt F - Revert "PAOTA: Translation Import Italian"
+ Matt F - Revert "PAOTA: Translation Import Chinese (Simplified)"
+ Andre Saddler - PAOTA: Translation Import Chinese (Simplified)
+ Andre Saddler - PAOTA: Translation Import Dutch
+ Andre Saddler - PAOTA: Translation Import Italian
+ Andre Saddler - PAOTA: Translation Import Portuguese, Brazilian
+ Andre Saddler - PAOTA: Translation Import Indonesian
+ Andre Saddler - PAOTA: Translation Import Polish
+ Andre Saddler - PAOTA: Translation Import German
+ Andre Saddler - PAOTA: Translation Import Spanish
+ ayysir - Update Catalan translations
+
+Project: packages/apps/Stk
+ Michael Bestas - Automatic translation import
+ Vln Murthy - Add mimimum width of the buttonPanel layout
+
+Project: packages/providers/ContactsProvider
+ Michael Bestas - Automatic translation import
+
+Project: packages/providers/DownloadProvider
+ xxxifan - fix merge 2
+ xxxifan - fix derps
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+ Mattias Nilsson - Avoid leaking cursors
+ Michael Bestas - Automatic translation import
+
+Project: external/busybox
+ Tanguy Pruvot - bionic: some new type warnings fixes
+
+Project: external/sepolicy
+ Stephen Smalley - Allow untrusted apps to execute binaries from their sandbox directories.
+ William Roberts - Introduce controls on wake lock interface
+
+Project: external/skia
+ Clark Scheff - Fallback to system's monospace font if theme excludes it
+ Clark Scheff - Only force purge all when clearing singleton interface
+
+Project: external/bluetooth/bluedroid
+ Sharvil Nanavati - Don't leak process-private data on Change Local Name command.
+ Shobek Sam Attupurath - Use 0000 as pin key for PORCHE_PAIRING_CONFLICT issue
+ Elliott Hughes - Fix uipc.c to never pass -1 to FD_ISSET.
+ Sharvil Nanavati - Fix bug in PAN code where no new PAN connections can be made.
+ Elliott Hughes - TARGET_SIMULATOR is long dead.
+ Steve Kondik - Fix "Bluetooth: Handle sub system restart gracefully"
+ Ayan Ghosh - A2dp: Reduce out buffer size to accomodate 8 PCM frames
+ Gubbala Venugopal Rao - A2DP HAL: Delay open_output_stream
+ Gubbala Venugopal Rao - A2DP HAL: Update maximum Audio buffer size
+ Bhasker Neti - Bluetooth: Avoid premption while modifying gki timer queue
+ Ayan Ghosh - Raise the transmission priority for a2dp media channel to high
+ Steve Kondik - Revert "bluetooth: Do not sleep when you have already overslept your tick"
+ Sharvil Nanavati - Fix calls to pthread_setschedparam.
+
+Project: external/stagefright-plugins
+ Ricardo Cerqueira - extractor: Underp mpeg4 fastpath
+ Ricardo Cerqueira - extractor: More NULL checks...
+ Ricardo Cerqueira - Fix resource leak in cached mpeg4 fast exit
+ Ricardo Cerqueira - extractor: Fast-track the stream analysis if we already have a skip condition
+ Pawit Pornkitprasan - FFmpegExtractor: don't print list of supported formats
+ Pawit Pornkitprasan - FFmpegExtractor: set proper mimetype for VP8/9
+ Pawit Pornkitprasan - FFmpegExtractor: mark VP9 as supported
+ Pawit Pornkitprasan - FFmpegExtractor: add mp3 to supported list
+ Ethan Chen - Add additional WAV types to Stagefright supported list
+ Pawit Pornkitprasan - FFmpegExtractor: ignore fake album art MJPEG streams
+
+Project: external/koush/AndroidAsync
+ Koushik Dutta - watch for socket close, fix sdk version 8 method missing issue.
+ Koushik Dutta - remove imports
+ Koushik Dutta - Fix connection: close honoring
+ Koushik Dutta - Switch from URI to Uri.
+ Koushik Dutta - Improve exception trace in SSL errors.
+ sst8696 - Fix Classpath to line up with original
+ sst8696 - Changed content length to be a long
+ sst8696 - FileCallback onProgress >2GiB file support
+ Koushik Dutta - Optional websocket user agent header support.
+ Koushik Dutta - build.gradle update
+ Koushik Dutta - 1.2.5
+ paulpdaniels - Fixed #149
+ paulpdaniels - Fix for #146
+
+Project: external/koush/Superuser
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+
+Project: external/koush/ion
+ Koushik Dutta - Add support for multiple multipart parts in a single call.
+ Koushik Dutta - Switch from URI to Uri.
+ Koushik Dutta - build.gradle update
+ Koushik Dutta - 1.2.5
+
+Project: vendor/lge
+ Ricardo Cerqueira - Squash of v500 blobs
+ Ricardo Cerqueira - g2: Updated bcmdhd firmware
 
 Project: vendor/pa
+ xxxifan - build.sh: update description
+ BigBrother1984 - Superuser: Set default access for apps only
+ neatchee - Fix Etisalat UAE APNs
+ Steve Kondik - sepolicy: Allow relabeling after wallpaper change
+ Steve Kondik - policy for ipv6 tethering
+ m@ - Vendor: Incremental increase to the iteration of product lifespan
+ mathsz - Add Geeb support
+ SferaDev - vendor: Add GT-N5120 support
+ minelove - fix typo for True-Move carrier
+ black - Integrate duplicated NTT DOCOMO carrier labels
+ Alexis Rico - ville: Fix inherited mk
  ayysir - disable common sepolicy
  ayysir - add HTC One (M8)
  slickrick - legacy: clean up and re-organize vendor
@@ -41,12 +286,36 @@ Project: vendor/pa
  BigBrother1984 - Fix another build error.
  Giuseppe - Add ville (HTC One S)
  Chirag_Galani - Add Galaxy Tab 2 7" support
- Jurica Vukadin - apns-conf: Add TalkTalk APN
 
 Project: build
+ xxxifan - evnsetup.sh: export ENV_HAS_SETUP tag
+ Mike Grissom - Don't set CCACHE_BASEDIR if its already set
+ Tom Marshall - build: Set ccache base to build top
+ Steve Kondik - build: Include an extra device.mk
+ Pawit Pornkitprasan - releasetools: bring back boot.img handling
+ Andrew Bartholomew - build: use /usr/bin/env to call python
+ Brint E. Kriebel - releasetools: Fix whitespace error for INSTALLED_DTIMAGE_TARGET
+ Brint E. Kriebel - releasetools: Properly handle boot images that use dt
+ Ricardo Cerqueira - Store the base64 release key in the OTA zips
+ Ricardo Cerqueira - tools: getb64key - print the base64 version of a PEM public key file
+ Tom Marshall - build: core: Parameterize recovery with a variant
  xxxifan - getlog: fix last_log_date
 
+Project: bootable/recovery
+ philz-cwm6 - format non vold extra storage to ext4 when no selinux context is defined
+ philz-cwm6 - create /data/media directory after internal storage is wiped
+ xiaolu - dedupe: backup & restore selinux contexts.
+ Matt Mower - Keep 'show log' on screen until user dismisses it
+ Tom Marshall - cwm: Honor recovery variant
+
+Project: system/qcom
+ Steve Kondik - qsap: Kill more logspam
+ Steve Kondik - qsap: Put files in a sane location
+ Steve Kondik - qsap: Don't log sensitive information
+
 Project: system/vold
+ xxxifan - VolumeManager: Fix doMount api
+ Tom Marshall - vold: Honor mount options for ext4 mounts
  maxter - [4/4] exFAT Support
  Nick Kralevich - Validate asec names.
 
@@ -54,20 +323,106 @@ Project: system/media
  Haynes Mathew George - audio_route: Add APIs to update mixer based on path
 
 Project: system/core
- radhakrishna - system/core: Remove AID_GRAPHICS from adb groups.
- Biswajit Paul - Make tombstones directory to not follow symlink.
- Nick Kralevich - Remove obsolete vdc call.
+ Julian Strobl - toolbox: Avoid issues with non-regular files
+
+Project: frameworks/opt/telephony-msim
+ Chaitanya Saggurthi - MSIM: Use single baseband version for all SUB's
+
+Project: frameworks/opt/vcard
+ Shashank Mittal - vcard: Add support to generate vcard jar.
 
 Project: frameworks/av
+ Santhosh Behara - RTSP: Fix crash issue while repeated pause/resume
+ Divya Narayanan Poojary - audio: Fix for failure in CTS MediaRecorderTest cases
+ Naresh Tanniru - audioflinger: Remove fatal error handling for non offload tracks
+ Shivaprasad Hongal - libstagefright/omx: Fix CallbackDispatcher dereference in callback.
+ Jia Meng - stagefright: Cancel audioCheck event when setting nativewindow
+ lubiny - libstagefright: handle error when B-frame is sent to MPEG4Writer
+ ApurupaPattapu - libstagefright: Check for data partitioned clips
+ Ricardo Cerqueira - DataSource: Split off ffmpeg sniffer to a second pass, and only if necessary
+ xplodwild - CameraParameters: Add Oppo Find 7 specific parameters
+ Pawit Pornkitprasan - stagefright: Fix playback for mkv files with lacing
+ Emilian Peev - libmedia: Add timelapse profiles for 4k sizes
+ wjiang - libeffect: Fix enabled effect count calculation error
+ Surajit Podder - libstagefright: Fix crash while setting buffer size
+ Riaz Rahaman - libstagefright: Add MPEG2 Codec support
+ Surajit Podder - DataSource: Remove global variables in DataSource related to sniff
  Thomas Wendt - libstagefright: Re-introduce a QCOM_HARDWARE ifdef after the FFMPEG commit
  Chih-Wei Huang - libstagefright: Extended media support via FFMPEG
- Dan Pasanen - camera: add getBrightnessLumaTargetSet and getRawSize stubs for HTC hardware
 
 Project: frameworks/native
  Chih-Wei Huang - Add OMX_AUDIO_CodingAPE and OMX_AUDIO_CodingDTS
 
 Project: frameworks/base
+ Mao Jinlong - Alarm: ignore less than 2 mins upcomming power off alarm
+ Dave Platt - Fix socket descriptor leak from Zygote to child app
+ Mahesh Lanka - ExtMediaPlayer: Increase parcel pool size to 30
+ Mao Jinlong - AlarmMangerService: Fix the delay of ACTION_TIME_CHANGED for time-services
+ David Christie - Clear cached locations when location providers disabled Bug: 12118307
+ Sumit Bajpai - BT: HF: Control verbose logging at runtime.
+ Satish kumar sugasi - Bluetooth: Adds check to verify Bluetooth adapter state
+ Ajay Kumar - Bluetooth: Unbind only in case of OFF state
+ mqiu - audio: no notification sound when adjusting volume bar twice.
+ Mallikarjuna GB - Bluetooth: use  virtual sco calls for VOIP
+ kunleiz - audio: Volume can't adjust during HFP call when screen is off.
+ Ricardo Cerqueira - SignalStrength: Hotfix TD-SCDMA take 2
+ Ricardo Cerqueira - wm: Nullify hardkey function assignments if enabling the navbar
+ Ricardo Cerqueira - wm: Make the default menu longpress action configurable at build time
+ Steve Kondik - Revert "ActivityTrigger:  New class to invoke when activity starts/resumes"
+ Digish Pandya - Use alpha channel instead of red in drawCachedGlyphBitmap
+ Pawit Pornkitprasan - MSimNetworkController: disable log spew
+ xxxifan - Revert "Revert "CamcorderProfile: Add 4k timelapse encoder constants""
+ Hamster Tian - [1/3]frameworks/base: add "Accept all files" option for incoming files via Bluetooth
+ Steve Kondik - settings: Enable the status bar double-tap to sleep gesture
+ Steve Kondik - Add CPU boosting hooks
+ Andre Saddler - Set strings to  translatable="false"
+ BigBrother1984 - IT: Automatic translations import
+ xxxifan - Revert "CamcorderProfile: Add 4k timelapse encoder constants"
+ BigBrother1984 - PEEK: Beautify bridging layers code
+ Evan Anderson - Dismiss IME when floating window is dismissed
+ Oliver Reiche - Keep app when opening floating window from recents panel
+ Arne Coucheron - Allow 3 AT (mnc05) to roam on T-Mobile in Austria
+ Stefan Wysocki - Set ActionMode title to the number of selected files
+ Matt F - Revert "Frameworks: Fix translation"
+ Matt F - Revert "Frameworks: Fix derp in line 49 of German translation"
+ Matt F - Revert "Frameworks: Translation Import Spanish"
+ Matt F - Revert "Frameworks: Translation Import Catalan"
+ Matt F - Revert "Frameworks: Translation Import German"
+ Matt F - Revert "Frameworks: Translation Import Polish"
+ Matt F - Revert "Frameworks: Translation Import Italian"
+ Matt F - Revert "Frameworks: Translation Import Portuguese, Brazilian"
+ Matt F - Revert "Frameworks: Translation Import Indonesian"
+ Matt F - Revert "Frameworks: Translation Import Dutch"
+ Matt F - Revert "Frameworks: Translation Import Chinese (Simplified)"
+ Digish Pandya - Correct stride for drawing to cached glyph bitmap
+ Alexander Toresson - Fix for positioning of glyphs within a bitmap
+ m@ - Frameworks: Fix translation
+ m@ - Frameworks: Fix derp in line 49 of German translation
+ Andre Saddler - Frameworks: Translation Import Chinese (Simplified)
+ Andre Saddler - Frameworks: Translation Import Dutch
+ Andre Saddler - Frameworks: Translation Import Italian
+ Andre Saddler - Frameworks: Translation Import Portuguese, Brazilian
+ Andre Saddler - Frameworks: Translation Import Indonesian
+ Andre Saddler - Frameworks: Translation Import Polish
+ Andre Saddler - Frameworks: Translation Import German
+ Andre Saddler - Frameworks: Translation Import Spanish
+ Andre Saddler - Frameworks: Translation Import Catalan
+ BigBrother1984 - PIE: Unlock screen on triggering recents
+ Emilian Peev - CamcorderProfile: Add 4k timelapse encoder constants
+ BigBrother1984 - Quicksettings: Correct alignment.
+ xxxifan - Slimrecent: Fix for launch app in floating mode
+ Adam Lesinski - Reduce warning verbosity in aapt
+ Dave Platt - NsdService does not clean up after exiting clients
+ Narayan Kamath - Don't allow MemoryFiles of negative length.
+ Raju Yadav - Avoid SystemUI crash due to NPE
+ BigBrother1984 - Revert "Align text labels in all un-align tiles"
+ Androguide - Base: implement separate drawables/selector for Holo Light Seekbars
+ kroz - fix search textfield
+ flamingm0e - SystemUI: Update circle battery UI to be in line with CM
+ Cristiano Matos - Align text labels in all un-align tiles
+ xxxifan - slimrecent: close panel correctly
  xxxifan - Slimrecent: add Floating mode menu
+ Yamil Ghazi - Fix for launch app in floating mode from recents
  Chih-Wei Huang - MediaFile: support more media types
  Boxiang Pan - services: change default sampling interval to -1
  Ravi Joshi - Connectivity: Set TCP delayed ACK and User Configuration Flag
@@ -76,14 +431,17 @@ Project: frameworks/base
  Yamil Ghazi - Never load launcher on long press recents
  D4rKn3sSyS - Recents: Launch as Floating App
  BigBrother1984 - SystemUI: Fix build after translations merges.
- BigBrother1984 - Frameworks: Store dialpad showing state (1/2)
- Andrea Arcangeli - resume: fix recents showing up when waking the device with the home button
- Michael Bestas - Add android_system_label to symbols.xml
- namagi - Fix Javadoc link for getModifierBehavior()
- Christopher R. Palmer - PackageManager: Fix concurrent access to shared state
- Silver Hu - DocumentsUI: add zh-rCN translation
 
 Project: hardware/qcom/audio-caf
+ Steve Kondik - hal: Add path for VR headset
+ Satish Babu Patakokila - hal/usb: Add initial volume setting for USB headset
+ kunleiz - hal: Fix VoIP Mute failure in SIP call during Voice call HOLD
+ Naresh Tanniru - Audiod: Priority change for AudioDaemon
+ Haynes Mathew George - audio: Remove unused var 'update_mixer'
+ ApurupaPattapu - hal: Correct PCM offload fragment size
+ Steve Kondik - Revert "  hal: Fix device disable/enable sequence"
+ Anish Kumar - hal: Set echo reference from mixer file
+ Steve Kondik - Revert "Revert "audio: primary desc check for sonification""
  Haynes Mathew George - audio: use of audio_route_{apply/reset}_and_update_path APIs
  Vidyakumar Athota - hal: Update BT sample rate for BT input device
  Steve Kondik - Revert "audio: primary desc check for sonification"
@@ -92,10 +450,20 @@ Project: hardware/qcom/audio-caf
 Project: hardware/qcom/media-caf
  Steve Kondik - media-caf: Avoid collision with FFMPEG plugin
 
+Project: hardware/qcom/fm
+ Jacob Mueller - fmapp2: Fix the build
+ Michael Bestas - Automatic translation import
+ Michael Bestas - Automatic translation import
+
 Project: hardware/qcom/media
  Steve Kondik - media: Avoid collision with FFMPEG plugin
 
+Project: hardware/qcom/bt
+ Steve Kondik - libbt: Fix case where SoC type is not set
+ Steve Kondik - libbt-qcom: Allow building without proprietary bits
+
 Project: hardware/libhardware_legacy
+ Steve Kondik - Revert "audio: Handle sonification for last stream in stopOutput"
  Mahesh A Saptasagar - wlan: Fix for improper comparison of driver_status string
  Dhanalakshmi Siddani -  Audio: Fix for audio loss on switching between speaker and USB headset
  Vidyakumar Athota - Audio: Fix HDMI audio device switch issue
@@ -121,6 +489,9 @@ Project: device/lge/gproj-common
  xxxifan - DisplayColorCalibration: update API
 
 Project: device/lge/gee-common
+ Jake Weinstein - gee: fix telephony properties
+ Jake Weinstein - gee-common: Enable QCOM Power HAL
+ Alexis Rico - cmhw: DisplayColorCalibration: Updated API
  xxxifan - Enable use of FFMPEG codecs for extended formats
  xxxifan - DisplayColorCalibration: Update API
 
@@ -129,6 +500,26 @@ Project: device/lge/d802
 
 Project: device/lge/mako
  xxxifan - Enable use of FFMPEG codecs for extended formats
+
+Project: device/qcom/common
+ Steve Kondik - power: Disable the 8974pro-specific display on/off path
+ Steve Kondik - power: Add support for SET_PROFILE hints
+ Steve Kondik - power: Kill logspam
+ Steve Kondik - power: Add support for CPU boost hint
+
+Project: kernel/lge/gproj-solid
+ Loller79 - Enabled as Default IntelliPlug and his own EcoMode
+ Loller79 - Building Issue Fix When Disabling Simple Governor from Kernel Config
+ Loller79 - Updated .gitignore
+ Loller79 - Implemented GPU Simple Governor : Thanks to Faux123
+ Loller79 - Back to my old S2W and D2W Implementation
+ Loller79 - Faster zImage Decompression When Phone is Booting
+
+Project: kernel/lge/gproj
+ Peter Hurley - n_tty: Fix n_tty_write crash when echoing in raw mode
+
+Project: dalvik
+ Steve Kondik - dalvik: Disable loop hoisting optimization on perf builds
 
 Project: manifest
  xxxifan - fix packageInstaller
